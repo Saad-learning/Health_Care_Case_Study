@@ -1,0 +1,1501 @@
+Patient_ID,Admission_Date,Discharge_Date,Department,Doctor_ID,Doctor_Name,Diagnosis,Treatment_Type,Treatment_Cost,Insurance_Type,Satisfaction_Score,Readmission_30Days,Bed_ID,Region,Wait_Time_Minutes,Doctor_Experience_Years,Age,Gender,Total_Revenue
+P1000,2024-08-03,2024-08-07,Cardiology,D053,Dr. Yara Hamed,Migraine,Inpatient,1559.81,self pay,7.0,y,B44,North,79.0,6,2,M,2214.44
+P1001,2024-04-30,2024-04-28,Cardiology,D062,Dr. Omar Saeed,Diabetes,OUTPATIENT,2193.57,Public,4.0,y,B03,West,174.0,5,51,male,2119.59
+P1002,2024-11-22,2024-11-26,ORTHO,D104,Dr. Omar Saeed,Fracture,inpatient,1519.8,privte,8.0,Yes,B06,South,176.0,22,4,M,2304.03
+P1003,2024-02-14,2024-02-23,pediatric,D026,Dr Rana Elbaz,Migraine,Emergency,2590.77,self pay,3.0,No,B45,North,,9,29,F,3142.18
+P1004,2024-04-10,2024-04-22,Orthopedics,D041,dr. omar said,Migraine,Emergency,499.46,self pay,1.0,y,B09,North,140.0,8,12,male,589.42
+P1005,2024-07-20,2024-07-19,Orthopedics,D090,Dr. Yara Hamed,Migraine,Inpatient,1803.4,Private,8.0,Y,B14,North,39.0,7,27,M,2072.5
+P1006,2024-03-06,2024-03-12,Oncology,D015,Dr. Omar Said,Flu,Outpatient,1508.1,self pay,3.0,No,B36,North,56.0,13,32,female,2107.97
+P1007,2024-09-06,2024-09-10,Oncology,D119,Dr. Omar Saeed,Flu,inpatient,1353.21,Private,9.0,n,B39,South,138.0,1,1,female,1702.68
+P1008,2024-03-09,2024-03-19,Oncology,D113,Dr. Rana Elbaz,Fracture,Outpatient,-124.14,self pay,2.0,N,B12,West,63.0,7,2,M,479.51
+P1009,2024-03-01,2024-03-01,Cardiology Dept.,D053,Dr. Rana Elbaz,Hypertension,OUTPATIENT,1141.97,privte,7.0,n,B32,North,58.0,6,32,F,1344.2
+P1010,2024-01-02,2024-01-03,Pediatrics,D059,Ahmed Khalil,Migraine,Inpatient,1828.54,Public,9.0,Y,B29,North,102.0,3,20,female,2121.78
+P1011,2024-10-09,2024-10-10,pediatric,D057,Dr. Omar Saeed,Diabetes,Emergency,2007.32,Self-Pay,8.0,Yes,B23,East,165.0,10,7,F,2397.65
+P1012,2024-09-26,2024-10-09,ORTHO,D019,Dr. Sarah Yousef,Cancer,inpatient,2181.97,Self-Pay,3.0,N,B03,South,144.0,20,24,female,3074.11
+P1013,2024-02-28,,ORTHO,D082,dr. omar said,Fracture,Inpatient,1455.98,self pay,10.0,y,B35,North,116.0,16,61,female,2025.66
+P1014,2024-02-21,2024-02-27,Orthopedics,D110,Dr. Omar Saeed,Cancer,Emergency,935.94,Private,9.0,n,B38,North,132.0,13,51,female,1428.35
+P1015,2024-09-08,2024-09-13,Cardiology Dept.,D044,Dr. Omar Said,Asthma,Emergency,2967.51,self pay,7.0,Y,B29,North,65.0,14,6,M,3628.89
+P1016,2024-01-23,2024-01-23,Cardiology Dept.,D095,Dr. Omar Said,Diabetes,Outpatient,2484.9,Private,,Yes,B03,West,164.0,8,46,F,2401.63
+P1017,2024-07-31,2024-08-12,ORTHO,D013,dr. omar said,Migraine,Emergency,2845.94,Public,8.0,No,B07,East,43.0,25,36,M,3361.35
+P1018,2024-09-15,2024-09-25,Emergency,D022,Dr. Ahmed Khalil,Hypertension,Emergency,1555.24,publick,1.0,Yes,B22,East,36.0,17,52,M,2016.92
+P1019,2024-02-21,2024-02-28,Pediatrics,D047,Dr Rana Elbaz,Hypertension,Outpatient,1622.45,self pay,6.0,y,B40,West,112.0,20,16,male,2449.14
+P1020,2024-08-17,2024-08-27,cardio,D001,Dr. Yara Hamed,Diabetes,Outpatient,1914.24,privte,9.0,y,B32,West,121.0,22,48,female,2268.38
+P1021,2024-08-20,2024-08-25,ONCOLOGY,D057,Dr. Ahmed Khalil,Migraine,Emergency,2147.08,privte,8.0,N,B28,Central,97.0,5,47,female,2820.45
+P1022,2024-06-09,2024-06-23,ONCOLOGY,,Dr. Yara Hamed,Fracture,OUTPATIENT,2559.27,Self-Pay,6.0,n,B32,Central,14.0,1,69,M,3239.24
+P1023,2024-03-10,2024-03-20,Oncology,D067,Dr. Sarah Yousef,Migraine,OUTPATIENT,1838.03,Public,,Yes,B40,East,167.0,10,43,M,2356.3
+P1024,2024-05-03,2024-05-12,Cardiology Dept.,D115,Dr. Rana Elbaz,Flu,OUTPATIENT,1293.54,Private,1.0,No,B04,North,85.0,26,75,female,1583.72
+P1025,2024-10-31,2024-11-01,Oncology,D062,dr. omar said,Flu,Emergency,2358.92,Self-Pay,5.0,No,B12,Central,103.0,17,55,male,2835.3
+P1026,2024-01-30,2024-02-09,Emergency,D019,Dr. Sarah Youssef,Cancer,Outpatient,1309.91,privte,6.0,n,B07,East,90.0,28,78,male,2047.09
+P1027,2024-07-04,2024-07-16,Cardiology,D005,Dr. Sarah Yousef,Fracture,OUTPATIENT,2898.83,self pay,,y,B29,North,43.0,11,75,female,4041.79
+P1028,2024-03-01,2024-03-13,Cardiology Dept.,D029,Dr. Omar Saeed,Hypertension,Emergency,2330.35,privte,2.0,n,B19,Central,145.0,8,65,F,2661.23
+P1029,2024-10-28,2024-11-11,Emergency,D114,Dr. Sarah Yousef,Hypertension,Emergency,1468.62,Public,9.0,n,B20,North,95.0,28,72,male,2376.65
+P1030,2024-03-20,2024-03-26,Pediatrics,,Dr. Sarah Youssef,Migraine,OUTPATIENT,2672.14,Public,5.0,y,B47,West,157.0,21,80,male,3512.14
+P1031,2024-01-28,2024-02-05,cardio,D016,Dr. Sarah Yousef,Fracture,OUTPATIENT,1865.54,privte,1.0,Yes,B11,Central,53.0,12,74,F,2451.1
+P1032,2024-12-12,2024-12-25,Cardiology Dept.,D100,Dr. Ahmed Khalil,Flu,inpatient,1911.25,Public,4.0,n,B17,West,94.0,9,33,female,2704.15
+P1033,2024-12-09,2024-12-19,Pediatrics,D005,Dr. Rana Elbaz,Asthma,Emergency,1281.27,Private,10.0,N,,South,51.0,1,65,male,1928.84
+P1034,2024-12-06,2024-12-18,cardio,D006,Dr. Sarah Youssef,Asthma,Emergency,2236.38,self pay,,No,B05,East,165.0,5,3,female,2407.18
+P1035,2024-08-04,2024-08-06,Pediatrics,D032,Dr. Sarah Youssef,Asthma,OUTPATIENT,2739.32,publick,3.0,N,,North,5.0,8,39,female,3483.18
+P1036,2024-12-23,2024-12-22,Orthopedics,D014,Ahmed Khalil,Flu,OUTPATIENT,3020.37,self pay,10.0,y,B39,Central,61.0,6,64,female,3492.9
+P1037,2024-06-23,2024-06-22,ONCOLOGY,D106,Dr. Sarah Yousef,Migraine,Inpatient,2846.74,Private,5.0,No,B05,Central,56.0,29,4,M,2819.12
+P1038,2024-02-17,2024-02-24,Cardiology,D111,Dr. Sarah Youssef,Asthma,inpatient,1988.23,Public,6.0,No,B16,East,57.0,11,16,male,2727.15
+P1039,2024-05-27,2024-06-01,Oncology,D092,dr. omar said,Migraine,inpatient,2448.18,privte,10.0,N,B22,North,164.0,21,70,M,2674.54
+P1040,2024-03-22,2024-03-20,Cardiology Dept.,D094,Dr. Rana Elbaz,Flu,OUTPATIENT,283.31,Public,2.0,Yes,B48,East,159.0,29,81,male,937.2
+P1041,2024-01-05,2024-01-06,Cardiology Dept.,D014,Dr. Omar Saeed,Heart Disease,OUTPATIENT,2491.33,privte,3.0,Y,B07,South,18.0,3,23,male,3218.59
+P1042,2024-08-03,2024-08-14,ORTHO,D044,dr. omar said,Heart Disease,inpatient,1713.43,publick,2.0,y,B13,West,32.0,20,25,M,2483.99
+P1043,2024-10-01,2024-10-02,ONCOLOGY,D006,Dr. Omar Saeed,Migraine,Outpatient,3074.48,Private,7.0,No,B34,West,115.0,27,56,male,3182.18
+P1044,2024-09-04,2024-09-14,ONCOLOGY,D009,Dr. Yara Hamed,Asthma,OUTPATIENT,,Private,2.0,Yes,B31,East,8.0,8,36,female,
+P1045,2024-08-30,2024-09-02,Oncology,D026,Dr. Yara Hamed,Asthma,OUTPATIENT,1844.6,self pay,,y,B44,North,138.0,5,70,male,2341.96
+P1046,2024-12-08,2024-12-09,Cardiology,D003,dr. omar said,Migraine,Outpatient,2361.13,self pay,6.0,n,B10,South,51.0,5,23,male,3157.38
+P1047,2024-07-10,2024-07-17,cardio,D060,Dr. Omar Saeed,Migraine,OUTPATIENT,2611.36,Public,4.0,Y,B14,Central,69.0,21,75,F,3089.86
+P1048,2024-10-26,2024-11-01,ORTHO,D085,dr. omar said,Diabetes,Inpatient,1180.95,Private,5.0,No,B19,North,68.0,27,78,female,2031.28
+P1049,2024-05-21,2024-05-22,ORTHO,D025,Dr. Omar Saeed,Heart Disease,Emergency,2203.54,Self-Pay,7.0,N,B47,South,76.0,23,66,male,2092.1
+P1050,2024-08-29,2024-09-09,ONCOLOGY,D094,Dr. Ahmed Khalil,Cancer,Inpatient,1193.53,privte,3.0,Yes,B36,South,138.0,29,38,F,2057.95
+P1051,2024-06-28,2024-06-26,ONCOLOGY,D109,Dr. Sarah Yousef,Asthma,Outpatient,1295.31,Private,9.0,No,B15,Central,90.0,29,8,M,1779.78
+P1052,2024-02-25,2024-02-27,Pediatrics,D074,Ahmed Khalil,Cancer,Inpatient,3472.75,Self-Pay,5.0,No,B06,West,159.0,8,23,F,4388.53
+,2024-02-28,2024-03-11,Pediatrics,D068,Dr. Rana Elbaz,Cancer,Outpatient,2806.88,privte,7.0,Yes,B37,South,108.0,8,92,F,4040.61
+P1054,2024-12-16,2024-12-22,ONCOLOGY,D063,Dr. Omar Saeed,Fracture,inpatient,2103.38,Private,9.0,Yes,B40,Central,15.0,15,21,male,2306.5
+P1055,2024-07-16,2024-07-28,Cardiology Dept.,D091,Dr. Sarah Youssef,Migraine,inpatient,1899.37,Self-Pay,4.0,Y,B17,Central,121.0,11,59,F,2124.8
+P1056,2024-05-28,2024-06-06,ONCOLOGY,D081,Dr Rana Elbaz,Heart Disease,Inpatient,2196.88,privte,3.0,n,B49,East,92.0,20,86,male,3008.53
+P1057,2024-01-29,2024-02-03,ORTHO,D019,Dr. Omar Saeed,Hypertension,inpatient,1441.43,privte,7.0,n,B14,Central,127.0,19,47,M,1771.28
+P1058,2024-09-05,2024-09-04,Oncology,D034,Dr. Omar Said,Asthma,Inpatient,2903.11,Self-Pay,6.0,No,B23,South,67.0,23,92,male,3313.52
+P1059,2024-08-16,2024-08-20,cardio,D096,Dr. Ahmed Khalil,Asthma,Emergency,1427.35,privte,1.0,n,B32,Central,76.0,24,46,M,1956.98
+,2024-06-04,2024-06-12,Cardiology,,dr. omar said,Heart Disease,inpatient,1895.72,publick,,Y,B36,North,146.0,29,60,F,2573.65
+P1061,2024-11-22,2024-11-21,ONCOLOGY,D053,Dr. Sarah Youssef,Asthma,Emergency,1752.36,publick,7.0,y,B22,South,134.0,12,24,female,2153.56
+P1062,2024-10-22,2024-11-05,ORTHO,D073,Dr. Omar Said,Hypertension,inpatient,1922.54,Private,6.0,y,B43,North,132.0,14,4,F,2403.25
+P1063,2024-05-26,2024-06-05,ORTHO,D087,Dr. Yara Hamed,Migraine,Emergency,925.83,Self-Pay,8.0,y,B22,North,132.0,21,27,M,1484.59
+P1064,2024-07-02,2024-07-05,cardio,D051,Dr. Ahmed Khalil,Cancer,Inpatient,1217.3,Self-Pay,3.0,Yes,B26,West,57.0,29,21,male,1165.04
+P1065,2024-03-21,2024-03-29,Oncology,D036,Dr. Sarah Yousef,Flu,OUTPATIENT,976.34,Self-Pay,4.0,y,B19,East,43.0,3,81,F,1638.64
+P1066,2024-03-14,2024-03-24,cardio,D003,Dr. Omar Said,Flu,Emergency,2106.35,Self-Pay,7.0,n,B44,Central,77.0,12,51,male,2660.3
+P1067,2024-09-27,2024-09-30,Emergency,D087,Dr. Rana Elbaz,Migraine,Inpatient,1732.12,Public,5.0,N,B16,Central,53.0,6,72,F,1836.31
+P1068,2024-07-16,2024-07-25,Pediatrics,D079,Dr. Rana Elbaz,Hypertension,Inpatient,1819.0,publick,,n,B09,East,51.0,19,48,female,2350.05
+P1069,2024-02-28,2024-03-04,Emergency,D060,Dr. Omar Saeed,Fracture,Inpatient,1572.47,publick,,No,B03,Central,120.0,5,43,female,1932.84
+P1070,2024-09-07,2024-09-12,pediatric,D066,Dr. Ahmed Khalil,Heart Disease,OUTPATIENT,2709.21,self pay,5.0,n,,North,124.0,10,34,F,3643.31
+P1071,2024-08-25,2024-09-04,cardio,D084,Dr. Sarah Youssef,Fracture,Inpatient,2157.24,privte,,Y,B30,South,43.0,17,3,female,3436.56
+P1072,2024-11-04,2024-11-14,Pediatrics,D061,Dr. Yara Hamed,Heart Disease,Outpatient,1479.7,Public,4.0,Yes,B06,East,41.0,7,56,F,1969.3
+P1073,2024-12-09,2024-12-20,ORTHO,D107,Dr. Ahmed Khalil,Hypertension,Outpatient,2187.37,privte,,Yes,B26,East,56.0,9,3,female,2642.62
+P1074,2024-05-09,2024-05-12,Pediatrics,D102,Dr. Ahmed Khalil,Hypertension,Emergency,1472.47,Self-Pay,7.0,No,B47,South,13.0,25,73,F,1860.45
+P1075,2024-03-28,2024-03-29,ONCOLOGY,D025,Dr. Yara Hamed,Heart Disease,Outpatient,1061.14,Private,2.0,Yes,B34,North,71.0,24,79,M,1506.85
+P1076,2024-12-19,2024-12-22,Pediatrics,D093,Dr Rana Elbaz,Flu,Emergency,590.51,Private,9.0,y,B03,West,41.0,24,40,F,1298.94
+P1077,2024-09-10,2024-09-09,Orthopedics,D053,Dr. Sarah Youssef,Flu,Emergency,1151.34,Public,10.0,Y,B27,West,151.0,6,60,female,1537.85
+P1078,2024-05-22,2024-05-26,cardio,D078,Dr. Rana Elbaz,Flu,Outpatient,2437.42,Private,,Y,B12,North,35.0,7,66,F,2887.29
+P1079,2024-11-09,2024-11-19,Orthopedics,D096,Dr. Rana Elbaz,Flu,Inpatient,2117.37,privte,,n,B28,East,102.0,28,79,F,2811.02
+P1080,2024-12-25,2024-12-27,Orthopedics,D082,Dr. Omar Saeed,Diabetes,Outpatient,3730.6,Self-Pay,,y,B47,West,72.0,29,76,M,4552.69
+P1081,2024-12-31,2025-01-01,Cardiology Dept.,D081,Dr. Sarah Yousef,Heart Disease,OUTPATIENT,1178.79,Private,7.0,Yes,B41,East,33.0,7,15,F,2148.44
+P1082,2024-05-14,2024-05-22,Cardiology Dept.,D001,Dr. Sarah Youssef,Diabetes,Outpatient,1947.4,self pay,1.0,Yes,B38,South,26.0,15,34,F,2576.65
+P1083,2024-02-12,2024-02-12,cardio,D027,Dr. Omar Said,Migraine,Emergency,2194.65,Public,8.0,n,B07,North,19.0,3,93,F,3449.31
+P1084,2024-12-15,2024-12-24,Cardiology,D086,Dr Rana Elbaz,Hypertension,inpatient,674.87,publick,,N,B02,West,50.0,24,72,female,1666.3
+P1085,2024-12-08,2024-12-16,Cardiology,D041,Ahmed Khalil,Flu,Outpatient,3200.83,Self-Pay,2.0,Y,,South,68.0,22,51,F,3799.38
+P1086,2024-08-28,2024-09-03,Orthopedics,D097,Dr. Yara Hamed,Flu,Emergency,1942.17,privte,,Yes,B13,West,84.0,1,77,female,2000.42
+P1087,2024-06-11,2024-06-15,Orthopedics,D006,Dr Rana Elbaz,Migraine,Inpatient,1928.24,publick,7.0,No,B31,East,147.0,9,76,male,2280.2
+P1088,2024-11-18,2024-11-23,Oncology,D106,Dr. Rana Elbaz,Migraine,inpatient,1644.01,Public,7.0,Yes,B18,Central,115.0,22,12,M,2178.37
+P1089,2024-10-22,2024-10-31,Orthopedics,D070,Dr. Yara Hamed,Asthma,Inpatient,2760.12,Self-Pay,10.0,N,B22,Central,59.0,5,56,M,3761.57
+P1090,2024-05-22,2024-05-28,ORTHO,D024,dr. omar said,Cancer,OUTPATIENT,1836.78,privte,1.0,y,B04,East,97.0,28,20,M,1933.37
+P1091,2024-10-31,2024-11-14,Emergency,D058,Dr. Sarah Youssef,Diabetes,Emergency,1703.86,self pay,7.0,No,B12,West,,3,18,female,2674.48
+P1092,2024-03-16,2024-03-21,pediatric,D103,Ahmed Khalil,Heart Disease,inpatient,765.17,privte,3.0,No,B02,East,104.0,7,70,M,1362.31
+P1093,2024-04-12,2024-04-26,ORTHO,D067,Dr. Omar Saeed,Flu,OUTPATIENT,1766.81,Self-Pay,,N,B16,North,9.0,10,93,M,2599.12
+P1094,2024-02-03,2024-02-10,ORTHO,D101,Dr. Ahmed Khalil,Migraine,inpatient,1433.54,Private,2.0,Yes,B49,East,12.0,17,44,female,2383.76
+P1095,2024-12-10,2024-12-22,ORTHO,D012,Dr. Omar Saeed,Heart Disease,Inpatient,2680.18,Public,3.0,Yes,B24,North,118.0,27,43,male,2808.97
+P1096,2024-04-05,2024-04-04,Cardiology,D106,Ahmed Khalil,Migraine,Outpatient,2503.4,publick,,Yes,B08,Central,175.0,18,85,F,3629.91
+P1097,2024-08-11,,Pediatrics,D026,Dr. Ahmed Khalil,Migraine,OUTPATIENT,1888.33,privte,2.0,Y,B40,North,90.0,17,76,F,2629.89
+P1098,2024-01-17,2024-01-22,pediatric,D070,Dr. Yara Hamed,Heart Disease,Outpatient,1024.82,Self-Pay,,N,B33,North,35.0,9,89,male,1197.94
+P1099,2024-06-17,2024-06-30,pediatric,D023,Dr. Sarah Youssef,Fracture,Emergency,3304.9,privte,2.0,y,B11,East,72.0,1,88,male,4171.86
+P1100,2024-12-18,2024-12-22,pediatric,D113,Ahmed Khalil,Asthma,Outpatient,,Self-Pay,8.0,No,B38,West,147.0,26,11,M,
+P1101,2024-01-31,,Cardiology,D012,Dr. Omar Said,Migraine,Emergency,2360.88,privte,6.0,Y,B48,West,76.0,5,79,F,2546.17
+,2024-10-11,,cardio,D015,Dr. Rana Elbaz,Diabetes,OUTPATIENT,66.84,Private,9.0,Yes,B11,Central,175.0,19,15,female,406.91
+P1103,2024-01-25,2024-01-26,cardio,D106,Dr. Omar Said,Hypertension,inpatient,1848.88,Self-Pay,6.0,y,B18,Central,56.0,2,49,F,2514.8
+P1104,2024-03-14,2024-03-24,cardio,D056,Dr. Rana Elbaz,Diabetes,Emergency,1214.01,Public,8.0,Yes,B04,Central,145.0,22,7,M,1646.62
+P1105,2024-12-19,2024-12-17,Cardiology,D042,Dr. Rana Elbaz,Cancer,inpatient,2381.6,self pay,1.0,Yes,B16,West,25.0,17,26,male,2198.53
+P1106,2024-01-05,2024-01-07,Oncology,D099,dr. omar said,Asthma,Emergency,2855.88,self pay,8.0,Yes,B33,North,151.0,23,21,F,3082.0
+P1107,2024-04-05,2024-04-19,Pediatrics,D007,Ahmed Khalil,Cancer,inpatient,1562.01,Self-Pay,3.0,Y,B03,West,82.0,10,39,M,1780.67
+P1108,2024-01-12,2024-01-18,pediatric,D103,Dr. Sarah Yousef,Flu,inpatient,2455.19,privte,1.0,Y,B49,Central,101.0,28,2,female,3443.71
+P1109,2024-07-07,2024-07-09,Emergency,D002,dr. omar said,Diabetes,OUTPATIENT,2156.93,Self-Pay,7.0,Yes,B35,South,48.0,2,87,F,2476.37
+P1110,2024-03-26,2024-03-31,Cardiology,D017,Dr Rana Elbaz,Migraine,inpatient,1340.03,privte,8.0,No,B08,North,59.0,20,3,male,1888.46
+P1111,2024-12-29,2025-01-11,ONCOLOGY,D072,Dr. Omar Said,Hypertension,Inpatient,1269.44,Public,1.0,y,B33,Central,112.0,21,16,female,1684.79
+P1112,2024-06-09,2024-06-18,Cardiology Dept.,D067,Dr. Yara Hamed,Diabetes,Inpatient,2566.49,privte,4.0,No,B23,South,70.0,26,68,female,3353.5
+P1113,2024-02-01,2024-02-04,ONCOLOGY,D030,Dr. Omar Said,Asthma,inpatient,1995.14,privte,10.0,N,B03,South,53.0,16,7,male,2746.69
+P1114,2024-03-14,2024-03-25,ONCOLOGY,D033,Dr. Sarah Yousef,Asthma,Inpatient,1860.03,self pay,8.0,N,B14,East,24.0,1,80,male,2133.31
+P1115,2024-08-14,2024-08-25,Cardiology Dept.,D012,Ahmed Khalil,Fracture,inpatient,2008.28,publick,2.0,No,B32,Central,140.0,28,13,female,2114.73
+P1116,2024-09-15,2024-09-26,Pediatrics,D034,Ahmed Khalil,Asthma,Outpatient,1700.94,self pay,1.0,No,B02,West,,11,50,female,2390.72
+P1117,2024-10-26,2024-11-07,Cardiology,D036,Dr Rana Elbaz,Fracture,OUTPATIENT,1509.28,self pay,1.0,No,B39,Central,107.0,18,63,male,1918.54
+P1118,2024-06-03,2024-06-05,Pediatrics,D062,Dr. Omar Said,Fracture,Inpatient,1897.19,publick,5.0,Yes,B38,Central,18.0,15,21,female,2694.0
+P1119,2024-10-24,2024-10-31,ONCOLOGY,D011,Dr. Omar Said,Hypertension,Outpatient,1205.24,Self-Pay,4.0,Y,B26,South,86.0,4,34,M,1879.05
+P1120,2024-04-29,2024-05-12,ONCOLOGY,D041,Dr. Sarah Yousef,Flu,Outpatient,1861.64,Self-Pay,5.0,y,B48,East,25.0,29,10,male,2875.16
+P1121,2024-10-07,2024-10-12,ONCOLOGY,D044,Dr. Omar Said,Hypertension,Inpatient,3725.85,self pay,10.0,y,B37,North,83.0,8,77,male,4044.13
+P1122,2024-06-09,2024-06-14,Oncology,D011,Dr. Ahmed Khalil,Asthma,OUTPATIENT,2189.57,publick,1.0,y,B19,South,,7,28,female,2553.12
+P1123,2024-05-01,2024-05-09,Cardiology,D025,Dr Rana Elbaz,Cancer,OUTPATIENT,2995.23,Self-Pay,1.0,y,B15,North,115.0,18,67,female,2834.28
+P1124,2024-03-29,2024-04-12,Cardiology,D013,Dr. Ahmed Khalil,Diabetes,Outpatient,1310.89,publick,,n,B31,South,118.0,16,32,M,1546.75
+P1125,2024-09-23,2024-09-22,Pediatrics,D084,Dr. Yara Hamed,Diabetes,inpatient,1708.04,Self-Pay,3.0,N,B32,Central,63.0,19,46,M,1956.27
+P1126,2024-10-24,2024-11-07,Cardiology Dept.,D104,Dr. Omar Saeed,Heart Disease,OUTPATIENT,927.56,Self-Pay,10.0,N,B23,East,179.0,12,75,M,1701.46
+P1127,2024-01-15,2024-01-23,pediatric,D022,Dr. Yara Hamed,Migraine,Inpatient,2235.62,self pay,2.0,No,B33,East,31.0,24,3,female,2220.37
+P1128,2024-08-24,2024-08-28,cardio,D096,Dr. Omar Saeed,Flu,Emergency,2801.56,Private,2.0,n,B34,North,76.0,11,89,female,3363.07
+P1129,2024/13/45,2024-09-19,Cardiology Dept.,D081,Dr. Ahmed Khalil,Diabetes,Emergency,2607.37,Private,8.0,y,,Central,141.0,25,34,male,3282.53
+P1130,2024-03-11,2024-03-19,Emergency,D037,Dr. Omar Saeed,Diabetes,Emergency,2507.39,self pay,6.0,No,B40,South,115.0,7,21,male,3149.98
+P1131,2024-12-21,2024-12-28,cardio,D116,Ahmed Khalil,Cancer,Inpatient,779.47,publick,2.0,n,B24,South,8.0,2,30,male,1658.25
+P1132,2024-04-01,2024-04-15,Orthopedics,D055,dr. omar said,Flu,Emergency,1206.13,Self-Pay,9.0,N,B33,Central,121.0,18,63,male,1821.89
+P1133,2024-01-23,2024-02-06,cardio,D047,dr. omar said,Diabetes,inpatient,3210.76,Self-Pay,,N,B11,East,149.0,7,9,F,3900.0
+P1134,2024-04-18,2024-05-01,pediatric,D117,Dr. Sarah Youssef,Fracture,Inpatient,2243.02,publick,2.0,Yes,B35,North,98.0,14,26,M,2330.02
+P1135,2024-02-05,2024-02-07,Emergency,D024,Dr. Omar Saeed,Asthma,inpatient,1704.94,publick,6.0,Y,B06,North,74.0,9,54,M,2325.47
+P1136,2024-03-15,2024-03-26,Pediatrics,D055,Dr. Sarah Youssef,Diabetes,Inpatient,1201.29,Private,8.0,No,B10,East,162.0,16,16,F,1791.83
+P1137,2024-01-12,2024-01-19,ORTHO,D091,Dr. Sarah Youssef,Diabetes,Emergency,1615.84,Public,10.0,N,B15,North,,18,32,M,2330.06
+P1138,2024-06-01,2024-06-09,cardio,D087,dr. omar said,Migraine,Outpatient,2053.59,Self-Pay,1.0,N,B24,South,132.0,17,19,male,2708.37
+P1139,2024-07-02,2024-07-11,Cardiology Dept.,D028,Dr. Sarah Youssef,Fracture,OUTPATIENT,1353.26,publick,3.0,n,B41,South,75.0,7,86,male,1758.68
+P1140,2024-02-08,2024-02-22,Cardiology Dept.,D051,Ahmed Khalil,Fracture,Inpatient,1337.93,publick,6.0,n,B22,South,6.0,12,88,M,1863.77
+P1141,2024-09-18,2024-09-30,Pediatrics,D086,Dr. Yara Hamed,Asthma,OUTPATIENT,3117.78,publick,1.0,Yes,,North,36.0,8,85,male,3634.89
+P1142,2024-03-27,2024-04-08,Emergency,D116,Dr. Rana Elbaz,Fracture,inpatient,1766.55,Private,9.0,N,B39,Central,,20,23,F,1797.59
+P1143,2024-05-17,2024-05-25,Oncology,D082,Ahmed Khalil,Fracture,Emergency,2090.62,Public,9.0,N,B20,South,89.0,6,12,female,2159.13
+P1144,2024-04-03,2024-04-02,Orthopedics,D048,Dr. Omar Said,Heart Disease,Outpatient,2667.05,Private,4.0,No,B04,Central,165.0,6,19,M,3038.72
+P1145,2024-03-03,2024-03-09,Oncology,D059,Dr. Sarah Yousef,Heart Disease,Emergency,2019.38,publick,5.0,n,B27,North,25.0,5,25,M,2943.04
+P1146,2024-03-18,2024-03-18,cardio,D011,Dr. Ahmed Khalil,Asthma,Emergency,3434.34,self pay,1.0,No,B44,South,13.0,12,73,female,4001.52
+P1147,2024-04-03,2024-04-02,Cardiology,D058,Dr. Sarah Youssef,Flu,inpatient,2107.35,Self-Pay,3.0,Y,B23,East,165.0,16,22,F,2641.18
+P1148,2024-04-29,,Emergency,D070,Ahmed Khalil,Diabetes,Outpatient,1917.58,privte,8.0,N,B01,Central,20.0,8,87,female,2785.12
+P1149,2024-08-07,2024-08-07,Cardiology,D039,dr. omar said,Flu,Emergency,2101.1,Self-Pay,3.0,Yes,B13,Central,,15,82,female,3182.78
+P1150,2024-06-04,2024-06-02,Oncology,,Dr. Omar Saeed,Cancer,Outpatient,1696.54,Private,3.0,n,B14,North,39.0,26,87,female,1854.94
+P1151,2024-11-25,2024-12-08,ORTHO,D014,Dr. Omar Said,Diabetes,Outpatient,2432.7,publick,,Yes,B36,West,77.0,8,81,M,3198.12
+P1152,2024-10-15,2024-10-21,ONCOLOGY,D105,Dr. Rana Elbaz,Asthma,OUTPATIENT,1984.46,privte,7.0,No,B22,West,82.0,9,55,M,2393.51
+P1153,2024-12-19,2025-01-01,Cardiology Dept.,D044,dr. omar said,Fracture,Emergency,2587.44,Self-Pay,7.0,Yes,B09,East,54.0,29,9,M,2892.64
+P1154,2024-12-29,2024-12-30,Pediatrics,D020,Dr. Sarah Yousef,Flu,Inpatient,1585.67,Self-Pay,6.0,Yes,B04,Central,151.0,23,71,F,2157.98
+P1155,2024-03-13,2024-03-14,Oncology,D017,Dr. Yara Hamed,Diabetes,inpatient,1794.73,Private,,n,,West,109.0,6,90,female,1573.9
+P1156,2024-09-22,2024-09-27,Cardiology,D102,dr. omar said,Fracture,Inpatient,1851.87,Public,6.0,Y,B49,East,146.0,8,43,M,1874.03
+P1157,2024-05-01,2024-04-29,Cardiology,D021,dr. omar said,Diabetes,inpatient,2867.58,privte,6.0,y,B39,East,130.0,23,41,M,3194.32
+P1158,2024-05-08,2024-05-12,ORTHO,D109,Dr. Omar Said,Asthma,inpatient,3520.95,Self-Pay,2.0,Yes,B48,South,5.0,1,45,F,4002.75
+P1159,2024-12-02,2024-12-06,cardio,D028,Dr Rana Elbaz,Hypertension,inpatient,2648.56,Self-Pay,10.0,n,B49,East,72.0,1,76,male,3309.11
+P1160,2024-08-20,2024-09-01,Orthopedics,D003,Dr. Rana Elbaz,Asthma,Outpatient,1578.96,publick,8.0,n,B27,Central,14.0,21,2,F,2530.71
+P1161,2024-08-07,2024-08-10,Oncology,D038,Dr. Ahmed Khalil,Heart Disease,Outpatient,2447.02,Self-Pay,5.0,n,B43,North,105.0,18,36,M,3222.28
+P1162,2024-01-24,2024-01-24,pediatric,D104,dr. omar said,Hypertension,OUTPATIENT,2064.85,self pay,7.0,No,B32,Central,36.0,26,57,female,2323.35
+P1163,2024-03-18,2024-03-19,ORTHO,,Dr. Ahmed Khalil,Migraine,OUTPATIENT,2461.47,Self-Pay,2.0,N,B28,East,169.0,3,43,M,2243.95
+P1164,2024-07-07,2024-07-19,Pediatrics,D113,dr. omar said,Fracture,Inpatient,1879.52,Self-Pay,8.0,Y,B05,East,166.0,24,88,M,2165.39
+P1165,2024-11-03,2024-11-03,pediatric,D101,Dr. Yara Hamed,Heart Disease,Outpatient,1918.3,privte,1.0,Y,B37,Central,55.0,10,35,female,2541.07
+P1166,2024-02-10,2024-02-13,Emergency,D049,Dr. Sarah Youssef,Cancer,Emergency,2938.5,Public,4.0,Yes,B45,East,149.0,22,53,male,3549.39
+P1167,2024-11-27,2024-11-27,Oncology,D024,Dr. Sarah Youssef,Migraine,OUTPATIENT,1149.28,Public,1.0,y,B13,Central,25.0,15,11,M,1387.26
+P1168,2024-07-21,2024-07-22,Oncology,D064,Dr. Rana Elbaz,Fracture,Emergency,2233.49,Self-Pay,7.0,n,B34,Central,89.0,11,54,male,3003.33
+P1169,2024-08-28,2024-09-07,Cardiology,D026,Dr. Sarah Yousef,Flu,Emergency,1563.64,privte,7.0,N,B44,North,24.0,20,70,M,2048.93
+P1170,2024-09-19,2024-09-20,Emergency,D035,Dr. Sarah Yousef,Fracture,OUTPATIENT,1275.41,publick,5.0,Yes,B09,East,86.0,8,45,male,1579.28
+P1171,2024-11-25,2024-12-09,Cardiology Dept.,,Ahmed Khalil,Cancer,OUTPATIENT,892.28,Public,4.0,y,B29,South,73.0,22,43,female,1681.21
+P1172,2024-05-04,2024-05-04,Cardiology Dept.,D114,Dr. Yara Hamed,Flu,OUTPATIENT,1381.7,Self-Pay,4.0,Yes,B49,Central,156.0,8,71,male,2003.81
+P1173,2024-09-02,2024-09-06,pediatric,D035,Dr. Omar Said,Fracture,inpatient,1901.02,publick,1.0,Y,B40,South,,23,9,female,2294.08
+P1174,2024-05-11,2024-05-10,ONCOLOGY,,Dr. Rana Elbaz,Diabetes,OUTPATIENT,1869.55,Public,1.0,Yes,B38,West,7.0,16,66,F,2146.08
+P1175,2024-08-13,2024-08-18,pediatric,D055,Ahmed Khalil,Heart Disease,Emergency,1890.84,Private,8.0,Y,B29,South,163.0,7,53,F,1905.49
+P1176,2024-02-12,2024-02-16,Cardiology,D074,Dr. Rana Elbaz,Migraine,Emergency,2508.33,Private,7.0,n,B08,West,61.0,22,52,male,2636.56
+P1177,2024-02-20,2024-03-02,ORTHO,D078,Dr. Ahmed Khalil,Cancer,Outpatient,748.07,Private,4.0,No,B34,North,8.0,11,76,F,1182.91
+P1178,2024-05-13,2024-05-27,pediatric,D028,Dr. Omar Said,Heart Disease,inpatient,1499.05,publick,8.0,Yes,B01,Central,54.0,11,19,male,2003.66
+P1179,2024-05-18,2024-05-24,Oncology,D029,dr. omar said,Flu,Emergency,1619.02,Public,10.0,n,B27,Central,116.0,25,55,F,2381.34
+P1180,2024-07-03,2024-07-10,Pediatrics,D083,Dr. Sarah Yousef,Migraine,inpatient,1668.43,Self-Pay,3.0,n,B37,West,15.0,10,17,M,1985.86
+P1181,2024-02-22,2024-02-24,cardio,D031,Dr. Rana Elbaz,Cancer,Inpatient,59.83,privte,6.0,n,B09,East,109.0,9,38,F,550.78
+P1182,2024-08-30,2024-09-07,cardio,D070,Dr Rana Elbaz,Migraine,inpatient,2670.01,publick,9.0,Y,B21,East,,28,54,male,3562.07
+P1183,2024-05-29,2024-05-27,Cardiology Dept.,D102,Dr. Rana Elbaz,Diabetes,inpatient,1737.11,publick,1.0,N,B22,West,142.0,17,14,female,2418.06
+P1184,2024-08-04,2024-08-11,Cardiology Dept.,D047,Dr Rana Elbaz,Migraine,Inpatient,2527.23,Private,9.0,n,B28,North,126.0,26,76,F,2944.57
+P1185,2024-04-11,2024-04-18,Cardiology Dept.,D012,Dr. Sarah Yousef,Flu,Emergency,2538.29,Public,3.0,y,,Central,,11,77,female,3215.83
+P1186,2024-10-18,2024-10-22,ONCOLOGY,D098,Dr. Sarah Yousef,Cancer,Outpatient,2284.63,Self-Pay,10.0,n,B13,East,49.0,15,87,male,3015.19
+P1187,2024-06-01,2024-06-10,Emergency,D045,Dr. Omar Saeed,Heart Disease,OUTPATIENT,2016.71,Public,1.0,Yes,B13,East,63.0,21,72,M,2585.92
+P1188,2024-04-15,2024-04-20,Cardiology Dept.,D005,Dr. Sarah Yousef,Heart Disease,inpatient,2898.29,Private,4.0,No,B41,North,61.0,11,54,F,3553.55
+P1189,2024-07-13,2024-07-11,Oncology,D013,dr. omar said,Hypertension,inpatient,2030.29,privte,6.0,No,B03,West,138.0,6,93,F,2705.66
+P1190,2024-05-19,2024-05-24,ONCOLOGY,D076,Dr. Yara Hamed,Flu,Emergency,2358.29,privte,,Y,B25,West,103.0,18,19,M,2969.62
+P1191,2024-09-26,2024-09-29,pediatric,D008,Dr. Rana Elbaz,Cancer,OUTPATIENT,2130.2,Self-Pay,9.0,y,B08,East,102.0,4,94,male,2642.61
+,2024/13/45,2024-12-03,Cardiology,D042,Dr. Omar Said,Diabetes,inpatient,3188.69,privte,9.0,y,B21,North,48.0,24,42,male,3622.52
+P1193,2024-05-18,2024-05-23,Cardiology,D119,Ahmed Khalil,Migraine,inpatient,2375.66,publick,5.0,N,B01,Central,,25,93,female,3089.89
+P1194,2024-07-03,2024-07-07,Orthopedics,D053,Dr. Ahmed Khalil,Hypertension,Emergency,924.71,Private,,Yes,B04,South,95.0,1,1,male,943.73
+P1195,2024-02-19,2024-02-29,Oncology,D099,dr. omar said,Flu,Inpatient,2389.73,Public,,Y,B19,Central,173.0,13,60,F,3086.99
+P1196,2024-01-27,2024-01-31,Oncology,D046,Dr. Yara Hamed,Cancer,Inpatient,1848.7,Self-Pay,6.0,N,B27,Central,120.0,4,15,female,2625.2
+P1197,2024-01-25,2024-01-25,pediatric,D053,Dr. Sarah Yousef,Hypertension,OUTPATIENT,-83.37,Private,10.0,Y,B23,Central,28.0,13,69,male,476.31
+P1198,2024-01-18,2024-01-24,ORTHO,D076,Dr. Sarah Youssef,Heart Disease,Outpatient,1459.43,Private,3.0,Yes,B36,North,65.0,15,41,F,1969.68
+P1199,2024-04-12,2024-04-14,Orthopedics,D022,Dr Rana Elbaz,Hypertension,inpatient,2472.89,Public,10.0,Y,B21,West,130.0,8,16,F,3391.94
+P1200,2024-10-01,2024-10-08,Cardiology Dept.,D021,Dr Rana Elbaz,Migraine,Inpatient,1335.64,Self-Pay,7.0,No,B49,East,14.0,1,63,male,1992.4
+P1201,2024-04-11,2024-04-12,Pediatrics,D034,dr. omar said,Hypertension,Emergency,1961.11,Public,3.0,N,B29,West,5.0,9,13,M,2595.7
+P1202,2024-05-18,2024-05-21,ORTHO,D068,Dr Rana Elbaz,Asthma,Outpatient,2351.6,Private,7.0,No,B19,Central,69.0,11,35,M,3085.28
+P1203,2024-12-09,2024-12-14,Pediatrics,D065,Dr. Sarah Yousef,Hypertension,Emergency,2388.9,Self-Pay,2.0,n,B16,South,161.0,6,13,M,3263.27
+P1204,2024-07-08,2024-07-21,pediatric,D057,Dr. Sarah Youssef,Flu,Inpatient,2194.91,self pay,2.0,y,B07,Central,152.0,14,56,M,3110.94
+P1205,2024-08-06,2024-08-06,Oncology,D005,Dr. Sarah Yousef,Diabetes,Emergency,923.61,Self-Pay,3.0,y,B14,North,,5,59,female,1628.23
+P1206,2024-07-09,2024-07-07,Oncology,D087,Ahmed Khalil,Cancer,OUTPATIENT,1571.36,publick,4.0,y,B19,Central,51.0,22,93,male,1559.15
+P1207,2024-10-15,2024-10-22,Pediatrics,D076,Ahmed Khalil,Fracture,OUTPATIENT,2323.93,Self-Pay,7.0,n,B03,North,173.0,10,89,male,2811.23
+P1208,2024-08-05,2024-08-05,cardio,D020,Dr. Yara Hamed,Heart Disease,Outpatient,1262.51,privte,,No,B20,West,43.0,3,66,female,1461.32
+P1209,2024-09-29,2024-09-28,Emergency,D065,Dr. Sarah Youssef,Hypertension,Outpatient,1276.07,publick,6.0,Y,B25,East,74.0,10,53,M,2212.59
+P1210,2024-09-02,2024-09-14,Pediatrics,D109,Dr. Omar Saeed,Cancer,OUTPATIENT,844.39,self pay,7.0,N,B32,South,11.0,6,48,male,1773.49
+P1211,2024-06-11,2024-06-14,ORTHO,D092,Dr. Sarah Yousef,Migraine,inpatient,1308.49,Private,,N,B41,Central,19.0,10,50,M,1766.21
+P1212,2024-01-25,2024-02-04,Oncology,D062,Dr. Sarah Yousef,Hypertension,Outpatient,,privte,4.0,Yes,B11,South,,16,82,male,
+P1213,2024-10-11,2024-10-24,ONCOLOGY,D110,Dr Rana Elbaz,Heart Disease,OUTPATIENT,2454.35,publick,10.0,N,B46,Central,168.0,10,81,M,2977.14
+P1214,2024-07-13,2024-07-19,Cardiology,D107,Dr. Sarah Youssef,Heart Disease,Outpatient,2594.15,Self-Pay,9.0,N,B28,West,32.0,18,63,F,3393.94
+P1215,2024-11-17,2024-11-25,Cardiology Dept.,D114,Ahmed Khalil,Diabetes,Outpatient,1810.34,self pay,3.0,y,B38,West,139.0,6,85,female,2306.19
+P1216,2024/13/45,2024-07-20,Orthopedics,D106,Dr. Ahmed Khalil,Cancer,inpatient,1448.22,privte,9.0,N,B21,East,113.0,29,63,male,1885.54
+P1217,2024-09-08,2024-09-18,Emergency,D006,Dr. Yara Hamed,Migraine,inpatient,3014.34,Self-Pay,,Y,B35,Central,40.0,7,22,male,3098.49
+P1218,2024-06-13,2024-06-19,ONCOLOGY,D111,Ahmed Khalil,Cancer,Outpatient,3159.22,Public,8.0,Yes,B45,North,162.0,17,85,M,4276.19
+P1219,2024-05-13,2024-05-12,ORTHO,D115,Dr. Ahmed Khalil,Diabetes,inpatient,1095.29,Private,9.0,Yes,B09,West,37.0,10,28,female,1298.81
+P1220,2024-01-30,2024-02-07,Pediatrics,D097,Dr. Yara Hamed,Flu,Outpatient,573.84,Public,1.0,No,B10,East,151.0,8,47,male,1433.49
+P1221,2024-10-10,2024-10-17,Cardiology,D088,dr. omar said,Fracture,OUTPATIENT,1368.06,Public,6.0,No,B07,Central,133.0,13,69,M,2032.72
+P1222,2024-12-25,2025-01-08,Orthopedics,,Dr. Sarah Youssef,Hypertension,OUTPATIENT,3775.36,publick,9.0,N,B01,Central,66.0,29,86,M,5061.6
+P1223,2024-06-15,2024-06-28,Cardiology,D104,Dr. Omar Said,Migraine,Outpatient,1110.43,Self-Pay,2.0,Yes,,West,161.0,16,66,female,1710.54
+P1224,2024-09-11,2024-09-16,Pediatrics,D020,Dr. Yara Hamed,Cancer,Outpatient,1761.91,Private,5.0,Y,B42,South,40.0,29,67,F,2308.29
+P1225,2024-09-25,2024-09-25,ONCOLOGY,D002,Dr. Sarah Yousef,Hypertension,Emergency,2944.04,publick,5.0,y,B49,East,66.0,9,92,female,3008.2
+P1226,2024-05-22,2024-05-21,cardio,D099,Dr. Ahmed Khalil,Heart Disease,inpatient,882.27,self pay,7.0,No,B44,East,140.0,29,59,female,1812.9
+P1227,2024-01-13,2024-01-17,cardio,D062,Dr. Yara Hamed,Heart Disease,OUTPATIENT,232.52,Self-Pay,4.0,y,B42,South,149.0,29,13,M,924.3
+P1228,2024-11-25,2024-12-03,pediatric,D090,dr. omar said,Diabetes,Inpatient,827.03,Private,3.0,Y,B12,Central,44.0,19,90,female,1637.21
+P1229,2024-10-20,2024-11-03,cardio,D027,Dr. Yara Hamed,Hypertension,Emergency,2228.28,Private,8.0,Y,B22,East,170.0,10,53,male,2484.37
+P1230,2024-07-31,2024-08-12,Cardiology Dept.,D021,Dr. Omar Saeed,Heart Disease,OUTPATIENT,2587.19,self pay,6.0,N,B15,South,88.0,5,60,F,3308.98
+P1231,2024-04-22,2024-05-03,Orthopedics,D038,Dr. Omar Said,Migraine,OUTPATIENT,2653.07,self pay,4.0,n,B20,Central,161.0,12,43,male,3722.09
+P1232,2024-08-14,,Cardiology Dept.,D115,Ahmed Khalil,Fracture,Inpatient,,Private,3.0,No,B30,East,,28,48,M,
+P1233,2024-12-20,2024-12-20,Pediatrics,D068,dr. omar said,Fracture,Inpatient,2191.67,Private,2.0,Yes,B19,East,103.0,11,66,female,2836.92
+P1234,2024-07-15,2024-07-22,ORTHO,D004,Dr. Rana Elbaz,Heart Disease,Outpatient,2187.0,publick,10.0,Yes,B42,South,32.0,20,38,male,2365.41
+P1235,2024-09-17,2024-09-28,ONCOLOGY,D105,Dr. Sarah Youssef,Fracture,OUTPATIENT,1947.09,publick,8.0,n,B22,North,79.0,19,65,M,2251.16
+P1236,2024-12-11,2024-12-15,ORTHO,,Dr. Ahmed Khalil,Asthma,OUTPATIENT,1035.2,Self-Pay,6.0,y,B15,Central,97.0,12,40,male,1647.25
+P1237,2024-04-27,2024-04-30,Orthopedics,D022,Dr. Ahmed Khalil,Cancer,Outpatient,1215.79,self pay,2.0,Yes,B29,West,70.0,8,90,M,2634.38
+P1238,2024-09-24,2024-10-08,cardio,D073,dr. omar said,Flu,Outpatient,2745.26,self pay,8.0,No,B20,North,49.0,5,81,F,3323.64
+P1239,2024-11-07,2024-11-19,ONCOLOGY,D094,Dr. Yara Hamed,Asthma,Outpatient,3300.35,Private,9.0,Y,B46,West,128.0,11,50,M,4222.6
+P1240,2024-05-06,2024-05-10,Pediatrics,D072,Dr. Omar Saeed,Migraine,inpatient,1472.32,Public,3.0,y,B23,West,56.0,8,11,F,1760.86
+P1241,2024-06-22,2024-07-03,Cardiology Dept.,D082,Dr. Rana Elbaz,Fracture,OUTPATIENT,-994.59,Self-Pay,3.0,n,B24,West,129.0,24,87,M,-318.94
+P1242,2024-03-13,2024-03-12,Cardiology Dept.,D062,Dr. Ahmed Khalil,Fracture,OUTPATIENT,2426.58,Self-Pay,2.0,No,B01,East,14.0,23,57,M,3181.47
+P1243,2024-07-11,2024-07-18,ONCOLOGY,D013,Ahmed Khalil,Asthma,Inpatient,1308.83,Private,4.0,y,B09,East,172.0,8,20,F,1393.8
+P1244,2024-09-18,2024-09-28,Cardiology,D062,Dr. Rana Elbaz,Fracture,Emergency,1958.08,self pay,10.0,Y,B45,Central,52.0,17,6,M,2969.31
+P1245,2024-04-09,2024-04-19,Emergency,D053,dr. omar said,Cancer,OUTPATIENT,1719.04,publick,3.0,Yes,B28,Central,29.0,3,80,F,3024.45
+P1246,2024-01-09,2024-01-12,Cardiology Dept.,D069,Dr. Ahmed Khalil,Migraine,OUTPATIENT,2053.99,Private,5.0,Yes,B25,West,135.0,9,31,M,2687.52
+P1247,2024-03-09,2024-03-13,Oncology,D058,Dr. Sarah Yousef,Diabetes,inpatient,3195.15,publick,7.0,Y,B27,North,85.0,13,23,F,3853.52
+P1248,2024-06-13,2024-06-24,Orthopedics,D017,Dr. Rana Elbaz,Hypertension,Inpatient,2561.0,Self-Pay,7.0,y,B13,West,,18,93,male,3115.49
+P1249,2024-02-26,2024-03-08,Oncology,D053,Dr. Rana Elbaz,Flu,Emergency,1691.98,self pay,3.0,n,B30,West,172.0,1,57,F,2306.88
+P1250,2024-05-10,2024-05-16,Orthopedics,D062,Dr. Omar Saeed,Heart Disease,Emergency,-1770.04,publick,3.0,N,B43,West,144.0,8,42,female,-1183.84
+P1251,2024-04-01,2024-04-09,pediatric,,Dr. Omar Saeed,Cancer,Outpatient,3529.93,self pay,7.0,N,B08,East,172.0,9,49,F,4289.17
+P1252,2024-03-24,2024-03-24,Pediatrics,D028,Dr. Sarah Yousef,Flu,inpatient,661.21,privte,4.0,No,B37,Central,,19,68,M,964.21
+P1253,2024-01-06,2024-01-20,ORTHO,D097,Dr. Yara Hamed,Migraine,Emergency,2700.84,self pay,4.0,n,B08,East,108.0,24,80,male,3642.64
+P1254,2024-06-05,2024-06-06,ONCOLOGY,D118,Dr. Ahmed Khalil,Asthma,OUTPATIENT,1617.14,Public,8.0,No,B26,East,123.0,20,64,male,1987.96
+P1255,2024-08-05,2024-08-10,Cardiology,D087,Dr. Omar Said,Flu,OUTPATIENT,2692.16,Private,9.0,Y,B20,Central,19.0,12,87,female,3242.16
+P1256,2024-12-08,2024-12-09,Pediatrics,D097,Dr. Sarah Youssef,Cancer,Inpatient,2908.5,Private,3.0,Y,B15,East,126.0,26,52,M,3076.61
+P1257,2024-05-17,2024-05-29,Pediatrics,D099,Dr. Sarah Youssef,Migraine,OUTPATIENT,1032.77,publick,7.0,y,B23,East,116.0,3,40,female,1461.27
+P1258,2024-05-14,2024-05-21,ONCOLOGY,D002,Dr. Ahmed Khalil,Asthma,Outpatient,2373.37,self pay,7.0,N,B30,Central,60.0,11,92,F,3025.28
+P1259,2024-10-24,2024-11-02,pediatric,D052,Dr. Sarah Youssef,Cancer,OUTPATIENT,604.54,self pay,10.0,Yes,,Central,107.0,1,55,M,1279.21
+P1260,2024-07-24,2024-07-29,cardio,D047,dr. omar said,Migraine,Emergency,2023.97,publick,8.0,Y,B26,South,83.0,13,17,M,2583.08
+P1261,2024-06-04,2024-06-07,Cardiology Dept.,D035,dr. omar said,Diabetes,inpatient,784.52,self pay,3.0,No,,South,147.0,5,86,F,434.88
+P1262,2024-06-01,2024-06-15,cardio,D013,Dr. Rana Elbaz,Diabetes,OUTPATIENT,3469.34,Private,4.0,n,B44,West,63.0,23,15,F,3539.95
+P1263,2024-10-01,2024-10-09,ORTHO,D107,dr. omar said,Heart Disease,OUTPATIENT,2060.99,Private,3.0,Yes,B35,North,126.0,4,13,male,2507.05
+P1264,2024-07-22,2024-07-25,ONCOLOGY,D031,Dr. Omar Saeed,Diabetes,Inpatient,2925.88,privte,5.0,No,B08,West,148.0,24,15,female,3811.86
+P1265,2024-09-02,2024-09-10,Cardiology,D018,Dr. Sarah Yousef,Migraine,Outpatient,1298.46,publick,1.0,N,,North,107.0,21,93,M,1464.02
+P1266,2024-07-26,2024-07-30,ORTHO,D106,Dr. Rana Elbaz,Flu,inpatient,2620.12,Self-Pay,10.0,y,B40,North,126.0,26,73,M,3286.04
+P1267,2024-03-15,2024-03-17,Cardiology Dept.,D005,Dr. Omar Saeed,Diabetes,Outpatient,1884.83,Self-Pay,7.0,No,B06,South,47.0,3,22,male,2445.73
+P1268,2024-01-21,2024-01-19,Oncology,D105,Dr. Rana Elbaz,Heart Disease,Outpatient,3077.34,Public,,Yes,B10,West,,19,47,M,3435.03
+P1269,2024-01-23,2024-01-25,Emergency,D094,Dr. Sarah Yousef,Cancer,Emergency,2360.48,self pay,2.0,N,B41,South,116.0,25,78,female,2299.54
+P1270,2024-07-21,2024-07-21,pediatric,D042,Ahmed Khalil,Flu,Outpatient,1093.86,self pay,1.0,Y,B11,Central,177.0,16,18,F,1697.17
+P1271,2024-03-25,2024-03-25,Orthopedics,D059,Ahmed Khalil,Migraine,Outpatient,-2058.14,Public,4.0,Y,B15,East,46.0,8,7,male,-1681.59
+P1272,2024-11-07,2024-11-19,ONCOLOGY,D080,Dr. Ahmed Khalil,Migraine,Inpatient,879.26,Private,5.0,No,B29,West,67.0,15,76,male,1397.4
+P1273,2024-05-22,2024-05-24,Pediatrics,D029,Dr. Omar Said,Migraine,Inpatient,-325.59,self pay,5.0,Y,B06,South,23.0,4,2,male,61.96
+P1274,2024-07-31,2024-08-13,Orthopedics,D036,Dr. Rana Elbaz,Fracture,Inpatient,2309.05,Public,4.0,y,B19,North,175.0,6,70,female,2692.68
+P1275,2024-07-10,2024-07-22,ORTHO,D044,Ahmed Khalil,Migraine,inpatient,1649.13,Private,2.0,N,B42,Central,,9,7,F,2255.64
+P1276,2024-10-17,2024-10-18,Pediatrics,D096,Dr Rana Elbaz,Asthma,Emergency,2714.36,Public,4.0,Y,B46,South,70.0,7,31,male,3763.25
+P1277,2024-08-14,2024-08-22,Cardiology,D092,Dr. Omar Said,Fracture,Outpatient,1473.37,Private,7.0,y,B07,North,144.0,2,24,F,1855.64
+,2024/13/45,2024-04-11,Orthopedics,D096,Dr. Sarah Yousef,Hypertension,Inpatient,1637.52,privte,7.0,No,B42,Central,148.0,8,77,male,2405.93
+P1279,2024-08-31,2024-09-06,Oncology,D012,Dr. Omar Said,Diabetes,Outpatient,998.26,self pay,3.0,y,B12,West,111.0,26,73,M,1728.0
+P1280,2024-05-07,2024-05-14,cardio,D029,Dr. Rana Elbaz,Asthma,OUTPATIENT,-1851.51,Private,9.0,Yes,B37,North,168.0,28,84,F,-1448.02
+P1281,2024-03-14,2024-03-18,Cardiology Dept.,D022,Dr Rana Elbaz,Migraine,inpatient,1381.53,privte,7.0,n,B16,South,132.0,29,56,M,1881.68
+P1282,2024-04-07,2024-04-05,ORTHO,D095,Dr Rana Elbaz,Fracture,Inpatient,2299.01,publick,3.0,Yes,,East,148.0,12,16,M,3129.6
+P1283,2024-04-25,2024-05-09,Orthopedics,D087,Ahmed Khalil,Fracture,Emergency,2532.33,self pay,2.0,No,B14,North,173.0,15,43,male,3614.7
+P1284,2024-04-05,2024-04-03,Oncology,D066,Dr. Sarah Yousef,Asthma,Inpatient,1078.26,Self-Pay,10.0,No,B27,Central,39.0,25,72,female,1631.67
+P1285,2024-11-28,2024-11-26,Cardiology Dept.,D058,Dr. Sarah Youssef,Migraine,Inpatient,1497.81,self pay,,y,B01,North,161.0,17,66,male,1911.4
+P1286,2024-06-02,2024-06-05,Emergency,D118,Dr. Omar Said,Hypertension,Outpatient,3326.57,Public,9.0,Y,B27,North,112.0,13,43,male,4062.45
+P1287,2024-07-14,2024-07-24,Pediatrics,D026,Ahmed Khalil,Flu,Emergency,2899.76,self pay,6.0,Yes,B13,East,47.0,28,9,male,3618.85
+P1288,2024-06-08,2024-06-21,cardio,D116,Dr Rana Elbaz,Fracture,Emergency,2156.91,Self-Pay,3.0,No,B42,South,159.0,28,65,male,2385.68
+P1289,2024-11-11,2024-11-11,ONCOLOGY,D051,Dr. Sarah Yousef,Cancer,OUTPATIENT,2276.06,privte,5.0,y,B46,North,65.0,21,88,M,3162.01
+P1290,2024-04-25,2024-05-08,Pediatrics,D114,Dr. Ahmed Khalil,Asthma,Outpatient,1178.9,Private,5.0,N,B47,South,114.0,25,26,M,2047.9
+P1291,2024-06-30,2024-06-28,Cardiology Dept.,D102,dr. omar said,Heart Disease,Outpatient,999.44,self pay,,Y,B47,South,162.0,21,64,M,1506.03
+P1292,2024-02-24,2024-02-27,ORTHO,D052,Dr. Ahmed Khalil,Asthma,Inpatient,180.09,privte,2.0,N,B44,East,78.0,21,60,F,322.03
+P1293,2024-05-11,2024-05-10,ONCOLOGY,D036,Dr. Rana Elbaz,Cancer,inpatient,2086.82,self pay,3.0,y,B43,North,,27,32,female,2461.47
+P1294,2024-05-01,2024-05-12,Pediatrics,D039,Dr. Sarah Yousef,Diabetes,Inpatient,1784.13,Public,7.0,Yes,B30,North,35.0,22,75,F,2197.32
+P1295,2024-03-02,2024-03-01,Emergency,D044,Dr. Sarah Youssef,Hypertension,Inpatient,2876.13,Self-Pay,4.0,No,,East,5.0,22,19,M,3506.18
+P1296,2024-12-03,2024-12-05,pediatric,D052,Ahmed Khalil,Cancer,Outpatient,2318.96,privte,4.0,N,,East,80.0,12,54,F,2672.18
+P1297,2024-09-17,2024-09-17,ORTHO,D093,Dr. Omar Said,Hypertension,Outpatient,1858.06,publick,,Yes,B02,Central,99.0,12,6,male,1951.4
+P1298,2024-06-03,2024-06-10,Emergency,,Ahmed Khalil,Heart Disease,Outpatient,2373.24,Self-Pay,,n,B05,West,160.0,23,69,male,3277.1
+P1299,2024-03-24,2024-03-31,Emergency,D006,Dr. Sarah Yousef,Cancer,Emergency,2632.97,publick,5.0,No,B38,West,127.0,13,93,F,2980.49
+P1300,2024-01-22,2024-01-22,ORTHO,D078,Dr. Omar Saeed,Flu,OUTPATIENT,2871.02,publick,6.0,y,B07,East,49.0,15,71,M,3258.13
+P1301,2024-08-25,2024-08-28,cardio,D112,Dr. Omar Said,Migraine,Emergency,-119.28,privte,7.0,Yes,B36,East,117.0,25,23,male,786.17
+P1302,2024/13/45,2024-04-11,Oncology,D027,Dr. Omar Saeed,Flu,OUTPATIENT,2884.51,privte,,N,B09,East,32.0,8,84,female,3661.02
+P1303,2024-02-19,2024-02-17,Cardiology,D114,Dr. Yara Hamed,Fracture,OUTPATIENT,2423.21,privte,6.0,Y,B12,East,152.0,15,77,F,2940.3
+P1304,2024-06-17,2024-06-29,cardio,D086,Dr. Sarah Youssef,Migraine,OUTPATIENT,2944.51,self pay,3.0,N,B19,South,122.0,18,76,F,3256.32
+P1305,2024-03-23,2024-03-21,pediatric,D054,dr. omar said,Heart Disease,OUTPATIENT,2347.82,Private,1.0,N,B28,South,102.0,16,35,male,2990.45
+P1306,2024-05-30,2024-06-09,pediatric,D103,Dr. Ahmed Khalil,Cancer,Inpatient,1534.57,publick,6.0,n,B45,East,162.0,12,82,female,1682.41
+P1307,2024-08-04,2024-08-16,pediatric,D045,Dr. Sarah Yousef,Flu,OUTPATIENT,1960.78,self pay,7.0,No,B23,West,141.0,20,92,M,2412.67
+P1308,2024-07-27,2024-08-10,Cardiology,D117,Dr. Sarah Youssef,Asthma,Outpatient,1257.3,privte,5.0,No,B24,North,42.0,19,18,F,1927.63
+P1309,2024-12-14,2024-12-28,pediatric,D083,Dr. Rana Elbaz,Asthma,inpatient,1288.44,Self-Pay,8.0,Yes,B09,East,130.0,1,42,M,1689.9
+P1310,2024-12-20,2024-12-18,ONCOLOGY,D031,Dr Rana Elbaz,Migraine,Inpatient,1334.44,self pay,4.0,N,B30,North,138.0,25,18,male,1642.95
+P1311,2024-08-18,2024-08-24,Oncology,D079,Ahmed Khalil,Flu,Emergency,728.84,publick,4.0,N,B02,North,20.0,29,13,male,1672.87
+,2024-11-28,,Orthopedics,D013,Dr Rana Elbaz,Asthma,Emergency,2519.6,Private,3.0,y,B10,East,121.0,28,73,male,2910.42
+P1313,2024-12-08,2024-12-12,Cardiology,D031,Dr. Sarah Youssef,Cancer,OUTPATIENT,1354.6,publick,,Y,B44,South,155.0,23,81,F,1346.8
+P1314,2024-05-18,2024-05-28,pediatric,D059,Dr. Sarah Youssef,Asthma,inpatient,2955.81,self pay,3.0,No,,West,103.0,15,62,female,3724.2
+P1315,2024-08-21,2024-09-03,cardio,D089,Dr. Omar Saeed,Flu,Inpatient,2371.84,self pay,4.0,N,B40,West,18.0,19,72,female,3005.65
+P1316,2024-11-24,2024-12-07,pediatric,D025,Dr. Sarah Yousef,Hypertension,Emergency,2206.93,publick,10.0,Y,B46,Central,38.0,24,75,male,2770.75
+P1317,2024-07-02,2024-07-01,Cardiology Dept.,D009,Dr. Yara Hamed,Migraine,Inpatient,1988.52,Self-Pay,8.0,y,B29,West,63.0,8,56,female,2449.48
+P1318,2024-04-27,2024-04-28,Oncology,D063,Dr. Omar Saeed,Hypertension,Emergency,3179.24,Private,10.0,N,B41,Central,176.0,27,81,male,4078.71
+P1319,2024-01-15,2024-01-15,Pediatrics,D079,dr. omar said,Heart Disease,Emergency,1387.78,privte,,Yes,B27,North,128.0,15,50,M,1168.53
+P1320,2024-07-13,2024-07-14,ONCOLOGY,D034,Ahmed Khalil,Migraine,OUTPATIENT,2607.27,Public,10.0,Y,B44,East,100.0,14,93,male,2795.85
+P1321,2024-12-25,2024-12-24,Pediatrics,D056,Dr. Omar Saeed,Heart Disease,Inpatient,1886.66,Public,2.0,n,B20,South,18.0,21,61,M,2008.83
+P1322,2024-06-14,2024-06-14,Oncology,D020,Dr Rana Elbaz,Asthma,Inpatient,1326.0,Private,1.0,Yes,,Central,171.0,19,37,F,1946.96
+P1323,2024-09-26,2024-10-01,ORTHO,D071,Dr. Omar Said,Asthma,Inpatient,2904.98,Private,7.0,n,B33,Central,26.0,1,88,female,3385.02
+P1324,2024-04-21,2024-04-22,ORTHO,D114,Dr. Ahmed Khalil,Migraine,Outpatient,258.35,Private,7.0,Yes,B49,North,109.0,13,56,male,811.89
+P1325,2024-10-25,2024-11-04,ONCOLOGY,D106,Dr. Omar Saeed,Cancer,Emergency,2695.95,publick,10.0,y,B06,West,34.0,22,65,F,3530.5
+P1326,2024-06-01,2024-06-02,Cardiology Dept.,D113,Dr. Yara Hamed,Heart Disease,inpatient,2230.73,publick,1.0,No,B47,North,132.0,7,83,male,2561.92
+P1327,2024-02-05,2024-02-05,Emergency,D017,Dr. Ahmed Khalil,Hypertension,inpatient,1280.99,Private,9.0,No,B23,South,46.0,25,79,female,1180.1
+P1328,2024-11-05,2024-11-16,Pediatrics,D065,dr. omar said,Cancer,Inpatient,2186.47,privte,4.0,y,B27,South,,21,53,female,2819.89
+,2024-10-19,2024-11-01,pediatric,D108,Dr. Omar Said,Heart Disease,OUTPATIENT,-2205.76,Self-Pay,2.0,y,B46,West,175.0,13,68,F,-1777.96
+P1330,2024-12-14,2024-12-25,pediatric,D117,Dr. Sarah Youssef,Heart Disease,inpatient,1026.17,Public,2.0,N,B19,South,144.0,18,6,M,1574.01
+P1331,2024-11-27,2024-12-07,cardio,D097,Dr Rana Elbaz,Hypertension,Emergency,1456.56,Public,9.0,No,B38,North,59.0,23,80,M,1709.27
+P1332,2024-05-05,2024-05-16,Orthopedics,D007,Dr. Sarah Yousef,Hypertension,Inpatient,3256.11,Self-Pay,8.0,n,B14,West,173.0,20,6,female,3717.71
+P1333,2024-11-26,2024-11-30,Orthopedics,D056,Dr. Sarah Yousef,Flu,Inpatient,2911.5,Public,7.0,No,B32,Central,101.0,15,62,F,3536.91
+P1334,2024-08-07,,ORTHO,D097,Dr. Yara Hamed,Diabetes,Emergency,1896.37,privte,5.0,n,B25,North,17.0,5,48,F,1980.8
+P1335,2024-07-15,2024-07-23,pediatric,D117,Dr. Ahmed Khalil,Hypertension,inpatient,856.91,publick,3.0,n,B30,Central,100.0,8,58,M,1423.48
+P1336,2024-04-29,2024-05-07,Cardiology Dept.,D049,Ahmed Khalil,Cancer,inpatient,1730.94,publick,1.0,n,B04,West,46.0,18,20,female,1764.79
+P1337,2024-11-28,2024-12-10,Cardiology Dept.,D066,Dr. Sarah Youssef,Cancer,Emergency,1807.74,Public,9.0,y,B19,North,158.0,17,33,F,1806.78
+P1338,2024-07-03,2024-07-12,Cardiology Dept.,D024,Dr. Sarah Youssef,Migraine,OUTPATIENT,1567.1,publick,10.0,No,B01,West,56.0,17,25,F,2387.16
+P1339,2024-08-24,2024-08-31,Oncology,D071,Ahmed Khalil,Flu,inpatient,1873.01,Public,6.0,n,B45,East,152.0,20,63,F,2187.87
+P1340,2024-05-07,2024-05-07,Cardiology,D048,Dr. Omar Saeed,Diabetes,Inpatient,1930.05,privte,10.0,n,,South,17.0,2,73,M,2594.55
+P1341,2024-11-11,2024-11-23,ORTHO,D016,Dr Rana Elbaz,Hypertension,inpatient,1144.63,self pay,9.0,N,B44,South,50.0,29,6,F,1169.54
+P1342,2024-03-26,2024-04-05,Pediatrics,D007,Dr. Yara Hamed,Hypertension,Inpatient,2806.4,self pay,5.0,y,B11,East,52.0,15,64,female,3141.52
+P1343,2024-03-11,2024-03-11,pediatric,D106,Dr. Omar Saeed,Heart Disease,Emergency,2412.24,privte,8.0,N,B35,Central,21.0,23,14,F,2661.95
+P1344,2024-11-07,2024-11-18,Oncology,D004,Dr Rana Elbaz,Fracture,Emergency,1241.75,Private,6.0,No,B34,East,149.0,10,85,F,1923.39
+P1345,2024-01-16,2024-01-17,Orthopedics,D008,Dr. Omar Said,Fracture,inpatient,1200.64,Private,9.0,y,B36,Central,129.0,10,85,female,1766.58
+P1346,2024-07-14,2024-07-27,ONCOLOGY,D026,Ahmed Khalil,Hypertension,Outpatient,3538.76,publick,4.0,n,B44,West,54.0,22,44,male,3806.37
+P1347,2024-08-13,2024-08-20,ONCOLOGY,D056,Ahmed Khalil,Migraine,inpatient,3314.7,self pay,1.0,No,B32,Central,74.0,12,48,male,3922.9
+P1348,2024-07-23,2024-07-30,Orthopedics,D031,Dr. Omar Saeed,Flu,Inpatient,2018.1,privte,1.0,Yes,,East,79.0,8,33,F,2096.44
+P1349,2024-04-24,2024-04-23,Emergency,D010,Dr. Sarah Yousef,Diabetes,Outpatient,1583.31,Private,5.0,n,B49,East,150.0,11,66,female,1609.08
+P1350,2024-08-20,2024-08-21,Cardiology Dept.,D024,Dr. Sarah Yousef,Migraine,Outpatient,538.67,self pay,10.0,y,B08,Central,98.0,18,57,male,1080.97
+P1351,2024-08-31,2024-09-13,cardio,D082,Dr. Omar Said,Fracture,Emergency,2741.49,Self-Pay,4.0,y,B22,West,127.0,12,2,female,3902.76
+P1352,2024-08-06,2024-08-08,ONCOLOGY,D077,Dr. Omar Saeed,Flu,OUTPATIENT,2853.38,publick,1.0,n,B46,North,77.0,18,15,male,3256.8
+P1353,2024-02-24,2024-03-02,cardio,D023,Dr. Sarah Yousef,Flu,Outpatient,3639.66,Public,4.0,y,B48,East,89.0,13,91,male,4053.9
+P1354,2024-07-11,,ONCOLOGY,D112,Dr. Yara Hamed,Hypertension,OUTPATIENT,1689.32,Self-Pay,9.0,Y,,North,84.0,9,12,M,2097.64
+P1355,2024-05-24,2024-05-26,ORTHO,D038,Dr. Omar Said,Migraine,OUTPATIENT,1835.1,privte,2.0,Yes,B33,North,81.0,7,56,female,2563.2
+P1356,2024-01-16,2024-01-22,Orthopedics,D036,Dr. Omar Saeed,Flu,Emergency,2476.39,privte,1.0,N,B12,East,55.0,2,36,M,2799.42
+P1357,2024-07-16,2024-07-18,Cardiology,D028,Ahmed Khalil,Migraine,OUTPATIENT,2843.89,Private,,N,B12,South,109.0,20,69,M,3287.82
+P1358,2024-07-11,,Cardiology,D023,Dr. Omar Saeed,Migraine,Emergency,982.86,privte,5.0,No,B49,Central,167.0,27,73,male,1453.35
+P1359,2024-06-13,2024-06-14,Oncology,D088,Dr. Rana Elbaz,Flu,inpatient,1805.55,privte,8.0,No,B26,Central,,16,57,male,2306.24
+P1360,2024-03-17,2024-03-29,Oncology,D055,Dr. Sarah Yousef,Fracture,Outpatient,1640.26,Public,4.0,y,,West,117.0,4,44,F,2659.83
+P1361,2024-05-23,2024-06-04,Orthopedics,D052,dr. omar said,Asthma,inpatient,1564.51,self pay,6.0,No,B44,South,151.0,7,44,F,2343.91
+P1362,2024-08-12,2024-08-13,Cardiology Dept.,D008,Dr. Sarah Yousef,Diabetes,Emergency,-2913.3,Private,6.0,Yes,B49,East,126.0,7,78,male,-2545.95
+P1363,2024-05-26,2024-06-09,Orthopedics,D093,Dr. Rana Elbaz,Diabetes,OUTPATIENT,1921.74,Public,5.0,Y,B36,South,,26,10,M,2089.35
+P1364,2024-09-04,2024-09-07,Emergency,D018,Dr Rana Elbaz,Migraine,Outpatient,2050.14,privte,,No,B29,West,120.0,19,65,female,2577.1
+P1365,2024-08-07,2024-08-17,Oncology,D112,Dr Rana Elbaz,Fracture,OUTPATIENT,2088.43,Public,2.0,Yes,B13,North,59.0,17,87,female,2400.53
+P1366,2024-11-13,2024-11-19,Pediatrics,D039,Dr. Yara Hamed,Heart Disease,Inpatient,1743.63,Private,5.0,N,B45,South,21.0,4,25,female,2251.06
+P1367,2024-10-23,2024-10-25,Emergency,,Dr. Ahmed Khalil,Diabetes,inpatient,1938.89,publick,4.0,n,B32,East,16.0,28,9,M,2394.63
+P1368,2024-08-31,2024-09-12,Cardiology Dept.,D059,Dr. Yara Hamed,Migraine,Outpatient,1950.1,Public,9.0,Y,B39,Central,152.0,28,86,F,2396.81
+P1369,2024-08-23,2024-09-05,Pediatrics,D038,Dr Rana Elbaz,Asthma,Outpatient,2057.5,publick,2.0,No,B09,East,176.0,27,73,F,2698.94
+P1370,2024-08-15,2024-08-26,pediatric,D022,dr. omar said,Asthma,Emergency,2205.94,privte,6.0,n,B48,North,171.0,20,38,female,2414.72
+P1371,2024-12-29,2024-12-30,pediatric,D074,Dr. Omar Said,Hypertension,Outpatient,1781.86,Public,1.0,Y,B44,Central,112.0,26,17,female,2354.76
+P1372,2024-04-03,2024-04-04,ORTHO,D050,Dr. Rana Elbaz,Cancer,Emergency,1716.68,Private,1.0,y,B32,North,49.0,3,3,F,2528.83
+P1373,2024-02-26,2024-03-04,cardio,D091,Dr. Omar Said,Diabetes,Emergency,785.24,privte,10.0,Y,B21,South,92.0,24,4,M,1258.47
+P1374,2024-02-22,2024-02-22,Pediatrics,,Dr. Ahmed Khalil,Heart Disease,inpatient,1495.98,Private,4.0,No,B36,West,112.0,8,81,M,2215.57
+P1375,2024-11-11,2024-11-17,Pediatrics,D039,Dr. Sarah Yousef,Diabetes,Inpatient,1505.52,publick,5.0,No,B45,North,71.0,12,13,F,1848.61
+P1376,2024-04-27,2024-05-04,Cardiology Dept.,D116,Dr. Rana Elbaz,Asthma,Emergency,2378.43,Public,4.0,y,B08,West,9.0,11,71,male,2684.76
+P1377,2024-06-15,2024-06-25,cardio,D023,dr. omar said,Asthma,inpatient,1247.68,Self-Pay,4.0,N,B06,North,157.0,6,2,female,1579.45
+P1378,2024-02-27,2024-03-10,Pediatrics,D095,Ahmed Khalil,Hypertension,Inpatient,2828.1,privte,8.0,Yes,B15,Central,137.0,10,48,M,3461.77
+P1379,2024-01-15,2024-01-24,Emergency,D103,dr. omar said,Fracture,Emergency,1599.69,self pay,2.0,N,B24,Central,98.0,29,91,female,2231.24
+P1380,2024-02-05,2024-02-15,Orthopedics,D054,Dr. Omar Said,Heart Disease,Outpatient,1675.01,Public,,n,B39,Central,147.0,4,3,male,1989.96
+P1381,2024-03-26,2024-04-03,pediatric,D103,Dr. Sarah Youssef,Hypertension,OUTPATIENT,2610.67,Private,,Y,B43,West,115.0,6,84,F,3264.07
+P1382,2024-04-28,2024-04-28,cardio,D076,Dr Rana Elbaz,Hypertension,Emergency,1868.49,Self-Pay,7.0,No,B21,East,13.0,17,70,M,2333.32
+P1383,2024-03-21,2024-04-03,Cardiology,D037,Dr. Omar Said,Fracture,OUTPATIENT,1719.32,self pay,8.0,Y,B47,East,30.0,13,80,M,1553.82
+P1384,2024-05-10,2024-05-18,Oncology,D102,Dr. Sarah Yousef,Fracture,Emergency,2181.35,Public,3.0,Y,B21,South,178.0,24,20,F,2512.88
+P1385,2024-10-09,2024-10-14,Cardiology,D037,Dr. Sarah Yousef,Heart Disease,Emergency,1830.0,Public,7.0,No,B23,North,158.0,9,93,F,2683.68
+P1386,2024-09-02,2024-09-15,pediatric,D092,Dr. Omar Said,Asthma,OUTPATIENT,1209.65,privte,,No,B29,North,95.0,5,42,F,1728.97
+P1387,2024-11-26,2024-11-30,ONCOLOGY,D067,Dr. Omar Saeed,Asthma,inpatient,1104.58,self pay,4.0,No,B06,West,159.0,21,66,female,1898.76
+P1388,2024-05-17,2024-05-16,cardio,D088,Dr. Omar Saeed,Diabetes,Emergency,1631.06,privte,4.0,No,B44,South,120.0,13,26,M,2358.03
+P1389,2024-05-27,2024-06-06,Orthopedics,D098,dr. omar said,Asthma,Emergency,1631.33,Self-Pay,6.0,No,B15,West,20.0,26,68,M,2019.31
+P1390,2024-09-16,2024-09-24,Emergency,D117,Dr Rana Elbaz,Hypertension,OUTPATIENT,1873.06,publick,10.0,Y,B28,West,83.0,13,1,M,2748.77
+P1391,2024-06-29,2024-06-29,Emergency,D101,Dr. Ahmed Khalil,Asthma,inpatient,1541.33,Public,2.0,N,B36,East,69.0,4,36,female,1958.38
+P1392,2024-01-19,2024-02-01,Cardiology Dept.,D115,Dr. Sarah Yousef,Flu,Inpatient,2397.12,publick,8.0,n,B14,Central,43.0,17,2,male,3519.64
+P1393,2024-02-01,2024-02-14,Oncology,D005,Dr. Rana Elbaz,Flu,OUTPATIENT,2593.97,self pay,9.0,y,B42,Central,148.0,10,43,F,2902.69
+P1394,2024-10-31,2024-11-14,ONCOLOGY,D079,Dr. Rana Elbaz,Hypertension,OUTPATIENT,1616.81,Public,4.0,No,B18,West,,18,57,M,2804.77
+P1395,2024-05-31,2024-06-14,Oncology,D112,Dr. Sarah Youssef,Heart Disease,Outpatient,1569.88,Self-Pay,5.0,n,B38,East,68.0,13,68,F,2266.5
+P1396,2024-07-18,2024-07-29,Emergency,D030,Dr. Omar Said,Heart Disease,Emergency,1110.53,publick,9.0,No,B29,East,73.0,3,90,female,1837.23
+,2024-11-28,2024-12-04,Pediatrics,D047,dr. omar said,Fracture,Inpatient,1058.43,self pay,,Yes,B18,Central,141.0,13,69,M,2104.59
+P1398,2024-09-18,2024-09-25,cardio,D057,Dr. Yara Hamed,Migraine,inpatient,2817.21,publick,5.0,Yes,B06,South,75.0,11,60,male,3592.89
+P1399,2024-01-24,2024-02-07,pediatric,D094,dr. omar said,Flu,inpatient,1827.23,privte,8.0,n,B30,West,89.0,8,57,male,2608.47
+,2024-07-01,2024-07-13,Emergency,D042,Dr Rana Elbaz,Migraine,inpatient,1787.5,privte,2.0,No,B41,Central,,1,83,male,2598.46
+P1401,2024-01-21,2024-01-23,Oncology,D079,Dr. Omar Said,Cancer,Outpatient,1290.14,Self-Pay,7.0,Yes,B33,South,137.0,11,23,male,2021.68
+P1402,2024-09-27,2024-09-25,cardio,D050,Dr Rana Elbaz,Cancer,OUTPATIENT,842.45,Public,4.0,n,B24,South,158.0,18,27,M,1324.69
+P1403,2024-08-13,2024-08-19,cardio,D051,Dr. Rana Elbaz,Cancer,Outpatient,885.81,Self-Pay,3.0,No,B07,East,154.0,8,50,M,1375.45
+P1404,2024-04-22,2024-05-02,Emergency,D106,Dr. Rana Elbaz,Cancer,OUTPATIENT,943.85,Private,1.0,Yes,B06,East,157.0,23,48,female,1392.48
+P1405,2024-12-03,2024-12-17,Oncology,D082,Dr. Sarah Youssef,Flu,Outpatient,1557.6,privte,,N,B41,West,125.0,2,37,M,2565.78
+P1406,2024-10-05,2024-10-15,Cardiology,D043,Dr. Sarah Yousef,Migraine,Emergency,895.34,Self-Pay,,n,B49,North,33.0,19,2,M,1257.25
+P1407,2024-02-26,2024-02-25,ONCOLOGY,D038,dr. omar said,Asthma,Emergency,2761.04,Public,2.0,No,B01,Central,29.0,21,27,M,3419.11
+P1408,2024-02-25,2024-03-03,ORTHO,D046,Dr. Rana Elbaz,Hypertension,Emergency,2051.08,Private,1.0,Y,B30,West,127.0,5,9,female,2209.57
+,2024-02-15,2024-02-23,pediatric,D002,Dr. Yara Hamed,Heart Disease,Emergency,2219.09,Private,,y,B27,West,178.0,3,2,male,2332.8
+P1410,2024-10-27,2024-10-31,ORTHO,D070,Dr. Sarah Youssef,Diabetes,Inpatient,655.7,privte,,Yes,B03,North,65.0,1,1,M,1472.06
+P1411,2024-01-31,2024-02-02,Emergency,D053,Dr Rana Elbaz,Fracture,OUTPATIENT,2232.76,Private,,Yes,B05,South,9.0,24,33,M,3020.11
+P1412,2024-08-02,2024-08-07,Oncology,D044,Dr. Ahmed Khalil,Diabetes,inpatient,3646.88,self pay,3.0,No,B23,South,43.0,18,77,M,4223.07
+P1413,2024-01-25,2024-02-06,Pediatrics,D099,Ahmed Khalil,Flu,Outpatient,2528.88,Self-Pay,8.0,Yes,B18,South,53.0,29,23,male,2649.45
+P1414,2024-07-03,2024-07-14,Cardiology Dept.,D082,Dr. Sarah Youssef,Cancer,Inpatient,1384.51,Self-Pay,6.0,Yes,B46,South,146.0,1,18,female,1929.09
+P1415,2024-11-02,2024-11-08,Pediatrics,D011,Dr. Rana Elbaz,Fracture,Outpatient,1918.94,self pay,3.0,Y,B26,South,105.0,29,94,F,1791.18
+P1416,2024-08-20,2024-09-03,Pediatrics,D088,Ahmed Khalil,Cancer,Emergency,1958.5,Public,7.0,No,B25,Central,25.0,2,9,M,2417.61
+P1417,2024-12-16,2024-12-19,Pediatrics,D046,Dr. Sarah Yousef,Hypertension,Emergency,3141.84,publick,7.0,N,B31,North,179.0,24,59,M,3516.01
+P1418,2024-06-11,2024-06-18,cardio,D026,Dr. Rana Elbaz,Migraine,Outpatient,2115.04,publick,2.0,y,B35,West,95.0,8,20,female,2092.91
+P1419,2024-10-05,2024-10-12,Oncology,D037,Ahmed Khalil,Diabetes,OUTPATIENT,858.66,self pay,5.0,Y,B43,West,104.0,26,2,M,1398.98
+P1420,2024-08-30,2024-09-11,Pediatrics,D055,dr. omar said,Flu,OUTPATIENT,3117.63,self pay,10.0,n,B14,Central,160.0,22,74,F,3908.44
+P1421,2024-09-27,2024-09-27,ONCOLOGY,D060,dr. omar said,Flu,Emergency,1221.81,self pay,6.0,n,B32,Central,29.0,18,23,F,1876.07
+P1422,2024-02-19,2024-02-29,Oncology,D100,Dr. Sarah Yousef,Hypertension,OUTPATIENT,870.52,privte,8.0,Yes,B02,East,85.0,2,15,M,1298.89
+P1423,2024-12-14,2024-12-28,ORTHO,D024,Ahmed Khalil,Asthma,inpatient,1201.89,self pay,3.0,No,B40,South,,15,79,M,1701.2
+,2024-08-15,2024-08-23,ORTHO,D116,Dr. Sarah Youssef,Fracture,inpatient,1235.61,Public,2.0,n,B28,North,128.0,27,82,M,1846.41
+P1425,2024-11-22,2024-12-03,ONCOLOGY,D047,Dr. Yara Hamed,Fracture,OUTPATIENT,1544.44,publick,2.0,Y,,South,104.0,5,7,male,2007.23
+P1426,2024-09-03,2024-09-08,Emergency,D069,Dr Rana Elbaz,Cancer,inpatient,1602.77,privte,7.0,Y,B31,South,136.0,15,20,female,1756.73
+P1427,2024-05-30,2024-06-12,Cardiology,D048,Dr. Yara Hamed,Cancer,OUTPATIENT,1189.31,Self-Pay,8.0,n,B25,East,38.0,20,78,F,1138.64
+P1428,2024-01-05,2024-01-14,Cardiology Dept.,D033,Dr. Ahmed Khalil,Migraine,Inpatient,2764.75,Self-Pay,4.0,y,B19,West,72.0,22,3,F,3306.35
+P1429,2024-09-15,2024-09-17,cardio,D055,Dr. Ahmed Khalil,Cancer,Emergency,2311.34,privte,4.0,n,B33,West,6.0,15,6,female,2811.55
+P1430,2024-12-12,2024-12-21,Orthopedics,D009,dr. omar said,Hypertension,OUTPATIENT,3108.63,Public,1.0,y,B35,Central,44.0,18,71,F,3665.01
+P1431,2024-10-17,2024-10-29,Oncology,,Ahmed Khalil,Heart Disease,Outpatient,2640.61,self pay,4.0,No,B46,Central,156.0,6,8,M,3022.96
+P1432,2024-11-07,2024-11-09,ORTHO,D113,Dr. Omar Said,Migraine,OUTPATIENT,822.37,publick,9.0,Y,B21,West,179.0,26,85,M,910.22
+P1433,2024-02-08,2024-02-10,Cardiology Dept.,D010,Dr. Ahmed Khalil,Asthma,OUTPATIENT,2067.29,self pay,7.0,No,B49,South,50.0,25,11,female,2466.72
+P1434,2024-11-03,2024-11-04,cardio,D102,Dr. Omar Said,Fracture,Outpatient,695.55,publick,2.0,n,B04,South,136.0,20,80,female,1212.13
+P1435,2024-02-29,2024-03-04,pediatric,D077,Dr. Yara Hamed,Fracture,Inpatient,-3278.66,Self-Pay,1.0,N,B36,West,110.0,25,24,M,-2558.59
+P1436,2024-08-30,2024-09-08,ORTHO,D112,Dr Rana Elbaz,Heart Disease,Outpatient,1851.26,Self-Pay,7.0,Y,B25,North,37.0,13,85,female,1871.44
+P1437,2024-08-10,2024-08-20,pediatric,D114,Dr. Rana Elbaz,Migraine,Inpatient,2185.99,Private,1.0,Y,B08,North,75.0,17,52,male,2956.44
+P1438,2024-01-26,2024-01-24,ORTHO,D080,dr. omar said,Asthma,Emergency,1988.25,privte,5.0,No,B08,West,117.0,6,38,female,1947.8
+P1439,2024-01-21,2024-01-27,Oncology,D096,Dr. Rana Elbaz,Cancer,Inpatient,1370.6,privte,3.0,y,B44,Central,171.0,11,35,F,2071.33
+P1440,2024-11-17,2024-11-16,ONCOLOGY,D076,Dr. Omar Saeed,Migraine,inpatient,1650.23,privte,,n,B06,East,100.0,27,20,female,1662.5
+P1441,2024-03-31,2024-04-02,cardio,D075,dr. omar said,Cancer,OUTPATIENT,2382.27,Self-Pay,8.0,Y,B33,South,12.0,27,54,male,2844.0
+P1442,2024-04-13,2024-04-22,ONCOLOGY,D030,Dr. Rana Elbaz,Asthma,OUTPATIENT,543.39,Public,3.0,Yes,B10,West,135.0,3,84,female,831.66
+P1443,2024-03-28,2024-04-07,pediatric,D100,Dr. Ahmed Khalil,Diabetes,Inpatient,1386.51,Self-Pay,9.0,Yes,B40,Central,142.0,8,54,female,1906.93
+P1444,2024-09-22,2024-10-01,ONCOLOGY,D039,Dr. Omar Said,Cancer,inpatient,2197.38,Private,7.0,Y,B49,East,,12,10,F,2398.79
+P1445,2024-02-28,2024-03-03,cardio,D071,Dr. Yara Hamed,Cancer,inpatient,895.52,Self-Pay,2.0,Y,B11,East,29.0,9,12,male,1264.67
+P1446,2024-07-20,2024-07-20,Cardiology,D093,Dr. Yara Hamed,Flu,inpatient,2470.8,self pay,10.0,Yes,B13,Central,171.0,2,15,female,3170.86
+P1447,2024-01-05,2024-01-13,Emergency,D077,Dr. Yara Hamed,Migraine,OUTPATIENT,2595.32,self pay,,Y,B41,South,41.0,11,88,F,3511.28
+P1448,2024-10-10,2024-10-13,Oncology,D025,Dr. Sarah Yousef,Migraine,Outpatient,2638.45,Public,6.0,Y,B01,West,74.0,19,6,M,2785.45
+P1449,2024-06-12,2024-06-19,cardio,D093,Dr. Sarah Yousef,Flu,Inpatient,455.32,privte,7.0,N,B26,Central,,21,17,M,753.03
+P1450,2024-03-19,2024-03-18,Orthopedics,D081,dr. omar said,Fracture,OUTPATIENT,1080.92,privte,8.0,y,B16,West,93.0,14,16,F,1657.74
+P1451,2024-03-23,2024-03-28,Emergency,D027,Dr. Rana Elbaz,Cancer,inpatient,2793.4,Self-Pay,9.0,Y,B14,West,154.0,24,67,F,3347.12
+P1452,2024-09-04,2024-09-16,ONCOLOGY,D087,Dr. Sarah Youssef,Heart Disease,inpatient,1719.42,Private,,y,B11,Central,,25,74,F,2933.76
+P1453,2024-12-12,2024-12-19,Cardiology,D079,Dr. Omar Saeed,Migraine,OUTPATIENT,2085.74,self pay,4.0,No,B24,West,41.0,16,70,M,2262.18
+P1454,2024-06-26,2024-06-26,pediatric,D013,Dr. Sarah Yousef,Cancer,Outpatient,3056.6,self pay,9.0,Yes,B24,West,174.0,9,31,female,3607.41
+P1455,2024-07-21,2024-07-27,ORTHO,D047,Ahmed Khalil,Hypertension,Outpatient,3355.28,privte,7.0,y,B07,North,60.0,15,18,M,3589.49
+P1456,2024-07-17,2024-07-23,pediatric,D085,Dr. Sarah Youssef,Asthma,OUTPATIENT,1562.41,Public,3.0,n,B23,East,46.0,21,88,female,1859.88
+P1457,2024-11-29,2024-11-30,Cardiology Dept.,D080,Dr. Sarah Youssef,Migraine,inpatient,2952.87,Private,2.0,Yes,B24,Central,18.0,22,26,M,3207.29
+P1458,2024-01-20,2024-01-19,Pediatrics,D003,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,3691.53,publick,10.0,Yes,B42,West,169.0,14,76,male,4304.08
+P1459,2024-09-06,,cardio,,Dr. Omar Said,Cancer,inpatient,1207.49,publick,8.0,y,B22,Central,126.0,2,49,F,1409.85
+P1460,2024-07-05,2024-07-03,Orthopedics,,Dr Rana Elbaz,Diabetes,Inpatient,2063.66,self pay,,n,B48,West,109.0,15,7,F,2791.31
+P1461,2024-02-25,,ORTHO,D066,Dr. Sarah Yousef,Asthma,inpatient,2779.08,Private,10.0,n,B20,Central,85.0,28,82,F,3055.02
+P1462,2024-05-28,2024-06-05,ONCOLOGY,D073,Dr. Ahmed Khalil,Heart Disease,Emergency,1845.04,publick,7.0,Yes,B39,Central,150.0,29,10,M,2507.12
+P1463,2024-07-30,2024-07-28,Cardiology,D091,dr. omar said,Diabetes,Emergency,1862.58,Self-Pay,,Yes,B34,North,154.0,9,60,M,2660.5
+P1464,2024-08-07,2024-08-21,Oncology,D085,dr. omar said,Heart Disease,Outpatient,3294.2,self pay,,No,B16,South,18.0,22,76,female,4262.18
+P1465,2024-07-07,2024-07-20,cardio,D010,Dr. Yara Hamed,Cancer,Inpatient,,self pay,,No,B34,South,5.0,28,48,male,
+P1466,2024-06-28,2024-06-26,cardio,D017,Dr. Sarah Youssef,Cancer,Emergency,2307.01,publick,10.0,n,B13,North,69.0,14,11,F,2902.72
+P1467,2024-08-20,2024-08-27,pediatric,D017,Dr. Rana Elbaz,Cancer,Emergency,1466.85,Public,6.0,y,B48,North,85.0,9,2,male,1820.19
+P1468,2024-02-28,2024-03-01,Pediatrics,D002,Dr. Sarah Youssef,Fracture,Inpatient,3271.15,Public,6.0,Yes,B32,West,135.0,10,16,F,3724.04
+P1469,2024-08-13,2024-08-22,ONCOLOGY,D117,Dr Rana Elbaz,Asthma,inpatient,3482.73,self pay,4.0,No,B20,South,19.0,21,82,M,4235.42
+P1470,2024-09-26,2024-10-03,Pediatrics,D017,Ahmed Khalil,Flu,Outpatient,2018.56,self pay,6.0,Y,B49,Central,163.0,6,63,F,2119.35
+P1471,2024-05-30,2024-06-07,Orthopedics,D089,Dr. Ahmed Khalil,Cancer,Emergency,257.63,self pay,,Yes,B16,South,158.0,9,28,M,892.47
+P1472,2024-11-27,2024-12-07,Cardiology Dept.,D105,dr. omar said,Diabetes,inpatient,1735.89,Public,1.0,Y,B04,Central,63.0,3,10,female,1835.64
+P1473,2024-07-15,2024-07-27,Pediatrics,D054,Dr. Rana Elbaz,Flu,inpatient,1773.02,Public,3.0,y,B40,South,167.0,10,58,male,1351.67
+P1474,2024-02-04,2024-02-09,pediatric,D011,Dr. Sarah Youssef,Heart Disease,inpatient,2622.38,Private,8.0,Y,B47,Central,90.0,14,75,F,3328.76
+P1475,2024-05-19,2024-05-24,ONCOLOGY,D077,Dr. Rana Elbaz,Cancer,inpatient,1509.61,self pay,6.0,No,B26,North,98.0,6,77,M,2105.6
+P1476,2024-08-19,2024-08-23,pediatric,D014,Dr. Rana Elbaz,Fracture,OUTPATIENT,874.45,privte,2.0,y,B20,East,81.0,15,33,M,1402.15
+,2024-10-02,2024-10-16,pediatric,D117,Dr. Omar Saeed,Cancer,Inpatient,1519.77,self pay,2.0,Yes,B43,North,51.0,17,51,F,1234.03
+P1478,2024-03-03,2024-03-01,ONCOLOGY,D056,Dr. Sarah Yousef,Diabetes,inpatient,967.58,privte,,n,B44,East,96.0,11,29,M,1889.75
+P1479,2024-12-18,2024-12-17,ORTHO,D116,dr. omar said,Asthma,Emergency,1033.13,privte,9.0,Y,B01,West,77.0,22,3,M,1388.04
+P1480,2024-08-20,2024-08-23,Cardiology Dept.,D071,Dr Rana Elbaz,Migraine,inpatient,2673.42,privte,10.0,n,B29,South,86.0,15,76,F,3097.8
+P1481,2024-12-19,2024-12-21,ORTHO,D079,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,2537.63,Self-Pay,9.0,N,,South,134.0,14,68,M,3262.7
+P1482,2024-09-27,2024-09-25,ONCOLOGY,D094,Dr. Omar Said,Heart Disease,Inpatient,,Private,8.0,y,B37,West,152.0,20,25,male,
+P1483,2024-09-17,2024-09-26,pediatric,D069,Dr Rana Elbaz,Heart Disease,Emergency,-2132.49,self pay,,Yes,B35,West,120.0,19,23,male,-850.9
+P1484,2024-01-27,2024-02-02,ORTHO,D024,dr. omar said,Hypertension,inpatient,1163.58,self pay,3.0,N,B15,Central,93.0,19,72,female,1655.7
+P1485,2024-06-27,2024-06-26,Emergency,D063,Dr. Yara Hamed,Migraine,Emergency,2113.03,self pay,1.0,Y,B49,East,,26,81,F,2587.3
+P1486,2024-06-11,2024-06-15,Cardiology Dept.,D027,Ahmed Khalil,Flu,OUTPATIENT,2934.01,Private,6.0,Y,B28,East,156.0,1,17,male,3216.82
+,2024-08-02,2024-08-11,Emergency,D020,Dr. Sarah Youssef,Cancer,inpatient,1116.5,Public,8.0,N,B07,South,74.0,26,10,female,1265.83
+P1488,2024-02-17,2024-02-24,pediatric,,Dr. Rana Elbaz,Flu,Emergency,1828.9,privte,,Y,B23,Central,56.0,13,61,female,2619.99
+P1489,2024-12-21,2024-12-26,ONCOLOGY,D070,Dr. Omar Said,Fracture,OUTPATIENT,2830.88,privte,6.0,N,B23,West,61.0,22,57,M,3358.83
+P1490,2024-06-15,2024-06-25,Cardiology,D096,Dr. Omar Saeed,Flu,inpatient,3190.72,publick,,Yes,B45,North,68.0,21,32,M,4024.2
+P1491,2024-02-27,2024-02-25,Cardiology Dept.,D026,Dr. Sarah Yousef,Flu,Inpatient,1362.12,Private,7.0,No,B09,West,130.0,27,53,male,1577.94
+P1492,2024-08-07,2024-08-10,Cardiology,D082,Dr. Omar Saeed,Migraine,OUTPATIENT,1346.88,privte,10.0,Yes,B42,North,153.0,29,17,female,2126.95
+P1493,2024-04-27,2024-04-28,Emergency,D027,Dr. Rana Elbaz,Diabetes,Inpatient,3108.39,publick,3.0,n,B01,North,115.0,29,3,male,3474.18
+P1494,2024-03-26,2024-03-27,pediatric,D119,Dr. Ahmed Khalil,Asthma,OUTPATIENT,2287.79,Public,,Y,B19,East,107.0,20,88,F,2638.2
+P1495,2024-10-31,2024-10-30,ONCOLOGY,D110,Ahmed Khalil,Diabetes,inpatient,1571.55,Private,2.0,No,B45,Central,73.0,26,86,female,1844.33
+P1496,2024-06-06,2024-06-12,Cardiology,D003,Dr. Ahmed Khalil,Migraine,OUTPATIENT,3779.91,publick,7.0,Y,B14,East,107.0,26,89,male,4725.59
+P1497,2024-04-08,2024-04-20,Pediatrics,D001,Dr. Yara Hamed,Asthma,Outpatient,2051.3,Public,10.0,No,B46,North,171.0,22,11,M,2459.32
+P1498,2024-01-31,2024-02-07,Emergency,,Ahmed Khalil,Flu,Outpatient,836.17,publick,,N,B22,Central,13.0,5,47,F,1149.76
+P1499,2024-11-23,2024-12-04,Emergency,D001,Dr. Yara Hamed,Flu,Inpatient,2751.45,self pay,2.0,Yes,B33,East,174.0,6,25,female,3212.73
+P1500,2024-09-14,2024-09-24,Emergency,D006,Dr Rana Elbaz,Asthma,Emergency,2270.69,publick,6.0,n,B25,Central,76.0,1,32,F,2472.91
+P1501,2024-12-29,2025-01-05,cardio,D043,Ahmed Khalil,Diabetes,inpatient,184.4,Self-Pay,2.0,n,B04,East,168.0,17,50,male,621.61
+P1502,2024-12-22,2024-12-24,cardio,D073,Dr. Rana Elbaz,Heart Disease,Outpatient,2023.54,Public,5.0,y,B17,West,129.0,25,92,male,2678.54
+P1503,2024-06-02,2024-06-14,Oncology,D119,Dr Rana Elbaz,Asthma,Emergency,2558.07,Public,7.0,Y,B11,East,65.0,16,84,F,2807.24
+P1504,2024-10-24,2024-10-25,Oncology,D035,Dr. Omar Saeed,Flu,Inpatient,1623.52,Private,2.0,n,B16,West,154.0,21,26,F,2433.42
+P1505,2024-12-22,2024-12-23,cardio,D038,dr. omar said,Hypertension,Emergency,1231.29,publick,8.0,n,B09,North,160.0,13,75,F,1890.4
+P1506,2024-12-13,2024-12-26,ORTHO,D007,Dr. Sarah Youssef,Heart Disease,Inpatient,2233.76,publick,2.0,Yes,B45,North,61.0,22,86,F,2935.51
+P1507,2024-03-09,2024-03-08,Emergency,D078,Dr. Omar Said,Hypertension,Inpatient,1108.14,Public,,Y,B43,South,132.0,16,19,male,1967.22
+P1508,2024-05-08,2024-05-22,Cardiology Dept.,D003,Dr. Sarah Youssef,Fracture,inpatient,2250.91,Self-Pay,1.0,n,B17,South,27.0,7,90,female,2950.72
+P1509,2024-04-02,2024-04-03,pediatric,D069,Dr. Omar Said,Fracture,Emergency,704.05,publick,6.0,Y,B28,West,71.0,21,51,M,1098.66
+P1510,2024-02-22,2024-02-23,cardio,,Dr. Sarah Yousef,Heart Disease,OUTPATIENT,3377.93,Self-Pay,10.0,No,B37,Central,133.0,19,29,F,3937.82
+P1511,2024-10-11,2024-10-09,Emergency,D026,Dr. Yara Hamed,Hypertension,Inpatient,1785.1,Private,,N,B35,Central,89.0,6,88,F,2735.22
+P1512,2024-02-24,2024-03-03,cardio,D102,Dr. Sarah Yousef,Migraine,inpatient,816.98,privte,3.0,y,B38,East,82.0,7,33,F,1818.66
+P1513,2024/13/45,2024-12-06,Cardiology,D049,Dr. Omar Said,Diabetes,Emergency,2030.03,publick,6.0,No,B23,South,78.0,13,13,male,2857.58
+P1514,2024-04-02,2024-03-31,cardio,D069,Dr. Rana Elbaz,Cancer,inpatient,2140.36,privte,10.0,Y,B08,East,155.0,15,52,F,2703.85
+P1515,2024-06-06,2024-06-07,pediatric,,Dr. Omar Said,Cancer,inpatient,2130.45,self pay,5.0,Y,B23,West,165.0,18,62,M,2311.7
+P1516,2024-06-29,2024-07-06,ONCOLOGY,D024,Dr. Sarah Youssef,Asthma,OUTPATIENT,2597.0,Private,5.0,n,B02,West,20.0,7,21,female,2893.55
+P1517,2024-10-05,2024-10-17,Cardiology,D110,Dr. Sarah Youssef,Fracture,OUTPATIENT,1883.63,Self-Pay,1.0,n,B41,North,76.0,10,93,F,2033.9
+P1518,2024-08-29,2024-09-01,Oncology,D109,Dr. Omar Said,Asthma,inpatient,739.68,Self-Pay,7.0,No,B27,East,86.0,13,4,M,1165.54
+P1519,2024-11-18,2024-11-29,ORTHO,D116,Dr. Yara Hamed,Hypertension,Emergency,1384.33,Public,6.0,Y,B14,East,92.0,1,10,F,1982.14
+P1520,2024-03-25,2024-04-07,Cardiology,D045,Dr. Sarah Youssef,Hypertension,Inpatient,3322.65,Public,8.0,Yes,B18,Central,153.0,29,33,M,4009.57
+P1521,2024-11-29,,Orthopedics,D069,Dr. Sarah Yousef,Cancer,inpatient,2528.93,Private,10.0,N,B19,East,69.0,18,50,F,3004.07
+P1522,2024-03-11,2024-03-09,Cardiology Dept.,D029,Dr. Ahmed Khalil,Flu,Emergency,2348.59,Private,9.0,No,B17,South,67.0,5,64,male,3015.92
+P1523,2024-09-07,2024-09-17,pediatric,D091,Dr. Ahmed Khalil,Asthma,OUTPATIENT,2159.69,Private,8.0,N,B17,South,54.0,24,46,female,2987.94
+P1524,2024-02-19,2024-02-19,Pediatrics,D118,dr. omar said,Flu,OUTPATIENT,2129.88,self pay,,Y,B09,North,,20,2,M,2312.69
+P1525,2024-09-13,2024-09-21,Orthopedics,D069,Ahmed Khalil,Heart Disease,Emergency,2470.91,self pay,8.0,Y,B09,South,129.0,6,89,M,3189.41
+P1526,2024-11-15,2024-11-28,Emergency,D031,dr. omar said,Fracture,inpatient,2608.78,privte,9.0,n,B05,East,51.0,13,1,F,3262.77
+P1527,2024-02-22,2024-02-27,Pediatrics,D029,Dr. Yara Hamed,Fracture,OUTPATIENT,2039.46,Private,6.0,No,B31,North,107.0,19,3,male,2756.2
+P1528,2024-04-12,2024-04-13,Orthopedics,D104,Dr. Sarah Yousef,Heart Disease,Outpatient,1189.96,publick,10.0,Y,,East,88.0,20,83,M,1757.04
+P1529,2024-04-24,2024-05-06,pediatric,D070,Dr Rana Elbaz,Heart Disease,Emergency,,privte,1.0,No,B45,South,64.0,29,77,female,
+P1530,2024-10-22,2024-10-20,Oncology,D072,Dr. Sarah Youssef,Diabetes,Inpatient,-1822.88,self pay,7.0,N,B02,North,42.0,16,70,female,-1371.69
+,2024-10-15,2024-10-20,ONCOLOGY,D036,dr. omar said,Flu,OUTPATIENT,1303.05,self pay,7.0,N,B28,North,124.0,6,33,female,1624.26
+P1532,2024-09-18,2024-09-25,pediatric,D071,Dr Rana Elbaz,Hypertension,OUTPATIENT,1941.93,publick,3.0,Yes,B32,South,74.0,22,55,M,2353.5
+P1533,2024-08-09,2024-08-19,Oncology,D045,Dr. Sarah Youssef,Asthma,Emergency,2028.89,Public,6.0,No,B02,Central,69.0,6,72,male,2665.54
+P1534,2024-08-10,2024-08-11,Cardiology Dept.,D033,Dr. Omar Saeed,Asthma,OUTPATIENT,1826.76,self pay,1.0,y,B03,South,178.0,27,52,F,2648.42
+P1535,2024-12-14,2024-12-20,Orthopedics,D092,Ahmed Khalil,Heart Disease,inpatient,-1755.63,self pay,10.0,No,B44,South,148.0,27,26,male,-1319.78
+P1536,2024-11-05,2024-11-09,Oncology,D018,Dr Rana Elbaz,Migraine,Emergency,3114.9,self pay,2.0,n,B39,West,60.0,7,54,female,3954.03
+P1537,2024-09-10,2024-09-10,cardio,D047,Dr. Rana Elbaz,Flu,OUTPATIENT,565.01,self pay,,y,B37,Central,125.0,22,62,M,621.82
+P1538,2024-04-03,2024-04-17,Pediatrics,D007,dr. omar said,Hypertension,Emergency,658.17,Private,5.0,n,B41,West,17.0,10,7,male,1139.84
+P1539,2024-10-25,2024-11-06,pediatric,,Dr Rana Elbaz,Asthma,Emergency,1400.96,privte,6.0,Y,B06,Central,116.0,28,32,male,2419.36
+P1540,2024-02-23,2024-03-03,pediatric,D093,dr. omar said,Flu,OUTPATIENT,1211.25,privte,4.0,Y,B22,North,139.0,4,6,F,2122.66
+P1541,2024-04-06,2024-04-09,pediatric,D113,Dr. Omar Saeed,Fracture,Outpatient,2395.63,publick,2.0,y,B35,West,35.0,20,45,F,3421.31
+P1542,2024-04-03,2024-04-03,Orthopedics,D065,Dr. Rana Elbaz,Diabetes,Inpatient,1964.68,publick,8.0,No,B24,West,147.0,16,25,female,1944.44
+P1543,2024-02-20,2024-03-03,Emergency,D012,dr. omar said,Hypertension,Outpatient,725.4,publick,8.0,n,B20,Central,19.0,23,51,M,1462.89
+P1544,2024-08-13,2024-08-27,Cardiology,D077,dr. omar said,Cancer,OUTPATIENT,1104.99,self pay,10.0,N,B06,Central,115.0,15,80,female,1333.02
+P1545,2024-05-24,2024-06-06,Oncology,D079,Dr. Ahmed Khalil,Diabetes,OUTPATIENT,2940.98,Private,,n,B38,West,177.0,3,80,M,3865.91
+P1546,2024-03-20,2024-03-19,Orthopedics,D026,Dr. Yara Hamed,Heart Disease,Outpatient,2618.59,publick,,No,B37,Central,28.0,27,94,F,3091.0
+P1547,2024-02-19,2024-02-19,ONCOLOGY,D027,Dr. Omar Saeed,Migraine,Outpatient,1134.47,Public,6.0,y,B20,East,125.0,10,13,male,1549.84
+P1548,2024-07-07,2024-07-07,Cardiology Dept.,D068,Dr. Sarah Youssef,Diabetes,Inpatient,1958.21,self pay,8.0,Yes,B20,North,162.0,25,30,F,2232.04
+P1549,2024-02-28,2024-03-06,cardio,D004,Dr. Sarah Yousef,Heart Disease,Outpatient,1275.23,Private,,n,B36,South,27.0,3,72,F,2165.71
+P1550,2024-11-02,2024-11-01,ONCOLOGY,D061,Dr Rana Elbaz,Asthma,inpatient,1446.87,Private,4.0,No,B07,South,27.0,6,11,F,2067.75
+P1551,2024-03-19,2024-03-28,Orthopedics,D064,dr. omar said,Fracture,inpatient,2365.63,privte,3.0,y,B26,South,25.0,15,33,male,2781.65
+P1552,2024-12-03,2024-12-05,cardio,D051,Dr. Sarah Yousef,Heart Disease,inpatient,1607.18,publick,1.0,y,B04,Central,127.0,5,89,F,1814.75
+P1553,2024-03-28,2024-04-01,Oncology,D026,Dr. Yara Hamed,Flu,OUTPATIENT,1877.23,Private,3.0,Y,B23,South,25.0,9,86,M,1754.1
+P1554,2024-09-22,2024-09-21,ONCOLOGY,D070,Dr. Omar Saeed,Flu,Outpatient,1811.78,Self-Pay,6.0,Y,B04,Central,21.0,22,22,M,2530.06
+P1555,2024-08-25,2024-09-04,Orthopedics,D090,dr. omar said,Flu,Inpatient,2676.86,Public,7.0,y,B14,Central,79.0,25,72,F,3353.84
+P1556,2024-05-30,,cardio,D068,Dr. Sarah Yousef,Heart Disease,OUTPATIENT,1794.74,publick,7.0,y,B39,Central,70.0,9,19,M,2738.18
+P1557,2024/13/45,2024-03-27,cardio,D061,Dr. Ahmed Khalil,Hypertension,Inpatient,2810.59,publick,9.0,Yes,,West,89.0,2,9,F,3409.62
+P1558,2024-11-30,2024-12-09,Emergency,D106,Dr. Yara Hamed,Diabetes,Inpatient,1348.79,privte,,Yes,B10,South,90.0,6,62,M,1803.1
+P1559,2024-04-25,2024-05-09,Pediatrics,D051,Dr. Sarah Youssef,Diabetes,inpatient,1487.45,Self-Pay,2.0,n,B10,West,67.0,2,36,F,1595.77
+P1560,2024-05-20,2024-05-23,cardio,D093,Dr. Sarah Youssef,Cancer,Emergency,1458.02,Self-Pay,9.0,Yes,B04,South,99.0,28,18,male,2030.92
+P1561,2024-03-01,,ORTHO,D083,dr. omar said,Flu,Emergency,2098.58,publick,8.0,N,B10,South,133.0,24,12,M,2833.82
+P1562,2024-07-26,2024-07-24,ONCOLOGY,D080,Dr. Sarah Youssef,Cancer,OUTPATIENT,1281.58,publick,3.0,y,B13,East,128.0,29,32,female,2052.38
+P1563,2024-09-10,2024-09-23,Emergency,D103,Dr. Yara Hamed,Hypertension,Emergency,1738.56,privte,3.0,y,B20,South,22.0,7,56,F,2172.25
+P1564,2024-07-02,2024-07-15,Oncology,D007,Ahmed Khalil,Fracture,inpatient,-1266.11,publick,9.0,Yes,B15,East,30.0,1,90,male,-1315.01
+P1565,2024-09-06,2024-09-06,Orthopedics,D062,Dr. Sarah Yousef,Migraine,Outpatient,2492.77,Public,,Y,B18,West,138.0,3,81,male,2389.58
+P1566,2024-01-17,2024-01-16,Oncology,D116,Dr. Ahmed Khalil,Asthma,Inpatient,2244.91,Private,4.0,y,B26,West,41.0,16,40,female,2661.21
+P1567,2024-11-12,2024-11-26,Cardiology,D076,Dr. Sarah Yousef,Migraine,inpatient,2081.53,Private,7.0,n,B48,South,60.0,9,71,male,1541.46
+P1568,2024-10-02,,Cardiology Dept.,D009,Dr Rana Elbaz,Heart Disease,Emergency,1732.58,Private,2.0,Y,,Central,104.0,19,6,M,2253.09
+P1569,2024-10-03,2024-10-11,Cardiology,D012,dr. omar said,Cancer,Inpatient,3360.34,publick,,Y,B40,East,144.0,22,2,female,4010.69
+P1570,2024-10-31,2024-11-06,Cardiology,D087,Dr. Ahmed Khalil,Fracture,Emergency,-2008.88,privte,3.0,Yes,B18,North,51.0,26,13,F,-1440.23
+P1571,2024-07-13,2024-07-13,Cardiology Dept.,D094,dr. omar said,Asthma,inpatient,1203.08,publick,4.0,n,B16,South,62.0,24,21,M,1698.22
+P1572,2024-09-25,2024-09-26,Oncology,D114,dr. omar said,Asthma,Inpatient,2925.47,publick,2.0,n,B26,East,73.0,11,48,F,3334.6
+P1573,2024-12-05,2024-12-14,Emergency,D074,Dr. Ahmed Khalil,Hypertension,Emergency,3076.88,privte,1.0,y,B12,West,,6,19,M,3762.31
+P1574,2024-09-16,2024-09-24,Orthopedics,D092,Ahmed Khalil,Asthma,Inpatient,2307.36,Self-Pay,6.0,Y,B07,West,28.0,22,51,female,2697.8
+P1575,2024-08-17,2024-08-15,Orthopedics,D077,Dr. Sarah Yousef,Fracture,Inpatient,1597.41,Public,8.0,y,B23,West,103.0,12,49,F,1542.69
+P1576,2024-02-21,2024-03-01,ONCOLOGY,D048,dr. omar said,Hypertension,Inpatient,1776.36,Public,4.0,n,B42,Central,139.0,23,45,F,2059.92
+P1577,2024-07-17,2024-07-28,Emergency,D087,Dr. Yara Hamed,Asthma,Emergency,2438.13,publick,3.0,No,B26,North,,20,8,M,2956.44
+P1578,2024-01-21,2024-01-29,Orthopedics,D077,Dr. Ahmed Khalil,Hypertension,inpatient,702.03,publick,2.0,N,B01,Central,146.0,13,54,male,1427.03
+P1579,2024-05-15,2024-05-23,pediatric,D117,Ahmed Khalil,Hypertension,Emergency,2191.82,Self-Pay,3.0,y,B28,East,32.0,25,61,male,2597.49
+P1580,2024-12-27,2025-01-05,Cardiology Dept.,D056,Dr. Ahmed Khalil,Flu,Emergency,723.55,publick,7.0,n,B35,South,146.0,24,16,male,980.91
+P1581,2024-12-25,2024-12-30,ONCOLOGY,D012,Dr. Yara Hamed,Migraine,Emergency,1246.36,Self-Pay,8.0,n,B40,West,18.0,27,93,M,2005.64
+P1582,2024-04-09,2024-04-07,ONCOLOGY,D101,Dr. Ahmed Khalil,Asthma,OUTPATIENT,-166.04,privte,2.0,Yes,,Central,49.0,26,76,male,377.09
+P1583,2024-01-19,2024-01-20,Cardiology,D054,Dr. Sarah Youssef,Hypertension,Emergency,1932.23,self pay,2.0,Yes,B29,North,130.0,27,59,M,2437.07
+P1584,2024-12-25,2024-12-28,ONCOLOGY,D069,Dr. Rana Elbaz,Fracture,Emergency,,publick,5.0,N,B21,North,85.0,18,20,male,
+P1585,2024-01-16,2024-01-28,Cardiology,D021,Ahmed Khalil,Asthma,inpatient,1869.35,privte,2.0,Yes,B39,Central,30.0,15,35,F,2725.1
+P1586,2024-12-08,2024-12-22,Emergency,D030,Dr. Yara Hamed,Hypertension,inpatient,3211.98,Private,2.0,y,B40,South,57.0,7,36,male,3160.49
+P1587,2024-07-19,2024-07-22,ONCOLOGY,D108,Ahmed Khalil,Cancer,Emergency,2404.83,Self-Pay,2.0,Y,B42,West,97.0,4,27,F,3063.31
+P1588,2024-01-25,2024-01-31,Pediatrics,D004,dr. omar said,Cancer,OUTPATIENT,2649.36,Private,7.0,No,B46,West,137.0,3,21,male,3248.94
+P1589,2024-11-03,,Oncology,D055,Dr. Ahmed Khalil,Diabetes,Emergency,1236.31,Public,1.0,n,B41,West,87.0,9,69,F,1891.77
+P1590,2024-10-06,2024-10-18,ORTHO,D003,Ahmed Khalil,Fracture,Outpatient,-2726.58,privte,7.0,Yes,,North,49.0,21,31,M,-2092.64
+P1591,2024-03-31,2024-04-07,cardio,D058,Ahmed Khalil,Hypertension,Outpatient,1972.83,publick,1.0,N,B14,North,78.0,8,12,M,2787.59
+P1592,2024-04-01,2024-04-13,ONCOLOGY,D103,Dr. Sarah Yousef,Diabetes,inpatient,1384.98,Private,7.0,Yes,B47,West,150.0,10,22,male,1968.49
+P1593,2024-08-23,2024-08-21,Oncology,D004,dr. omar said,Fracture,Inpatient,2319.26,Private,7.0,Y,B49,South,147.0,2,37,M,2829.9
+P1594,2024-09-19,2024-10-02,cardio,D116,Dr. Sarah Youssef,Cancer,inpatient,2207.31,self pay,3.0,Yes,B16,East,112.0,10,66,M,2561.91
+P1595,2024-05-24,2024-05-24,Oncology,D019,Dr Rana Elbaz,Diabetes,Inpatient,,self pay,,n,B28,South,8.0,19,87,F,
+P1596,2024-08-02,2024-08-12,Cardiology,D040,Dr. Sarah Youssef,Asthma,Emergency,1178.41,Self-Pay,2.0,n,B02,West,54.0,27,28,F,1161.91
+P1597,2024-02-29,2024-03-07,ORTHO,D037,Dr. Sarah Youssef,Cancer,OUTPATIENT,-2638.71,Self-Pay,,y,B15,Central,80.0,22,94,male,-1916.48
+P1598,2024-07-17,2024-07-25,Cardiology Dept.,D089,dr. omar said,Asthma,inpatient,2101.65,Self-Pay,9.0,N,B24,West,52.0,21,2,male,2886.4
+P1599,2024-09-23,2024-10-02,Cardiology,D072,Dr. Rana Elbaz,Asthma,OUTPATIENT,1856.75,Public,10.0,y,B08,Central,125.0,9,71,male,2022.97
+P1600,2024-03-30,2024-04-10,ORTHO,D052,Dr Rana Elbaz,Heart Disease,Inpatient,2515.28,publick,1.0,Y,B05,North,115.0,3,47,M,2572.4
+P1601,2024-02-05,,Cardiology,D092,Dr. Sarah Yousef,Fracture,Emergency,3444.46,privte,3.0,No,B26,South,32.0,11,22,female,3728.4
+P1602,2024-01-13,2024-01-11,Orthopedics,D090,Dr. Sarah Youssef,Migraine,Outpatient,,privte,5.0,Yes,B46,South,63.0,8,14,F,
+P1603,2024-03-02,2024-03-11,Cardiology Dept.,D096,Dr. Omar Saeed,Heart Disease,inpatient,2877.58,publick,2.0,n,B16,West,51.0,17,32,female,3220.67
+P1604,2024-03-21,2024-03-24,pediatric,D103,Ahmed Khalil,Heart Disease,OUTPATIENT,829.92,publick,1.0,Yes,B46,South,5.0,8,88,F,1719.64
+P1605,2024-09-29,2024-10-10,Cardiology,D112,dr. omar said,Diabetes,Emergency,1799.81,self pay,10.0,Y,B29,South,37.0,24,86,M,2204.47
+P1606,2024-01-21,2024-01-24,Emergency,D109,Dr. Rana Elbaz,Hypertension,Outpatient,1705.77,self pay,4.0,n,,Central,57.0,23,77,M,2416.53
+P1607,2024-01-17,2024-01-22,ORTHO,D021,Dr Rana Elbaz,Heart Disease,Outpatient,2893.35,publick,10.0,n,B49,North,,22,13,male,3462.97
+P1608,2024-05-25,2024-06-08,Pediatrics,D118,Dr. Rana Elbaz,Cancer,OUTPATIENT,1850.37,privte,3.0,Y,B11,Central,178.0,14,85,M,2936.79
+P1609,2024-03-15,2024-03-20,ONCOLOGY,D111,Dr. Yara Hamed,Flu,Inpatient,3551.23,Self-Pay,,n,B31,West,179.0,13,78,M,4307.03
+P1610,2024-07-08,2024-07-22,Cardiology Dept.,D056,Dr. Sarah Youssef,Asthma,Inpatient,2076.06,Self-Pay,1.0,y,B39,East,147.0,20,9,M,2830.52
+P1611,2024-01-21,2024-01-27,cardio,D012,Dr. Omar Said,Fracture,inpatient,389.13,Self-Pay,4.0,Y,B26,East,,18,2,F,983.14
+P1612,2024-03-17,2024-03-22,Oncology,D006,Dr. Ahmed Khalil,Fracture,Outpatient,3194.13,Self-Pay,10.0,Yes,B43,North,29.0,12,13,F,3892.08
+P1613,2024-04-11,2024-04-12,pediatric,D060,Dr. Omar Saeed,Fracture,OUTPATIENT,1567.95,privte,2.0,n,B46,East,12.0,22,87,M,2161.65
+P1614,2024/13/45,2024-10-12,Oncology,D068,Dr. Rana Elbaz,Hypertension,Outpatient,1317.0,Private,,Yes,,West,66.0,22,5,F,1606.77
+P1615,2024-05-20,2024-05-27,Cardiology,D038,Dr. Ahmed Khalil,Cancer,Inpatient,1640.8,privte,6.0,n,B23,East,,17,68,M,2342.89
+P1616,2024-10-26,2024-11-07,Orthopedics,D080,Dr. Ahmed Khalil,Flu,Outpatient,1692.49,privte,7.0,N,B31,Central,81.0,12,78,F,2130.76
+P1617,2024-02-19,2024-02-28,cardio,D017,Dr. Sarah Yousef,Flu,OUTPATIENT,2105.36,publick,8.0,Y,B32,West,136.0,5,79,M,3196.4
+P1618,2024-01-01,2024-01-10,ONCOLOGY,D017,Dr. Yara Hamed,Asthma,Outpatient,1618.5,Self-Pay,4.0,No,B33,South,24.0,1,13,female,2621.63
+P1619,2024-03-09,2024-03-20,cardio,D112,Dr. Rana Elbaz,Hypertension,inpatient,993.58,Self-Pay,6.0,n,B26,North,46.0,26,19,F,1757.33
+P1620,2024-12-29,2025-01-04,pediatric,D066,Dr. Yara Hamed,Diabetes,OUTPATIENT,2014.34,publick,7.0,N,B09,West,144.0,3,54,M,2389.28
+P1621,2024-03-19,2024-03-20,Emergency,D015,Dr. Yara Hamed,Diabetes,Outpatient,1457.83,privte,,Y,B28,West,150.0,16,16,M,1857.18
+P1622,2024-06-17,2024-06-22,ONCOLOGY,D024,dr. omar said,Fracture,Outpatient,678.47,self pay,1.0,n,B48,South,38.0,12,23,female,1106.79
+P1623,2024-12-19,2024-12-31,ORTHO,D096,Ahmed Khalil,Fracture,inpatient,1298.64,self pay,6.0,Yes,,South,51.0,24,18,female,1996.78
+P1624,2024-06-14,2024-06-21,ORTHO,D039,Dr. Ahmed Khalil,Asthma,Outpatient,2099.23,Self-Pay,4.0,N,B06,South,155.0,16,2,F,3168.3
+P1625,2024-04-10,2024-04-24,Orthopedics,D062,Dr. Omar Saeed,Hypertension,Emergency,1755.6,self pay,3.0,Yes,B08,North,16.0,23,47,F,2664.32
+P1626,2024-02-26,2024-02-25,Cardiology Dept.,D017,Dr. Rana Elbaz,Diabetes,Inpatient,916.71,self pay,,No,B23,West,15.0,14,52,F,838.77
+P1627,2024-04-02,2024-04-09,Oncology,D021,dr. omar said,Cancer,Inpatient,2224.98,self pay,4.0,Yes,B03,West,150.0,8,62,female,3171.86
+P1628,2024-01-08,2024-01-14,Cardiology,D034,Dr. Sarah Youssef,Cancer,inpatient,1518.8,Self-Pay,10.0,y,B18,North,79.0,14,19,F,2181.96
+P1629,2024-10-06,2024-10-17,ORTHO,D062,Dr. Sarah Youssef,Hypertension,Emergency,2323.13,self pay,10.0,No,B37,North,69.0,20,3,M,2788.51
+P1630,2024-11-10,2024-11-12,Cardiology,D115,Dr Rana Elbaz,Cancer,inpatient,2559.16,privte,1.0,n,B41,Central,163.0,13,1,male,2870.45
+P1631,2024-10-28,2024-11-09,ORTHO,D015,Dr Rana Elbaz,Hypertension,Outpatient,4019.77,Public,6.0,Yes,B14,South,144.0,24,78,female,4100.8
+P1632,2024-11-29,,ORTHO,D075,dr. omar said,Cancer,Inpatient,1085.33,Self-Pay,,Yes,B24,North,73.0,3,83,F,1488.29
+P1633,2024-02-11,2024-02-14,cardio,D025,Dr Rana Elbaz,Cancer,OUTPATIENT,2146.4,Self-Pay,3.0,y,B03,Central,151.0,20,28,female,2396.11
+P1634,2024-08-13,2024-08-26,Orthopedics,D018,dr. omar said,Asthma,Inpatient,2301.51,privte,2.0,N,B46,South,118.0,5,21,male,2488.96
+P1635,2024-09-01,2024-09-12,Pediatrics,D104,Dr. Sarah Yousef,Asthma,inpatient,1875.34,self pay,3.0,No,B23,Central,179.0,29,15,M,2355.7
+P1636,2024-11-10,2024-11-10,Oncology,D016,Dr. Rana Elbaz,Cancer,Emergency,1199.45,publick,9.0,Yes,B37,West,73.0,24,4,female,1541.38
+P1637,2024-02-01,2024-02-02,Oncology,D078,Dr. Yara Hamed,Migraine,OUTPATIENT,932.01,Public,10.0,No,B42,East,105.0,4,13,male,1692.85
+P1638,2024-06-19,2024-06-30,Cardiology,D031,Ahmed Khalil,Heart Disease,Outpatient,3975.53,Private,8.0,Y,B27,North,74.0,8,62,F,4146.49
+P1639,2024-07-17,2024-07-16,Orthopedics,D063,Dr. Omar Saeed,Flu,inpatient,1405.03,publick,3.0,y,B45,West,143.0,27,52,M,2059.27
+P1640,2024-10-03,2024-10-16,Pediatrics,D033,Dr. Sarah Yousef,Heart Disease,Emergency,1046.5,Self-Pay,,y,B29,West,11.0,25,5,M,2129.56
+P1641,2024-04-18,2024-04-21,Cardiology,D053,Dr. Ahmed Khalil,Flu,Inpatient,1685.25,Public,7.0,n,B48,South,135.0,11,90,M,1612.49
+P1642,2024-04-14,2024-04-19,pediatric,D025,Dr. Yara Hamed,Flu,inpatient,1800.82,self pay,9.0,Y,B24,Central,112.0,24,60,M,2395.06
+P1643,2024-07-14,2024-07-26,Orthopedics,D043,Dr. Omar Said,Flu,Outpatient,1520.55,privte,5.0,No,B27,North,46.0,18,63,female,2238.7
+P1644,2024-07-09,2024-07-23,Pediatrics,D057,Dr. Omar Said,Cancer,Emergency,2637.97,Public,10.0,Yes,B22,East,142.0,7,27,F,3586.81
+P1645,2024-01-01,2024-01-15,ORTHO,D100,Dr. Ahmed Khalil,Flu,inpatient,2062.07,self pay,3.0,y,B38,Central,85.0,12,89,male,2236.49
+P1646,2024-10-05,2024-10-19,Cardiology,D032,Ahmed Khalil,Heart Disease,inpatient,1875.42,Self-Pay,8.0,n,B30,South,98.0,25,85,male,2269.66
+P1647,2024-04-14,2024-04-27,Emergency,D118,dr. omar said,Heart Disease,OUTPATIENT,2989.74,publick,3.0,N,B48,North,58.0,14,6,M,3413.4
+P1648,2024-09-26,2024-09-25,ORTHO,D040,Dr. Yara Hamed,Asthma,inpatient,1716.88,Self-Pay,1.0,y,B16,South,164.0,27,60,M,2269.71
+P1649,2024-08-03,2024-08-10,Pediatrics,D030,dr. omar said,Flu,Inpatient,2758.51,publick,4.0,N,B04,South,153.0,5,23,female,3166.73
+P1650,2024-08-21,2024-09-03,Orthopedics,D047,Dr. Rana Elbaz,Fracture,Emergency,3534.89,self pay,3.0,No,B28,Central,137.0,10,73,female,3928.91
+P1651,2024-10-17,2024-10-27,ONCOLOGY,D006,Dr. Ahmed Khalil,Fracture,OUTPATIENT,1653.38,Private,1.0,n,B05,South,57.0,17,39,F,2236.91
+P1652,2024-05-09,2024-05-12,Emergency,D050,dr. omar said,Flu,Emergency,2446.0,Public,6.0,No,,Central,114.0,3,44,F,2919.48
+P1653,2024-04-15,2024-04-23,Oncology,D013,Dr. Ahmed Khalil,Diabetes,OUTPATIENT,1358.51,privte,7.0,N,B39,South,14.0,27,53,male,1876.84
+P1654,2024-07-04,2024-07-14,Pediatrics,D119,dr. omar said,Hypertension,Outpatient,2812.75,publick,5.0,n,B18,South,13.0,28,63,F,3191.74
+P1655,2024-10-13,2024-10-15,ONCOLOGY,D106,Dr. Yara Hamed,Heart Disease,Emergency,2487.9,privte,,Yes,B21,South,34.0,26,79,F,2975.93
+P1656,2024-10-13,2024-10-18,ORTHO,D001,Dr. Yara Hamed,Asthma,inpatient,785.76,Public,8.0,No,B02,Central,,1,44,male,1434.74
+P1657,2024-09-11,2024-09-24,Oncology,D018,Dr. Omar Said,Diabetes,Outpatient,3066.29,Public,3.0,N,B24,Central,66.0,27,68,F,3289.29
+P1658,2024-12-23,2024-12-28,Emergency,D076,Dr Rana Elbaz,Migraine,Outpatient,1465.62,Public,9.0,No,,West,114.0,7,24,F,2558.06
+P1659,2024-07-22,2024-07-21,Emergency,D107,Dr. Rana Elbaz,Flu,Inpatient,209.37,privte,1.0,No,B34,South,171.0,17,62,F,663.04
+P1660,2024-07-25,2024-07-28,Orthopedics,D045,Dr Rana Elbaz,Heart Disease,inpatient,684.01,Private,,Yes,B37,West,164.0,2,79,F,1012.42
+P1661,2024-12-23,2024-12-22,pediatric,D074,Dr. Rana Elbaz,Fracture,OUTPATIENT,1005.13,self pay,,y,B23,South,,6,66,F,1792.69
+P1662,2024-04-11,2024-04-11,pediatric,D039,Dr Rana Elbaz,Migraine,inpatient,3951.09,Private,4.0,N,B02,East,14.0,6,21,female,4701.53
+P1663,2024-10-26,2024-11-01,Emergency,D070,Dr. Ahmed Khalil,Fracture,OUTPATIENT,1311.59,Public,4.0,No,B13,North,177.0,27,26,M,1545.24
+P1664,2024-06-15,2024-06-16,Emergency,,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,2482.96,publick,6.0,Y,B26,North,27.0,18,78,M,3015.29
+P1665,2024-10-01,2024-10-13,cardio,D051,Dr Rana Elbaz,Hypertension,Emergency,2882.98,Public,5.0,Yes,B40,Central,54.0,15,33,male,3267.63
+P1666,2024-04-11,2024-04-15,ORTHO,D086,Dr. Ahmed Khalil,Hypertension,OUTPATIENT,2559.44,self pay,4.0,Yes,B38,West,50.0,8,58,M,2782.17
+P1667,2024-10-10,2024-10-20,Cardiology Dept.,D110,Ahmed Khalil,Cancer,inpatient,1702.94,privte,1.0,Yes,B24,West,48.0,8,57,male,2198.09
+P1668,2024-07-04,2024-07-07,ORTHO,D003,Dr. Sarah Yousef,Migraine,Inpatient,1900.44,Private,10.0,No,B08,North,138.0,6,68,M,2075.64
+P1669,2024-08-28,2024-09-06,Orthopedics,D099,Dr. Sarah Youssef,Flu,Outpatient,2355.92,Private,8.0,n,B03,East,131.0,4,76,female,3111.13
+P1670,2024-02-10,2024-02-17,Oncology,D039,Dr. Yara Hamed,Cancer,inpatient,,self pay,,No,B49,North,70.0,11,34,male,
+P1671,2024-09-14,2024-09-18,Orthopedics,D072,Dr Rana Elbaz,Heart Disease,OUTPATIENT,2138.41,Self-Pay,6.0,No,B17,East,127.0,25,9,F,2614.18
+P1672,2024-11-19,2024-11-29,Cardiology,D094,Dr. Yara Hamed,Flu,Outpatient,1566.24,privte,1.0,Yes,B14,North,88.0,25,68,female,2292.35
+P1673,2024-03-20,2024-03-27,pediatric,D071,Dr Rana Elbaz,Fracture,inpatient,2103.59,Public,3.0,No,B03,South,47.0,26,4,F,2850.71
+P1674,2024-04-12,2024-04-19,ORTHO,D065,Dr. Ahmed Khalil,Asthma,inpatient,1018.2,Self-Pay,8.0,n,B15,South,130.0,7,28,male,1577.9
+P1675,2024-05-15,2024-05-13,Pediatrics,D052,Dr. Yara Hamed,Hypertension,OUTPATIENT,1992.08,privte,,Yes,B12,North,17.0,28,65,male,2404.95
+P1676,2024-12-17,2024-12-31,Oncology,D109,Dr. Rana Elbaz,Fracture,inpatient,2355.32,publick,7.0,N,B37,South,,5,33,F,3369.49
+P1677,2024-05-18,2024-05-24,cardio,D083,Dr. Omar Saeed,Diabetes,inpatient,2160.21,Self-Pay,,Yes,B22,North,41.0,2,77,F,2258.06
+P1678,2024-06-10,2024-06-18,Emergency,D039,Dr. Rana Elbaz,Hypertension,OUTPATIENT,1744.14,privte,7.0,n,B23,South,38.0,16,61,male,2395.57
+P1679,2024-12-30,2025-01-08,Cardiology,D076,Dr. Yara Hamed,Migraine,OUTPATIENT,2054.5,Self-Pay,10.0,n,B32,South,84.0,6,67,M,2125.02
+P1680,2024-04-29,2024-05-12,ORTHO,D015,dr. omar said,Diabetes,Outpatient,2299.98,Private,5.0,Yes,B32,East,,13,85,female,2908.76
+P1681,2024-05-10,2024-05-24,cardio,D081,Dr. Sarah Yousef,Flu,Inpatient,1575.1,publick,7.0,y,B32,West,20.0,24,24,M,1879.91
+P1682,2024-09-28,2024-10-08,pediatric,D092,Dr. Sarah Youssef,Flu,Outpatient,1738.68,privte,3.0,y,B11,Central,38.0,26,74,M,1383.67
+P1683,2024-08-23,2024-08-25,Cardiology Dept.,D061,Dr. Rana Elbaz,Flu,OUTPATIENT,2435.67,Self-Pay,,No,B11,East,159.0,10,43,M,3795.23
+P1684,2024-05-23,2024-05-22,Cardiology Dept.,D092,Dr. Yara Hamed,Asthma,Emergency,1278.41,privte,9.0,y,B17,East,102.0,19,48,M,2164.08
+P1685,2024-06-27,2024-06-27,ORTHO,D081,Dr. Sarah Youssef,Flu,Emergency,1954.35,privte,4.0,N,B37,Central,,29,39,F,2392.08
+P1686,2024-01-25,2024-01-26,Cardiology,D059,dr. omar said,Heart Disease,inpatient,3057.05,Public,,y,,North,87.0,11,56,female,3933.58
+,2024-07-13,2024-07-16,Emergency,D076,Dr. Yara Hamed,Asthma,Inpatient,2549.37,publick,,No,B22,South,140.0,25,27,male,3091.1
+P1688,2024-09-17,2024-09-16,Emergency,,Dr. Omar Saeed,Asthma,Inpatient,2530.11,Public,8.0,No,B31,South,111.0,8,43,F,3347.68
+P1689,2024-07-03,2024-07-14,pediatric,D054,dr. omar said,Fracture,Emergency,1407.78,Public,1.0,Yes,B17,West,8.0,5,89,M,1811.33
+P1690,2024-03-12,2024-03-17,Cardiology,D004,Dr. Omar Said,Flu,Outpatient,3499.42,privte,6.0,Y,B39,West,17.0,4,34,F,4131.6
+P1691,2024-09-16,,Pediatrics,D020,Dr. Ahmed Khalil,Fracture,Outpatient,2214.13,Public,,n,B17,Central,157.0,16,40,male,3105.06
+P1692,2024-08-19,2024-08-23,Orthopedics,D023,Dr. Ahmed Khalil,Heart Disease,Inpatient,1276.5,publick,5.0,No,B13,West,114.0,23,57,M,1751.43
+P1693,2024-09-27,2024-10-09,Cardiology,D113,Dr. Omar Said,Hypertension,Emergency,2371.62,Private,6.0,Y,B06,Central,37.0,27,32,female,3577.4
+,2024-10-29,2024-11-03,ONCOLOGY,D056,dr. omar said,Cancer,Outpatient,-740.54,Private,3.0,N,B36,East,60.0,9,4,F,-179.86
+P1695,2024-11-27,2024-12-08,Oncology,D027,Dr. Rana Elbaz,Flu,inpatient,1829.96,self pay,7.0,No,B04,West,,21,18,F,2569.93
+P1696,2024-01-21,2024-01-25,Cardiology Dept.,D093,Dr. Rana Elbaz,Hypertension,Emergency,1953.74,self pay,4.0,y,B12,West,76.0,19,48,female,1953.95
+P1697,2024-08-15,2024-08-29,Orthopedics,D050,dr. omar said,Cancer,OUTPATIENT,2213.23,self pay,4.0,N,B11,North,29.0,8,38,male,2370.65
+P1698,2024-09-14,2024-09-19,Cardiology,D105,Ahmed Khalil,Cancer,Emergency,2047.92,privte,5.0,Y,B21,Central,21.0,16,65,M,2993.26
+P1699,2024-09-24,2024-09-25,Emergency,D112,Ahmed Khalil,Fracture,Inpatient,948.18,Self-Pay,1.0,n,B41,North,89.0,8,11,female,1095.41
+P1700,2024-05-16,2024-05-29,ORTHO,D101,Dr. Rana Elbaz,Asthma,Emergency,2616.4,Self-Pay,1.0,No,B29,North,155.0,18,79,F,3249.76
+P1701,2024-04-15,2024-04-22,Emergency,D085,Dr. Rana Elbaz,Asthma,Outpatient,2690.3,Public,,Y,B27,South,90.0,15,6,M,3051.09
+P1702,2024-10-26,2024-11-05,Cardiology,D031,Dr. Rana Elbaz,Hypertension,Inpatient,3799.53,Private,4.0,y,B10,Central,29.0,5,27,M,4405.43
+P1703,2024-02-26,2024-03-07,Pediatrics,D075,Dr. Omar Said,Hypertension,Emergency,619.01,Public,,No,B17,Central,28.0,4,13,M,1087.97
+P1704,2024-12-25,2024-12-29,ONCOLOGY,D042,Dr Rana Elbaz,Fracture,Inpatient,1608.34,Private,8.0,N,B05,East,152.0,9,27,male,2097.28
+P1705,2024-06-30,2024-07-14,pediatric,D023,Dr. Omar Said,Migraine,inpatient,1532.56,publick,5.0,N,B14,North,62.0,22,87,male,2231.72
+P1706,2024-11-12,2024-11-20,Orthopedics,D070,Dr. Omar Said,Asthma,inpatient,1843.66,Self-Pay,10.0,y,B14,South,57.0,9,82,M,2216.18
+P1707,2024-11-03,2024-11-12,Oncology,D024,Dr. Rana Elbaz,Flu,Inpatient,,privte,4.0,y,B44,West,13.0,21,33,F,
+P1708,2024-02-25,2024-03-06,Oncology,D018,Dr. Omar Saeed,Fracture,inpatient,706.26,Public,1.0,Y,B13,West,107.0,24,30,female,1310.16
+P1709,2024-06-20,2024-06-19,Orthopedics,D090,Dr. Omar Saeed,Migraine,Emergency,1427.24,publick,9.0,No,,Central,61.0,2,68,female,2209.86
+P1710,2024-11-18,2024-11-16,Cardiology,D030,Dr. Yara Hamed,Diabetes,Inpatient,1467.75,self pay,5.0,N,B39,North,106.0,3,33,M,2063.82
+P1711,2024-11-08,2024-11-06,Orthopedics,D003,dr. omar said,Hypertension,OUTPATIENT,1523.24,Self-Pay,4.0,No,B35,West,153.0,14,66,M,1439.21
+P1712,2024-11-25,2024-11-26,ONCOLOGY,D060,Dr. Sarah Yousef,Flu,Emergency,2445.93,Private,8.0,No,B05,North,175.0,7,73,female,3135.59
+P1713,2024-09-13,2024-09-18,Cardiology Dept.,D095,Dr. Omar Saeed,Hypertension,Outpatient,1201.23,self pay,7.0,N,B22,North,42.0,11,82,female,1201.3
+P1714,2024-11-21,2024-11-26,Cardiology Dept.,D036,dr. omar said,Migraine,inpatient,2322.12,self pay,3.0,Yes,B35,West,28.0,7,38,female,2679.81
+P1715,2024-06-11,2024-06-11,Cardiology Dept.,D080,Dr. Omar Saeed,Fracture,Emergency,678.21,privte,10.0,Yes,B11,North,47.0,29,34,male,1468.29
+P1716,2024-03-16,2024-03-27,Orthopedics,D027,Dr. Sarah Youssef,Cancer,Outpatient,1440.82,privte,2.0,Yes,B25,West,126.0,24,46,F,2380.49
+P1717,2024-03-06,2024-03-12,Pediatrics,D037,Dr. Yara Hamed,Fracture,OUTPATIENT,749.65,privte,4.0,No,B09,North,81.0,8,39,F,1467.18
+P1718,2024-03-24,2024-03-29,Cardiology,D051,Dr Rana Elbaz,Migraine,OUTPATIENT,1672.53,Self-Pay,5.0,N,B26,West,38.0,17,28,M,1855.69
+P1719,2024-12-04,2024-12-17,Pediatrics,D013,Dr. Yara Hamed,Hypertension,Inpatient,971.13,publick,9.0,Y,B42,West,98.0,19,84,female,1246.67
+P1720,2024-10-17,,pediatric,D023,Dr. Omar Saeed,Asthma,Emergency,2248.81,Public,6.0,y,B09,North,27.0,24,85,male,2447.46
+P1721,2024-07-12,2024-07-18,Emergency,D009,Dr. Yara Hamed,Hypertension,Inpatient,2250.1,Public,3.0,y,B28,North,67.0,13,26,male,3006.61
+P1722,2024-03-05,2024-03-10,Cardiology,D112,Ahmed Khalil,Heart Disease,Outpatient,2172.52,self pay,8.0,Y,B21,North,42.0,17,18,F,2730.45
+P1723,2024-08-04,2024-08-06,ORTHO,D109,dr. omar said,Cancer,OUTPATIENT,2346.55,Public,2.0,Yes,B46,North,62.0,20,19,F,2974.19
+,2024-08-09,2024-08-13,Oncology,D041,Dr. Sarah Yousef,Heart Disease,inpatient,1848.69,publick,1.0,No,B09,South,152.0,15,77,M,2149.8
+P1725,2024-03-23,2024-04-05,Cardiology Dept.,D084,dr. omar said,Heart Disease,OUTPATIENT,1377.71,privte,3.0,N,B44,East,60.0,7,8,female,1507.43
+P1726,2024-02-01,2024-02-07,ORTHO,D013,Dr. Sarah Yousef,Cancer,Outpatient,1007.57,privte,3.0,n,B28,North,10.0,20,2,M,1482.49
+P1727,2024-09-01,2024-09-02,Orthopedics,D048,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,869.86,Private,4.0,Y,B47,South,36.0,19,91,female,1463.3
+P1728,2024-10-06,,Cardiology,D088,Dr. Rana Elbaz,Asthma,inpatient,1067.84,Public,,y,B15,South,68.0,7,17,F,1087.65
+P1729,2024-07-01,2024-07-10,ORTHO,D036,Dr. Yara Hamed,Hypertension,Outpatient,4122.98,privte,3.0,N,B01,East,132.0,18,93,male,4979.81
+P1730,2024-03-08,2024-03-06,Orthopedics,D074,Dr. Ahmed Khalil,Fracture,OUTPATIENT,2541.09,publick,1.0,No,B07,West,151.0,28,52,F,3029.78
+P1731,2024-01-27,2024-02-08,pediatric,D048,Dr. Sarah Youssef,Flu,Emergency,155.48,Self-Pay,6.0,y,B09,South,,22,23,F,1153.78
+P1732,2024-04-16,2024-04-20,Emergency,D007,Dr. Omar Saeed,Asthma,Emergency,1948.18,self pay,3.0,Yes,B41,North,,27,13,F,2476.06
+P1733,2024-03-19,2024-03-23,pediatric,D103,Dr. Omar Saeed,Asthma,Inpatient,1807.46,Private,10.0,n,B12,West,64.0,28,55,male,2052.85
+P1734,2024-06-10,2024-06-21,ORTHO,D080,dr. omar said,Migraine,inpatient,1084.33,self pay,2.0,No,B47,West,52.0,7,91,F,1443.67
+P1735,2024-03-10,2024-03-16,Oncology,D092,Dr. Ahmed Khalil,Asthma,Emergency,-1291.43,Private,,Yes,B01,West,110.0,1,68,F,-978.88
+P1736,2024-09-23,2024-09-27,ONCOLOGY,D062,dr. omar said,Diabetes,Outpatient,2790.89,privte,7.0,Y,B33,East,17.0,10,8,F,3176.55
+P1737,2024-02-12,2024-02-17,Orthopedics,D065,Dr. Sarah Yousef,Heart Disease,Outpatient,2798.49,self pay,6.0,No,B26,South,,21,19,F,3361.7
+P1738,2024-07-26,2024-08-09,Oncology,D076,Dr. Yara Hamed,Heart Disease,Emergency,1321.66,Public,2.0,y,B48,North,134.0,6,15,female,1558.45
+P1739,2024-10-08,2024-10-20,Cardiology Dept.,D046,Ahmed Khalil,Asthma,Outpatient,1635.24,self pay,6.0,N,B21,Central,161.0,10,22,male,2260.01
+P1740,2024-12-24,2024-12-30,ONCOLOGY,D053,dr. omar said,Fracture,OUTPATIENT,2826.9,privte,2.0,Yes,B48,North,66.0,11,10,M,3170.5
+P1741,2024-06-05,2024-06-17,Pediatrics,D099,Dr. Yara Hamed,Heart Disease,Inpatient,1294.43,publick,7.0,Yes,B08,West,29.0,20,4,F,1361.62
+P1742,2024-06-26,2024-06-27,cardio,D046,Dr. Sarah Youssef,Diabetes,Outpatient,2080.23,publick,3.0,Y,B09,West,23.0,15,7,M,3228.25
+P1743,2024-10-24,2024-11-04,Oncology,D114,Dr. Ahmed Khalil,Fracture,Emergency,3104.6,publick,5.0,n,B14,West,119.0,18,61,M,3449.57
+P1744,2024-07-21,2024-07-27,Emergency,D017,Dr. Ahmed Khalil,Fracture,Emergency,585.21,privte,9.0,y,B18,North,23.0,19,18,M,958.85
+P1745,2024-05-06,2024-05-16,cardio,D044,Dr Rana Elbaz,Flu,Inpatient,2789.21,Public,9.0,Y,B14,North,139.0,4,18,F,3413.88
+P1746,2024-10-25,2024-10-25,Emergency,D098,Dr. Yara Hamed,Fracture,Inpatient,3163.86,Public,8.0,Y,B24,South,72.0,16,33,female,3172.94
+P1747,2024-09-27,2024-10-03,pediatric,D117,Dr. Rana Elbaz,Heart Disease,inpatient,1692.65,Private,7.0,N,B11,South,120.0,23,75,M,1964.01
+P1748,2024-12-23,2025-01-02,ORTHO,D002,Dr. Omar Said,Hypertension,Outpatient,1093.47,self pay,10.0,y,B18,North,86.0,12,77,M,1766.36
+P1749,2024-10-17,2024-10-31,ORTHO,D092,Dr. Ahmed Khalil,Migraine,OUTPATIENT,1519.82,Self-Pay,1.0,No,B36,West,172.0,13,42,male,2223.3
+P1750,2024-10-22,2024-11-02,pediatric,D096,Dr. Omar Saeed,Fracture,Inpatient,2089.75,privte,,N,B28,East,167.0,25,75,F,2577.02
+P1751,2024-07-08,2024-07-06,ORTHO,D058,Dr. Sarah Youssef,Fracture,inpatient,3293.64,publick,10.0,y,B38,South,137.0,23,28,F,3562.51
+P1752,2024-01-20,2024-01-27,ORTHO,D058,Dr. Sarah Yousef,Hypertension,Inpatient,1748.96,publick,2.0,y,B09,West,126.0,21,64,M,1942.99
+P1753,2024-11-10,2024-11-19,Orthopedics,D009,Dr Rana Elbaz,Diabetes,Inpatient,904.01,self pay,1.0,y,B41,North,,7,72,M,1110.09
+P1754,2024-06-28,2024-07-10,Cardiology,D107,Dr. Ahmed Khalil,Cancer,OUTPATIENT,2092.78,Private,7.0,No,B03,West,85.0,18,25,M,3085.95
+P1755,2024-11-21,2024-11-29,Oncology,D095,Dr. Sarah Yousef,Cancer,inpatient,3629.77,Private,3.0,N,B49,North,33.0,28,67,male,4173.89
+,2024-12-03,2024-12-02,Oncology,D092,Dr. Yara Hamed,Migraine,Emergency,1903.23,Public,8.0,N,B30,South,69.0,12,84,M,2768.14
+P1757,2024-10-25,2024-11-03,Oncology,D032,Ahmed Khalil,Hypertension,Inpatient,2312.86,Self-Pay,,n,B18,North,166.0,13,93,male,3246.85
+P1758,2024-03-19,2024-03-17,Cardiology Dept.,D101,Ahmed Khalil,Migraine,inpatient,1071.93,Self-Pay,3.0,Yes,B25,East,149.0,21,21,F,2227.9
+P1759,2024-03-19,2024-03-22,cardio,D077,Ahmed Khalil,Fracture,OUTPATIENT,2225.81,Self-Pay,,n,B44,South,18.0,3,13,F,2277.41
+P1760,2024-01-25,2024-02-06,ORTHO,D014,Dr. Omar Saeed,Flu,Emergency,3182.5,Self-Pay,5.0,n,B03,East,23.0,15,51,M,3237.78
+P1761,2024-07-13,2024-07-24,pediatric,D075,Dr. Omar Saeed,Fracture,Inpatient,2437.26,publick,4.0,Yes,B10,North,10.0,18,48,F,3168.51
+P1762,2024-09-26,2024-10-09,Cardiology,D100,Dr. Yara Hamed,Migraine,Emergency,2904.49,publick,5.0,n,B12,West,156.0,19,21,F,3373.28
+P1763,2024-01-08,2024-01-16,ORTHO,D063,Dr. Sarah Yousef,Asthma,Outpatient,2620.78,self pay,5.0,y,B02,East,90.0,26,90,F,3275.12
+P1764,2024-05-02,2024-05-09,Orthopedics,D007,Dr. Rana Elbaz,Migraine,Inpatient,1707.53,Private,3.0,n,B16,North,59.0,20,43,F,2290.45
+P1765,2024-11-19,2024-11-28,Cardiology,D067,Dr. Sarah Youssef,Fracture,OUTPATIENT,778.47,Private,2.0,Y,B40,Central,49.0,6,86,male,1161.57
+P1766,2024-09-15,2024-09-26,Orthopedics,D016,Dr Rana Elbaz,Flu,Outpatient,1306.49,publick,8.0,Y,B47,East,14.0,14,19,F,1797.59
+P1767,2024-02-10,2024-02-16,cardio,D048,Dr. Sarah Youssef,Heart Disease,Emergency,2803.9,Public,4.0,Y,B08,West,162.0,1,92,F,3887.97
+P1768,2024-11-07,2024-11-10,Cardiology Dept.,D031,Ahmed Khalil,Flu,inpatient,3282.69,publick,4.0,No,B25,East,160.0,29,28,male,3921.35
+P1769,2024-02-14,2024-02-27,cardio,D006,Dr. Omar Saeed,Hypertension,OUTPATIENT,1588.91,Public,1.0,n,B45,West,130.0,8,19,female,2339.37
+P1770,2024-02-19,2024-02-22,ORTHO,D082,Dr. Sarah Youssef,Heart Disease,Outpatient,1659.35,Private,7.0,N,B06,East,49.0,3,62,male,1662.2
+P1771,2024-11-20,2024-11-22,Emergency,D111,Dr. Sarah Youssef,Asthma,Outpatient,590.53,Public,3.0,No,B17,Central,121.0,24,39,M,1388.5
+P1772,2024-09-16,2024-09-20,Emergency,D079,Dr Rana Elbaz,Migraine,Outpatient,2125.51,Public,10.0,No,B44,East,34.0,27,77,male,2893.98
+P1773,2024-11-28,2024-12-09,Cardiology,D028,Ahmed Khalil,Flu,Emergency,2690.57,Public,9.0,n,B46,Central,116.0,18,51,male,3283.24
+P1774,2024-08-28,2024-09-08,pediatric,D082,Dr. Rana Elbaz,Hypertension,Emergency,1821.58,privte,4.0,N,,Central,90.0,9,9,male,2406.19
+P1775,2024-07-13,2024-07-27,ONCOLOGY,D049,Dr. Ahmed Khalil,Fracture,OUTPATIENT,1368.48,privte,2.0,Y,B46,North,,21,87,female,1364.44
+P1776,2024-06-02,2024-06-07,ONCOLOGY,D113,Ahmed Khalil,Asthma,OUTPATIENT,-513.13,Self-Pay,,n,B37,Central,117.0,9,34,female,225.0
+P1777,2024-10-01,2024-10-01,Oncology,D027,Dr. Rana Elbaz,Diabetes,inpatient,1564.65,Private,,Y,B10,East,160.0,8,76,F,2288.48
+P1778,2024-05-13,2024-05-26,Emergency,D079,Dr. Sarah Yousef,Fracture,Outpatient,1732.99,privte,,N,B08,North,57.0,28,60,F,2504.85
+P1779,2024-06-25,2024-07-07,Cardiology,D117,Dr. Omar Saeed,Flu,OUTPATIENT,1876.27,Self-Pay,1.0,Yes,B08,South,135.0,18,80,male,2358.23
+P1780,2024-02-08,2024-02-11,Emergency,D017,Dr. Omar Saeed,Migraine,inpatient,1914.3,Private,4.0,Y,B22,South,167.0,19,58,F,2201.83
+P1781,2024-09-25,2024-09-23,ORTHO,D023,Dr. Omar Said,Flu,inpatient,1514.7,Private,,Yes,B15,South,151.0,26,3,male,2007.28
+P1782,2024-03-14,2024-03-24,ORTHO,D024,Dr. Sarah Yousef,Hypertension,Emergency,2957.51,publick,10.0,No,B01,West,77.0,17,24,female,3376.62
+P1783,2024-03-08,2024-03-12,ONCOLOGY,D097,Dr. Omar Saeed,Flu,Inpatient,3437.61,publick,3.0,No,B04,Central,37.0,29,62,female,4396.71
+P1784,2024-01-08,2024-01-14,Pediatrics,D039,Dr. Ahmed Khalil,Hypertension,Outpatient,1976.52,Self-Pay,6.0,Y,B24,North,152.0,24,3,female,2595.11
+P1785,2024-10-12,2024-10-22,Cardiology Dept.,D020,Dr. Sarah Yousef,Hypertension,Emergency,3192.88,publick,10.0,n,B44,South,91.0,2,77,male,3549.84
+P1786,2024-04-23,2024-04-21,pediatric,D075,Dr. Sarah Youssef,Hypertension,inpatient,1853.17,publick,4.0,Yes,B03,South,21.0,28,41,female,2318.68
+P1787,2024-07-24,2024-08-05,Oncology,D075,Dr. Sarah Youssef,Cancer,Outpatient,794.13,Self-Pay,,No,B04,Central,17.0,3,52,male,1359.91
+P1788,2024-11-09,2024-11-16,ORTHO,D033,Dr. Yara Hamed,Fracture,Emergency,2516.1,Public,8.0,N,B22,West,25.0,21,1,male,3048.23
+P1789,2024-09-30,2024-10-14,Cardiology,D055,Dr. Sarah Youssef,Cancer,Emergency,2272.71,Self-Pay,7.0,Yes,B38,Central,178.0,23,29,F,2995.82
+P1790,2024-10-06,2024-10-17,Cardiology,D062,Ahmed Khalil,Heart Disease,Inpatient,866.34,self pay,8.0,No,B15,South,49.0,16,49,F,1802.91
+P1791,2024-03-25,2024-04-08,Cardiology,D001,Dr. Sarah Youssef,Migraine,Outpatient,2849.73,self pay,6.0,No,B25,South,59.0,16,5,male,3252.68
+P1792,2024-01-07,2024-01-08,Oncology,D084,Dr. Rana Elbaz,Cancer,inpatient,2484.41,self pay,9.0,Yes,B47,East,18.0,21,57,female,3003.73
+P1793,2024-07-10,2024-07-16,pediatric,D095,Dr. Sarah Yousef,Flu,Emergency,2457.68,Self-Pay,9.0,n,B19,East,7.0,7,3,female,2843.36
+P1794,2024-02-02,2024-02-02,Pediatrics,D014,Dr Rana Elbaz,Diabetes,inpatient,591.84,Private,6.0,Y,,East,,4,91,M,1287.06
+P1795,2024-09-26,2024-10-01,ORTHO,D053,Dr. Omar Said,Fracture,Emergency,2751.18,Self-Pay,4.0,y,B40,Central,8.0,9,34,male,3232.01
+P1796,2024-07-22,2024-08-01,cardio,D099,dr. omar said,Fracture,Emergency,2227.77,Self-Pay,2.0,Y,B39,West,103.0,22,30,female,2973.72
+P1797,2024-11-28,2024-12-03,Pediatrics,D119,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,2367.12,self pay,6.0,n,B06,East,101.0,1,62,F,3260.7
+P1798,2024-12-27,2025-01-05,Oncology,D103,Ahmed Khalil,Fracture,Emergency,2831.45,privte,2.0,N,B25,East,44.0,28,57,male,3557.54
+P1799,2024-04-03,2024-04-10,ORTHO,D108,Dr. Rana Elbaz,Hypertension,Outpatient,2015.17,privte,9.0,Yes,B41,Central,33.0,14,45,male,1795.77
+P1800,2024-09-20,2024-09-23,pediatric,D059,dr. omar said,Hypertension,Outpatient,2965.23,self pay,1.0,Yes,B34,East,5.0,8,89,M,3545.94
+P1801,2024-05-24,2024-05-23,Cardiology,D057,Dr. Rana Elbaz,Asthma,Emergency,1864.93,publick,4.0,No,B37,West,106.0,12,24,M,2429.91
+P1802,2024-11-04,2024-11-10,Cardiology,D004,Dr. Rana Elbaz,Heart Disease,Emergency,1952.3,privte,7.0,y,B23,West,154.0,1,34,female,2430.94
+P1803,2024-01-22,2024-01-23,pediatric,D026,Dr. Omar Saeed,Asthma,OUTPATIENT,2020.85,Self-Pay,5.0,N,B28,East,125.0,3,84,M,2418.26
+P1804,2024-03-08,2024-03-15,Cardiology Dept.,D056,Ahmed Khalil,Hypertension,inpatient,2396.65,publick,3.0,No,B27,South,22.0,28,83,male,2755.07
+P1805,2024-11-16,2024-11-30,Orthopedics,D071,Dr. Sarah Youssef,Cancer,OUTPATIENT,-1660.32,Self-Pay,1.0,N,B16,East,53.0,18,54,M,-1041.03
+P1806,2024-05-29,2024-06-10,Cardiology Dept.,D027,Dr. Yara Hamed,Cancer,OUTPATIENT,2016.1,publick,2.0,Y,,North,55.0,17,69,M,2783.61
+P1807,2024-02-07,2024-02-20,cardio,D013,Dr. Yara Hamed,Hypertension,OUTPATIENT,1773.93,Private,,n,B20,West,9.0,28,57,male,2147.14
+P1808,2024-04-09,2024-04-11,cardio,D111,Dr. Sarah Yousef,Hypertension,Outpatient,674.72,Public,10.0,Y,B02,North,,26,68,male,1734.0
+P1809,2024-07-06,2024-07-20,Cardiology Dept.,D070,Dr. Omar Saeed,Heart Disease,Inpatient,1628.92,Public,,Yes,B39,Central,67.0,14,44,female,1799.46
+P1810,2024-05-06,2024-05-19,Cardiology,D055,Dr. Sarah Youssef,Fracture,Outpatient,3044.42,Private,4.0,y,B37,Central,104.0,15,90,female,3616.79
+P1811,2024-10-17,2024-10-22,Cardiology Dept.,D013,Dr. Yara Hamed,Hypertension,Inpatient,1953.96,privte,9.0,Yes,B08,Central,171.0,10,32,female,2281.9
+P1812,2024-12-24,2025-01-07,Orthopedics,D111,Ahmed Khalil,Asthma,Emergency,2264.69,Public,1.0,Y,B15,East,103.0,18,13,male,2989.62
+P1813,2024-12-10,2024-12-15,Orthopedics,D088,Ahmed Khalil,Migraine,Inpatient,3117.31,Public,7.0,Yes,,North,130.0,2,21,female,3709.34
+P1814,2024-11-18,2024-12-01,cardio,D041,Dr. Omar Saeed,Migraine,Outpatient,678.28,Public,10.0,No,B13,West,133.0,4,7,F,877.65
+P1815,2024-01-31,2024-02-11,cardio,D009,Dr. Rana Elbaz,Heart Disease,Emergency,1528.07,Public,4.0,n,B13,East,38.0,3,68,male,2127.38
+P1816,2024-12-10,2024-12-11,ONCOLOGY,D086,Dr. Sarah Yousef,Hypertension,OUTPATIENT,3036.57,publick,8.0,No,B30,South,129.0,14,76,male,3610.81
+P1817,2024-02-09,2024-02-17,Orthopedics,D047,Dr. Ahmed Khalil,Cancer,Inpatient,2509.53,privte,3.0,No,B24,East,136.0,18,35,F,2866.99
+P1818,2024-12-25,2025-01-08,ONCOLOGY,D032,Dr Rana Elbaz,Heart Disease,Outpatient,2453.2,self pay,5.0,Yes,B20,North,94.0,7,40,F,3241.43
+P1819,2024-01-25,2024-02-04,cardio,D010,Dr. Sarah Yousef,Hypertension,inpatient,1327.8,publick,8.0,Yes,B32,East,,2,76,F,1708.17
+P1820,2024-02-14,2024-02-16,Orthopedics,D114,dr. omar said,Fracture,Inpatient,1628.42,Public,7.0,N,B25,Central,99.0,4,51,M,2382.7
+,2024-07-10,2024-07-18,Cardiology Dept.,D028,Dr. Yara Hamed,Cancer,OUTPATIENT,-434.63,publick,6.0,N,B03,East,123.0,5,73,M,-344.67
+P1822,2024-10-10,2024-10-14,pediatric,D028,Ahmed Khalil,Heart Disease,Inpatient,2717.61,self pay,5.0,n,B39,West,,3,5,F,3364.85
+P1823,2024-05-31,2024-05-29,Cardiology Dept.,D026,Ahmed Khalil,Cancer,OUTPATIENT,2128.89,self pay,5.0,N,B09,West,73.0,1,9,F,3090.03
+P1824,2024-10-31,2024-11-08,Emergency,D067,Dr. Omar Said,Diabetes,Emergency,2973.16,Public,9.0,Y,B33,South,138.0,24,1,female,3169.38
+P1825,2024-06-05,2024-06-14,ORTHO,D043,Dr. Ahmed Khalil,Cancer,Emergency,2834.97,Self-Pay,3.0,y,B03,North,100.0,14,32,F,3371.44
+P1826,2024-04-20,2024-04-28,Cardiology,D046,Dr Rana Elbaz,Fracture,inpatient,2167.48,self pay,2.0,Yes,B33,North,22.0,4,26,F,2653.97
+P1827,2024-11-08,2024-11-11,Orthopedics,D097,Dr. Omar Saeed,Fracture,Inpatient,883.2,privte,2.0,Yes,B45,North,117.0,22,39,M,1492.29
+P1828,2024-06-10,2024-06-16,ORTHO,D050,Dr. Sarah Youssef,Migraine,inpatient,2783.41,self pay,7.0,y,B35,West,,29,92,female,3208.51
+P1829,2024-03-10,2024-03-08,ORTHO,D017,Dr. Yara Hamed,Fracture,inpatient,3598.26,Public,4.0,No,B31,East,123.0,21,18,M,4451.97
+P1830,2024-05-30,2024-05-28,ORTHO,D030,Dr. Omar Saeed,Hypertension,OUTPATIENT,1862.84,Public,4.0,N,B45,North,89.0,10,72,female,2073.24
+P1831,2024-04-22,2024-04-29,ONCOLOGY,D083,Dr. Sarah Youssef,Flu,Emergency,2537.02,publick,6.0,Yes,B34,North,151.0,22,68,F,3260.82
+P1832,2024-09-27,2024-10-04,Pediatrics,D012,Dr. Sarah Yousef,Flu,Emergency,2357.77,publick,3.0,N,B21,Central,,21,65,M,2762.9
+P1833,2024-01-24,2024-01-24,pediatric,D028,Dr. Sarah Yousef,Hypertension,Emergency,,Public,9.0,No,,North,25.0,7,47,male,
+P1834,2024/13/45,2024-11-16,Oncology,D050,Dr. Rana Elbaz,Migraine,inpatient,2050.27,privte,7.0,N,B48,North,176.0,9,90,F,2687.72
+P1835,2024-07-29,2024-08-08,cardio,D019,Dr. Sarah Yousef,Asthma,Inpatient,2991.52,Private,5.0,No,B23,West,133.0,1,52,F,3398.45
+P1836,2024-11-24,2024-11-30,Emergency,D090,Dr. Ahmed Khalil,Migraine,Emergency,1559.42,Private,7.0,y,B40,South,26.0,1,93,M,1551.83
+P1837,2024-02-25,2024-02-27,cardio,D003,Dr. Sarah Youssef,Flu,inpatient,2636.57,self pay,1.0,Y,B09,Central,,10,61,F,3191.22
+P1838,2024-03-22,2024-04-02,Emergency,D081,Dr. Ahmed Khalil,Migraine,inpatient,2713.5,self pay,8.0,y,B41,West,42.0,12,93,female,3193.04
+P1839,2024-01-19,2024-01-20,Emergency,D016,Dr. Sarah Yousef,Hypertension,OUTPATIENT,874.62,publick,1.0,N,B25,North,,9,4,F,1856.29
+P1840,2024-08-30,,Orthopedics,D022,Dr. Ahmed Khalil,Heart Disease,Emergency,3133.46,self pay,7.0,y,B46,South,,4,87,male,3829.17
+P1841,2024-10-04,2024-10-13,cardio,D022,Dr. Rana Elbaz,Diabetes,Outpatient,2956.61,Self-Pay,8.0,Yes,B26,North,123.0,9,21,male,3346.93
+P1842,2024-08-08,2024-08-16,ORTHO,D108,Dr. Omar Saeed,Fracture,inpatient,3314.03,Private,10.0,Y,B10,North,79.0,6,57,female,3861.92
+P1843,2024-03-15,2024-03-26,pediatric,D018,Dr. Sarah Youssef,Hypertension,Inpatient,,Self-Pay,5.0,Y,B12,South,100.0,24,69,male,
+P1844,2024-09-04,,ORTHO,D007,Dr. Omar Saeed,Hypertension,Outpatient,1114.35,publick,,Y,B30,North,45.0,5,16,male,1311.8
+P1845,2024-03-11,2024-03-23,Oncology,D068,dr. omar said,Diabetes,inpatient,1978.94,Public,,n,B19,Central,12.0,23,82,M,2440.65
+P1846,2024-05-20,2024-05-18,Orthopedics,D065,Dr. Ahmed Khalil,Cancer,Emergency,1902.82,publick,3.0,N,B33,Central,171.0,27,92,female,2508.53
+P1847,2024-06-07,2024-06-09,ORTHO,D094,Dr. Sarah Youssef,Diabetes,Outpatient,2738.44,privte,4.0,No,B20,East,6.0,28,20,M,3360.26
+P1848,2024-06-26,2024-07-02,ORTHO,D095,Dr. Sarah Yousef,Diabetes,inpatient,1139.48,privte,4.0,Y,B35,South,25.0,6,21,female,1740.45
+P1849,2024-06-23,2024-07-06,Cardiology Dept.,D051,Dr. Omar Said,Hypertension,Outpatient,1812.11,self pay,6.0,n,B25,East,,10,76,F,2192.32
+P1850,2024-06-08,2024-06-14,Emergency,D114,Dr. Ahmed Khalil,Heart Disease,OUTPATIENT,1633.86,publick,2.0,n,B19,Central,38.0,19,42,F,2455.3
+P1851,2024-05-27,2024-05-29,Emergency,D112,Dr. Yara Hamed,Diabetes,Emergency,1409.99,privte,7.0,Yes,B18,North,130.0,29,61,F,2018.09
+P1852,2024-06-18,2024-06-28,Orthopedics,D010,Ahmed Khalil,Flu,Emergency,2150.63,Self-Pay,7.0,Y,,Central,130.0,4,47,M,2799.17
+P1853,2024-06-28,2024-07-10,Orthopedics,,Dr. Ahmed Khalil,Fracture,Inpatient,2151.6,publick,3.0,Y,B12,West,136.0,5,56,M,2636.84
+P1854,2024-10-31,2024-10-30,Pediatrics,D111,Ahmed Khalil,Hypertension,OUTPATIENT,1871.78,Public,9.0,y,B31,Central,168.0,22,35,M,2808.0
+P1855,2024-10-24,2024-10-28,ONCOLOGY,D118,Dr. Sarah Youssef,Hypertension,OUTPATIENT,1379.88,Self-Pay,7.0,Y,B41,East,157.0,27,15,M,1669.69
+P1856,2024-01-31,2024-02-05,Oncology,D056,Ahmed Khalil,Diabetes,Outpatient,1679.9,Private,9.0,n,B34,South,59.0,2,56,female,2331.15
+P1857,2024-02-14,2024-02-25,Cardiology Dept.,D045,Dr. Sarah Youssef,Asthma,Emergency,2484.32,Private,1.0,N,B42,East,6.0,24,30,male,3126.12
+P1858,2024-12-19,2024-12-21,ONCOLOGY,D078,Ahmed Khalil,Fracture,inpatient,2046.89,self pay,5.0,n,B05,South,54.0,4,18,F,2178.54
+P1859,2024-04-24,2024-05-03,ORTHO,D079,Dr. Omar Saeed,Diabetes,inpatient,1040.64,Public,8.0,y,,East,162.0,13,55,female,1674.95
+P1860,2024-09-10,2024-09-12,cardio,D021,dr. omar said,Cancer,Outpatient,3213.0,privte,5.0,y,B20,West,29.0,15,26,F,4134.77
+P1861,2024-07-11,2024-07-18,pediatric,D058,dr. omar said,Diabetes,OUTPATIENT,2849.45,Private,7.0,y,B49,North,91.0,15,38,F,3773.66
+P1862,2024-03-10,2024-03-21,Cardiology,D053,Dr. Ahmed Khalil,Diabetes,OUTPATIENT,2480.01,privte,4.0,Y,B48,East,161.0,9,92,M,3582.91
+P1863,2024-10-15,2024-10-15,Oncology,D082,Dr. Rana Elbaz,Cancer,Emergency,2157.75,Public,6.0,n,,Central,161.0,16,48,female,2469.53
+P1864,2024-12-30,2025-01-12,cardio,D020,Dr. Ahmed Khalil,Migraine,inpatient,3617.74,Public,6.0,No,B27,North,104.0,11,3,male,4667.09
+P1865,2024-01-11,2024-01-16,cardio,D020,Dr Rana Elbaz,Heart Disease,Inpatient,2711.72,Private,6.0,No,B36,West,25.0,10,36,male,3520.13
+P1866,2024-02-27,2024-03-04,cardio,D095,Ahmed Khalil,Heart Disease,Outpatient,3976.88,publick,4.0,No,B24,South,100.0,7,21,female,4320.27
+P1867,2024-12-13,2024-12-19,ONCOLOGY,D104,Dr. Omar Saeed,Cancer,inpatient,2304.7,self pay,2.0,Yes,B44,North,81.0,25,53,female,2820.95
+P1868,2024-10-28,2024-10-26,Oncology,D049,Dr. Sarah Youssef,Asthma,inpatient,678.6,publick,8.0,Y,B17,North,129.0,21,34,male,1188.91
+P1869,2024-05-30,2024-06-02,pediatric,D071,dr. omar said,Heart Disease,Outpatient,2785.93,privte,9.0,n,B06,North,76.0,15,81,M,3188.58
+P1870,2024-04-09,2024-04-10,ORTHO,D058,Dr. Yara Hamed,Heart Disease,Outpatient,2288.55,publick,3.0,Y,B19,Central,13.0,25,16,F,3106.39
+P1871,2024-02-28,2024-03-07,Cardiology,D079,Ahmed Khalil,Heart Disease,inpatient,2476.52,Self-Pay,6.0,Yes,B42,East,,22,81,female,2794.15
+P1872,2024-01-06,2024-01-20,Emergency,D060,Ahmed Khalil,Flu,Emergency,1321.23,publick,7.0,No,B24,West,109.0,11,24,F,1836.55
+P1873,2024-12-21,2024-12-21,ONCOLOGY,D006,Dr Rana Elbaz,Diabetes,Emergency,3480.49,Public,,Yes,B33,North,19.0,26,49,male,4159.46
+P1874,2024-11-15,2024-11-29,ORTHO,D069,Dr. Omar Saeed,Diabetes,Inpatient,2832.84,privte,4.0,No,B17,East,,21,52,female,4196.13
+P1875,2024-12-06,2024-12-17,cardio,D001,Dr. Ahmed Khalil,Migraine,Emergency,1765.18,publick,2.0,No,B34,West,73.0,11,71,M,2380.25
+P1876,2024-04-06,2024-04-20,Cardiology,D021,dr. omar said,Cancer,Emergency,1061.75,privte,6.0,Y,B04,South,73.0,21,21,male,1683.57
+P1877,2024-02-28,2024-02-26,Oncology,D013,Ahmed Khalil,Hypertension,Emergency,1975.09,Public,4.0,Y,B07,Central,121.0,20,3,female,2575.35
+P1878,2024-05-07,2024-05-05,ORTHO,D114,Dr. Ahmed Khalil,Migraine,OUTPATIENT,2118.69,privte,10.0,y,B36,East,33.0,17,61,M,2518.46
+P1879,2024-04-24,2024-04-26,Cardiology Dept.,D086,Ahmed Khalil,Heart Disease,Emergency,1975.24,self pay,5.0,n,,West,149.0,6,68,female,2511.41
+P1880,2024-11-18,2024-11-27,pediatric,D049,Dr. Rana Elbaz,Fracture,Outpatient,1654.54,Self-Pay,4.0,N,B09,East,71.0,4,15,M,1820.73
+P1881,2024-10-11,2024-10-24,pediatric,D063,Dr. Ahmed Khalil,Hypertension,Inpatient,2467.18,self pay,6.0,Y,B38,North,34.0,15,71,female,2983.59
+P1882,2024-12-16,2024-12-24,Pediatrics,D043,Dr. Rana Elbaz,Cancer,Inpatient,2261.61,privte,,Y,B31,North,30.0,23,27,male,2517.29
+P1883,2024-11-28,2024-12-09,Cardiology Dept.,D004,Dr. Sarah Yousef,Asthma,Inpatient,2072.33,self pay,,Yes,B46,Central,121.0,25,79,male,2363.16
+P1884,2024-12-09,2024-12-15,Cardiology Dept.,D065,Ahmed Khalil,Hypertension,OUTPATIENT,978.33,privte,9.0,n,B15,Central,59.0,20,10,M,1153.38
+P1885,2024-02-28,2024-03-01,ONCOLOGY,D089,Dr. Omar Said,Asthma,Emergency,2297.56,Self-Pay,,N,B09,Central,29.0,10,10,male,2703.7
+P1886,2024-09-21,2024-09-27,ONCOLOGY,D062,Dr. Omar Said,Cancer,Outpatient,1999.51,self pay,7.0,Yes,B46,North,147.0,19,88,M,2858.5
+P1887,2024-05-25,2024-06-06,Emergency,D072,Dr Rana Elbaz,Cancer,Outpatient,2949.94,Private,10.0,Yes,B28,East,68.0,25,47,male,3606.31
+P1888,2024-06-14,2024-06-23,cardio,D113,dr. omar said,Flu,Emergency,1284.95,publick,3.0,y,B26,Central,127.0,15,56,female,1453.74
+P1889,2024-09-10,2024-09-24,Cardiology,D094,dr. omar said,Cancer,OUTPATIENT,1757.51,privte,1.0,n,B46,North,,29,49,female,2484.39
+P1890,2024-07-28,2024-07-26,Cardiology,D054,Dr. Sarah Yousef,Flu,Emergency,2263.47,Self-Pay,2.0,y,B25,South,8.0,15,38,M,2487.79
+P1891,2024-07-12,2024-07-11,Cardiology Dept.,D004,Dr. Omar Said,Hypertension,inpatient,-1988.58,Private,7.0,n,B32,West,18.0,9,80,M,-1547.53
+P1892,2024-01-19,2024-01-19,Emergency,D108,Dr. Sarah Youssef,Fracture,inpatient,-1881.42,publick,10.0,y,B46,South,140.0,19,48,male,-1229.84
+P1893,2024-08-11,2024-08-13,Emergency,D055,Dr. Yara Hamed,Flu,Outpatient,2833.75,publick,8.0,Y,B01,West,90.0,6,9,M,3403.74
+P1894,2024-05-10,2024-05-14,Emergency,D076,Dr Rana Elbaz,Heart Disease,OUTPATIENT,2341.32,self pay,8.0,No,B15,South,91.0,25,82,F,3437.67
+P1895,2024-08-21,2024-08-24,Emergency,D036,Dr. Ahmed Khalil,Diabetes,Emergency,2011.76,Private,5.0,Yes,B48,North,154.0,26,63,F,2627.61
+P1896,2024-02-24,2024-03-05,Pediatrics,D050,dr. omar said,Asthma,inpatient,2978.17,publick,7.0,n,B31,South,161.0,15,34,male,2977.56
+P1897,2024-10-16,2024-10-15,cardio,D050,Dr. Ahmed Khalil,Asthma,OUTPATIENT,2790.91,self pay,4.0,Y,B06,West,96.0,17,23,female,3425.11
+P1898,2024-04-22,2024-05-03,Oncology,D114,Dr. Yara Hamed,Migraine,Inpatient,1159.92,Self-Pay,,No,B15,North,109.0,17,32,M,1522.6
+P1899,2024-06-17,2024-06-24,Pediatrics,D042,Dr. Sarah Yousef,Migraine,Emergency,1467.51,privte,9.0,Yes,B15,West,146.0,9,47,M,1892.19
+P1900,2024-09-25,2024-10-09,Pediatrics,D031,Dr. Sarah Youssef,Asthma,Inpatient,1144.0,Private,5.0,Yes,B04,East,25.0,6,87,F,1509.26
+P1901,2024-02-03,2024-02-13,ONCOLOGY,D087,Dr. Yara Hamed,Cancer,OUTPATIENT,1525.83,privte,6.0,N,B24,Central,116.0,15,68,M,2233.56
+P1902,2024-08-08,2024-08-17,Emergency,D026,Ahmed Khalil,Flu,inpatient,1862.55,Public,2.0,y,B02,West,108.0,28,13,M,2318.56
+P1903,2024-09-16,2024-09-24,Pediatrics,D022,Dr. Sarah Youssef,Cancer,Inpatient,2417.44,self pay,4.0,No,B40,East,167.0,26,5,F,3148.53
+P1904,2024-05-24,2024-06-07,Oncology,,Dr. Sarah Youssef,Migraine,Inpatient,1497.34,publick,7.0,Yes,B38,West,19.0,1,71,F,1937.27
+P1905,2024-11-18,2024-11-30,Cardiology Dept.,D114,Dr. Sarah Youssef,Diabetes,inpatient,2174.47,self pay,2.0,No,B41,South,94.0,19,6,male,2887.22
+P1906,2024-10-23,2024-10-22,ORTHO,D018,Dr. Rana Elbaz,Cancer,Emergency,2625.8,Self-Pay,2.0,No,B06,South,160.0,21,42,male,3438.58
+P1907,2024-09-24,2024-09-23,pediatric,,Dr Rana Elbaz,Fracture,inpatient,1305.63,self pay,8.0,Y,B02,South,54.0,8,5,M,2007.21
+P1908,2024-02-02,2024-02-06,ORTHO,D015,Dr Rana Elbaz,Cancer,inpatient,1208.9,Self-Pay,6.0,Yes,B38,South,76.0,18,56,male,1561.64
+P1909,2024-05-03,2024-05-09,ONCOLOGY,D094,Dr. Sarah Yousef,Hypertension,Emergency,1344.53,self pay,8.0,Yes,B24,North,7.0,9,47,F,2192.07
+P1910,2024-05-26,2024-05-26,cardio,D048,Dr. Omar Said,Heart Disease,OUTPATIENT,2334.84,Self-Pay,5.0,n,,East,125.0,15,65,male,2253.44
+P1911,2024-02-05,2024-02-04,pediatric,D010,Dr. Ahmed Khalil,Cancer,inpatient,1193.51,Private,1.0,No,B38,South,129.0,22,61,F,1719.01
+P1912,2024-02-20,2024-03-04,Cardiology Dept.,D115,Dr. Yara Hamed,Fracture,inpatient,3233.06,privte,,Y,B45,Central,128.0,18,48,F,4133.26
+P1913,2024-03-21,2024-03-28,Pediatrics,D045,dr. omar said,Cancer,OUTPATIENT,2662.8,self pay,8.0,n,B40,Central,71.0,10,17,F,2602.53
+P1914,2024-02-08,2024-02-06,ONCOLOGY,D058,dr. omar said,Heart Disease,inpatient,3232.6,Self-Pay,4.0,n,B13,South,102.0,19,49,F,3574.66
+P1915,2024-09-27,2024-10-10,Pediatrics,D056,Dr. Rana Elbaz,Diabetes,Outpatient,3138.91,Private,,Yes,B27,North,85.0,26,45,M,3291.2
+P1916,2024-03-11,2024-03-10,Emergency,D105,Dr. Yara Hamed,Fracture,OUTPATIENT,-3019.57,Self-Pay,6.0,Y,B02,West,40.0,6,93,female,-2274.78
+P1917,2024-08-12,2024-08-14,Oncology,D117,Dr. Ahmed Khalil,Diabetes,Outpatient,2299.84,Public,1.0,Y,B31,North,21.0,23,71,F,2181.67
+P1918,2024-06-26,2024-06-29,Oncology,D036,Ahmed Khalil,Heart Disease,Outpatient,2561.18,Self-Pay,7.0,No,B44,East,43.0,25,47,male,3086.98
+P1919,2024-07-09,2024-07-23,Oncology,D069,Dr. Sarah Youssef,Hypertension,Outpatient,1912.3,privte,2.0,N,B47,Central,101.0,13,76,male,2452.16
+P1920,2024-03-07,2024-03-09,Pediatrics,D079,Dr. Sarah Youssef,Hypertension,Emergency,2399.65,Self-Pay,9.0,N,B21,Central,134.0,21,22,female,3164.98
+P1921,2024-09-14,2024-09-25,Emergency,,Dr Rana Elbaz,Diabetes,Inpatient,1918.02,self pay,10.0,y,B39,Central,39.0,21,18,female,2503.74
+P1922,2024-02-09,2024-02-20,Emergency,D104,dr. omar said,Migraine,Outpatient,3120.11,Public,1.0,No,B40,South,164.0,8,35,male,3557.9
+P1923,2024-04-28,2024-04-30,Oncology,D077,Dr. Sarah Youssef,Heart Disease,Inpatient,2082.17,Public,4.0,N,B25,Central,144.0,7,74,female,2524.82
+P1924,2024-02-08,2024-02-06,cardio,D063,Dr. Sarah Youssef,Diabetes,Inpatient,1451.99,publick,8.0,No,B19,South,,9,71,male,2489.92
+P1925,2024-07-29,2024-08-09,ONCOLOGY,D119,Dr. Sarah Youssef,Hypertension,OUTPATIENT,1581.57,privte,8.0,N,B04,North,138.0,2,29,female,1858.99
+P1926,2024-09-26,2024-09-25,Emergency,D027,Ahmed Khalil,Fracture,Outpatient,3123.45,publick,7.0,N,B19,South,23.0,9,26,F,3697.02
+P1927,2024-02-09,2024-02-10,pediatric,D062,Dr. Omar Saeed,Diabetes,inpatient,818.27,Private,10.0,y,B36,Central,104.0,25,92,female,1165.18
+P1928,2024-09-06,2024-09-13,Cardiology Dept.,D058,Dr. Sarah Yousef,Hypertension,OUTPATIENT,1759.92,Self-Pay,3.0,Yes,B37,Central,,16,87,F,2559.65
+P1929,2024-08-23,2024-08-21,Pediatrics,D074,Dr. Omar Saeed,Migraine,Outpatient,2416.97,Private,3.0,N,B21,West,59.0,14,86,female,2291.67
+P1930,2024-04-02,2024-04-11,Cardiology,D016,Dr. Ahmed Khalil,Fracture,OUTPATIENT,855.05,Self-Pay,6.0,N,B12,West,79.0,27,40,male,778.08
+P1931,2024-08-25,2024-08-25,Oncology,,Dr. Ahmed Khalil,Flu,Emergency,2671.85,publick,9.0,N,B44,South,6.0,3,62,M,3262.15
+P1932,2024-03-22,2024-03-31,ONCOLOGY,D083,Dr Rana Elbaz,Cancer,inpatient,166.97,publick,3.0,No,,West,55.0,15,31,F,334.42
+P1933,2024-09-28,2024-09-28,cardio,D060,Dr. Rana Elbaz,Heart Disease,Emergency,1349.95,privte,4.0,Yes,B39,Central,16.0,9,49,female,1526.43
+P1934,2024-09-14,2024-09-21,Cardiology Dept.,D054,dr. omar said,Flu,Emergency,2260.39,publick,5.0,n,B48,South,28.0,15,88,F,3090.26
+P1935,2024-10-29,2024-10-30,Cardiology,D060,Dr. Sarah Yousef,Fracture,Emergency,2365.74,publick,7.0,y,B02,Central,161.0,12,80,M,3055.23
+P1936,2024-10-02,2024-10-01,Pediatrics,D023,Dr Rana Elbaz,Heart Disease,Outpatient,2033.02,Public,10.0,n,B43,South,77.0,7,49,F,2537.64
+P1937,2024-10-04,2024-10-14,Orthopedics,D044,Dr. Yara Hamed,Flu,OUTPATIENT,4261.1,Private,1.0,Y,B26,Central,57.0,26,28,male,5169.13
+P1938,2024-09-15,2024-09-25,Cardiology,D026,Dr. Omar Saeed,Asthma,Outpatient,3532.18,Private,6.0,N,B01,West,54.0,28,62,female,3979.28
+P1939,2024-09-10,2024-09-22,ONCOLOGY,D011,dr. omar said,Fracture,inpatient,2343.06,privte,,Yes,B23,Central,35.0,8,63,F,2518.75
+P1940,2024-02-27,2024-02-26,Emergency,D008,Dr. Ahmed Khalil,Cancer,inpatient,741.1,Public,9.0,No,B18,North,51.0,27,82,M,1352.72
+P1941,2024-01-20,2024-02-03,Cardiology Dept.,D089,dr. omar said,Diabetes,OUTPATIENT,1353.07,privte,,Yes,B35,East,163.0,17,42,male,2069.33
+P1942,2024-02-22,2024-03-03,pediatric,D042,Dr. Omar Saeed,Asthma,Emergency,1148.61,privte,2.0,Yes,B44,North,27.0,13,88,female,1582.59
+P1943,2024-06-12,2024-06-20,pediatric,D015,dr. omar said,Hypertension,Inpatient,1836.23,Private,3.0,N,,South,99.0,23,53,male,2220.29
+P1944,2024-05-19,2024-05-25,ORTHO,D106,Dr. Sarah Yousef,Migraine,Emergency,1724.52,Public,10.0,N,B01,Central,162.0,27,50,M,1926.6
+P1945,2024-01-06,2024-01-16,Emergency,D087,Dr. Yara Hamed,Fracture,Inpatient,3135.25,Self-Pay,8.0,N,B27,West,156.0,1,85,male,3050.37
+P1946,2024-08-17,2024-08-31,ONCOLOGY,D034,Dr. Omar Saeed,Cancer,inpatient,1329.74,publick,9.0,Y,B25,West,160.0,16,54,F,1576.33
+P1947,2024-10-23,,Oncology,D094,Dr. Rana Elbaz,Hypertension,inpatient,666.16,privte,4.0,y,B31,West,170.0,22,58,male,1601.95
+P1948,2024-12-28,2024-12-29,ORTHO,D059,Ahmed Khalil,Cancer,Emergency,3735.42,self pay,2.0,N,B28,Central,33.0,23,31,M,4185.71
+P1949,2024-02-04,2024-02-02,Cardiology,D099,Ahmed Khalil,Heart Disease,inpatient,4225.5,Private,5.0,n,B32,Central,31.0,7,83,male,4964.08
+P1950,2024-06-18,2024-06-22,Emergency,D041,Dr Rana Elbaz,Cancer,Outpatient,2318.8,self pay,6.0,n,B33,North,75.0,8,34,M,2597.11
+P1951,2024-10-01,2024-10-02,Orthopedics,D059,Dr. Sarah Youssef,Hypertension,Inpatient,662.25,publick,4.0,No,B40,Central,108.0,15,77,female,920.46
+P1952,2024-03-11,2024-03-09,Emergency,D031,Dr. Omar Said,Hypertension,Inpatient,2302.15,Self-Pay,3.0,y,B05,North,132.0,10,54,M,3438.09
+P1953,2024-10-24,2024-11-06,cardio,D064,Dr. Sarah Yousef,Diabetes,inpatient,2508.2,Public,10.0,Y,B41,West,168.0,12,93,M,2700.32
+P1954,2024-02-03,2024-02-05,Oncology,D119,Dr Rana Elbaz,Asthma,inpatient,2775.3,self pay,6.0,Y,,South,151.0,17,69,male,3592.64
+P1955,2024-07-07,2024-07-10,Pediatrics,D053,Dr. Yara Hamed,Asthma,Emergency,2499.85,Public,5.0,n,,South,143.0,5,28,M,3241.34
+P1956,2024-03-14,2024-03-17,Oncology,D082,Dr. Ahmed Khalil,Heart Disease,Outpatient,2020.04,Private,8.0,Yes,B37,South,102.0,27,11,male,2496.24
+P1957,2024-09-30,2024-09-28,Pediatrics,D053,Dr. Yara Hamed,Hypertension,Outpatient,1464.41,Self-Pay,1.0,Yes,B08,North,120.0,1,41,F,1742.15
+P1958,2024-01-11,2024-01-17,Cardiology Dept.,D006,dr. omar said,Heart Disease,inpatient,934.47,privte,7.0,N,B05,Central,108.0,18,92,F,1826.86
+P1959,2024/13/45,2024-03-08,cardio,D088,Dr. Sarah Yousef,Cancer,Outpatient,3241.15,publick,9.0,N,B08,North,115.0,2,87,male,3820.49
+P1960,2024-05-16,2024-05-20,pediatric,D118,Ahmed Khalil,Fracture,Emergency,2131.14,Self-Pay,5.0,No,B03,North,72.0,27,50,F,2408.34
+P1961,2024-10-11,2024-10-16,Oncology,D023,Ahmed Khalil,Fracture,OUTPATIENT,3155.47,publick,,y,B07,East,115.0,24,26,F,3153.75
+P1962,2024-12-25,2024-12-24,ORTHO,D106,Dr. Ahmed Khalil,Fracture,Inpatient,1542.46,self pay,3.0,Y,B19,West,65.0,10,62,F,2287.05
+P1963,2024-06-19,2024-07-02,Cardiology,D073,Ahmed Khalil,Flu,inpatient,3434.23,Self-Pay,2.0,Yes,B15,North,,4,38,F,3472.45
+P1964,2024-06-02,2024-06-16,ONCOLOGY,D007,Dr. Omar Saeed,Flu,OUTPATIENT,1058.37,publick,7.0,Y,B19,North,137.0,20,7,female,2027.08
+P1965,2024-01-28,2024-02-02,Emergency,D050,Dr. Sarah Youssef,Migraine,Inpatient,1752.07,self pay,5.0,y,B09,West,100.0,3,20,M,2436.35
+P1966,2024-02-28,2024-03-04,ORTHO,D088,dr. omar said,Fracture,Inpatient,1197.05,Public,9.0,N,B39,South,161.0,16,40,M,1806.71
+P1967,2024-12-27,2025-01-05,Oncology,D003,Dr. Sarah Youssef,Diabetes,Outpatient,4270.72,Self-Pay,,No,B23,North,134.0,5,3,F,4232.93
+P1968,2024-09-29,2024-10-06,ORTHO,D033,dr. omar said,Asthma,OUTPATIENT,2290.03,Public,7.0,No,B48,South,87.0,3,37,male,3138.83
+P1969,2024-03-15,2024-03-27,ORTHO,D017,dr. omar said,Flu,Emergency,3100.04,Private,8.0,n,B26,North,169.0,13,94,female,3258.75
+P1970,2024-12-19,2025-01-01,ORTHO,D083,Dr. Sarah Yousef,Cancer,Outpatient,1630.25,Self-Pay,10.0,y,B15,East,138.0,26,56,F,1930.59
+P1971,2024-10-31,,Cardiology,D056,Dr. Sarah Youssef,Flu,inpatient,1662.23,self pay,4.0,N,B17,East,19.0,18,81,F,2081.48
+P1972,2024-11-24,2024-11-23,Cardiology Dept.,D090,Dr. Yara Hamed,Hypertension,inpatient,447.56,publick,2.0,Yes,B13,South,123.0,25,94,male,863.62
+P1973,2024-05-01,2024-05-05,Pediatrics,D049,Dr. Ahmed Khalil,Flu,Outpatient,1673.37,publick,10.0,Yes,,West,107.0,7,49,male,2100.29
+P1974,2024-07-30,2024-07-31,ONCOLOGY,D110,Dr. Yara Hamed,Fracture,Emergency,2626.25,Self-Pay,6.0,n,B13,East,26.0,25,55,female,3403.45
+P1975,2024-10-22,2024-10-30,Cardiology,D035,Dr. Sarah Yousef,Heart Disease,Outpatient,2048.11,Public,7.0,N,B39,Central,79.0,25,83,M,2838.64
+P1976,2024-08-07,2024-08-07,cardio,D036,Dr. Sarah Youssef,Flu,OUTPATIENT,2891.58,publick,4.0,N,B40,West,35.0,22,39,M,3728.8
+P1977,2024-09-09,2024-09-13,cardio,D025,Dr. Rana Elbaz,Heart Disease,Inpatient,1742.71,publick,5.0,y,B12,East,66.0,19,40,male,2387.0
+P1978,2024-01-28,2024-02-06,pediatric,D107,Dr. Sarah Youssef,Flu,inpatient,2171.57,self pay,1.0,Y,B13,East,91.0,19,17,female,2642.66
+P1979,2024-03-17,2024-03-27,cardio,D039,Dr. Sarah Yousef,Heart Disease,Outpatient,1632.32,privte,3.0,Y,B45,West,68.0,24,88,female,1813.34
+P1980,2024-11-05,2024-11-17,cardio,D074,dr. omar said,Asthma,Emergency,2301.62,publick,9.0,y,B03,East,,17,50,female,2948.13
+P1981,2024-03-18,2024-03-31,ONCOLOGY,D104,Dr. Ahmed Khalil,Fracture,inpatient,1938.36,Self-Pay,9.0,Y,,North,163.0,20,19,M,1585.03
+P1982,2024-07-21,2024-07-22,Emergency,D091,Ahmed Khalil,Diabetes,Outpatient,2949.64,Public,5.0,Yes,B44,East,130.0,23,1,F,3309.17
+P1983,2024-06-12,2024-06-24,pediatric,D100,Dr. Sarah Youssef,Asthma,Emergency,2449.77,Private,1.0,Y,,North,82.0,20,50,male,3132.66
+P1984,2024-09-06,2024-09-05,Orthopedics,D012,Dr. Omar Said,Hypertension,inpatient,2917.01,Public,9.0,N,B19,North,36.0,9,49,F,3339.24
+P1985,2024-11-28,2024-12-11,Cardiology Dept.,,Dr. Yara Hamed,Flu,Inpatient,2545.45,privte,3.0,y,B38,East,128.0,26,32,male,3056.43
+P1986,2024-08-07,2024-08-17,Pediatrics,D011,Dr. Sarah Yousef,Cancer,inpatient,2367.71,privte,1.0,No,B30,South,172.0,9,3,male,3141.79
+P1987,2024-01-09,2024-01-14,Orthopedics,D081,Dr. Omar Said,Diabetes,Emergency,2183.66,Private,6.0,y,B44,North,56.0,26,75,F,2466.35
+P1988,2024-11-27,2024-12-05,Pediatrics,D112,Dr. Omar Saeed,Diabetes,OUTPATIENT,2089.59,publick,5.0,Yes,B26,Central,144.0,5,22,F,2452.58
+P1989,2024-10-14,2024-10-21,ONCOLOGY,D077,Ahmed Khalil,Cancer,OUTPATIENT,1136.08,Private,6.0,Yes,B02,South,91.0,22,39,M,1686.43
+P1990,2024-02-25,2024-03-05,Emergency,D042,Dr Rana Elbaz,Flu,Emergency,2988.12,Self-Pay,2.0,y,B37,West,157.0,3,80,M,3048.14
+P1991,2024-03-24,2024-03-29,Emergency,D063,dr. omar said,Asthma,Emergency,2008.84,Public,2.0,Y,B34,West,16.0,9,71,female,2159.41
+P1992,2024-02-03,2024-02-16,Cardiology Dept.,D034,Dr. Sarah Youssef,Asthma,Emergency,974.31,Public,7.0,y,B02,South,87.0,15,37,M,1147.93
+P1993,2024-02-07,2024-02-19,pediatric,D025,dr. omar said,Hypertension,Emergency,2780.52,self pay,5.0,n,B40,West,,21,46,female,3218.08
+P1994,2024-03-19,2024-04-01,pediatric,D056,Dr. Sarah Youssef,Flu,OUTPATIENT,1383.86,self pay,4.0,N,,South,151.0,1,3,female,1644.74
+P1995,2024-06-02,2024-06-07,Oncology,D022,Dr. Yara Hamed,Diabetes,Inpatient,2722.22,Self-Pay,1.0,n,B11,West,96.0,12,86,female,3082.05
+P1996,2024-07-22,2024-07-28,Oncology,D064,Ahmed Khalil,Flu,Outpatient,256.17,Private,5.0,y,B13,Central,143.0,1,34,female,739.12
+P1997,2024-01-02,2024-01-08,Pediatrics,D100,Dr. Sarah Yousef,Cancer,Outpatient,2421.83,self pay,4.0,Y,B06,East,146.0,8,24,M,2809.66
+P1998,2024-05-04,2024-05-04,ORTHO,D085,Dr Rana Elbaz,Asthma,Inpatient,1406.53,Public,10.0,n,B31,East,48.0,15,58,M,1791.99
+P1999,2024-10-11,2024-10-17,Oncology,D038,Dr. Omar Said,Heart Disease,Emergency,1135.19,Public,8.0,N,B22,Central,93.0,8,63,F,1476.94
+P2000,2024-05-10,2024-05-08,Pediatrics,D093,Dr. Sarah Yousef,Flu,Inpatient,1700.3,Public,1.0,No,B04,North,121.0,11,74,M,2056.25
+P2001,2024-10-23,2024-10-31,Pediatrics,,Dr. Sarah Youssef,Fracture,Emergency,3010.06,Self-Pay,,y,B31,North,162.0,16,23,F,3492.81
+P2002,2024-02-02,2024-02-05,cardio,D012,Dr. Omar Said,Asthma,Outpatient,2065.66,Self-Pay,1.0,y,B16,West,16.0,29,29,F,2710.58
+P2003,2024-09-09,2024-09-09,Oncology,D079,dr. omar said,Heart Disease,Emergency,1012.09,privte,6.0,y,B13,South,125.0,21,54,male,1076.62
+,2024-02-20,2024-02-29,ONCOLOGY,D118,Ahmed Khalil,Hypertension,inpatient,1530.93,self pay,8.0,Yes,B37,Central,28.0,7,90,F,1786.25
+P2005,2024-05-28,2024-06-07,cardio,D108,Dr. Yara Hamed,Asthma,Emergency,2148.87,Private,7.0,y,B44,South,176.0,26,9,female,3037.75
+P2006,2024-12-11,2024-12-09,Pediatrics,D065,Dr. Omar Saeed,Hypertension,Outpatient,-46.63,self pay,3.0,N,B16,Central,87.0,13,58,male,373.0
+P2007,2024-04-19,2024-05-01,Oncology,D043,dr. omar said,Hypertension,Outpatient,1591.31,publick,6.0,n,,South,,4,27,M,2519.46
+P2008,2024-07-29,2024-07-28,Orthopedics,D074,Dr. Omar Said,Diabetes,Emergency,2872.68,privte,7.0,Yes,B09,East,104.0,6,94,M,3270.11
+P2009,2024-06-21,2024-06-23,pediatric,D088,Dr. Yara Hamed,Flu,Inpatient,1159.21,Private,5.0,Yes,B48,South,66.0,17,32,F,2135.08
+P2010,2024-06-29,2024-07-07,Cardiology,D023,Dr. Omar Said,Migraine,inpatient,1564.58,privte,2.0,Yes,B30,West,20.0,18,34,male,1741.26
+P2011,2024-01-19,2024-01-25,Cardiology,D106,Dr. Sarah Youssef,Heart Disease,Emergency,-2367.61,Public,6.0,No,B08,Central,106.0,15,55,M,-1279.6
+P2012,2024-01-18,2024-01-30,pediatric,D101,Dr. Omar Saeed,Hypertension,OUTPATIENT,2247.18,Private,6.0,y,,South,147.0,15,17,F,3086.38
+P2013,2024-11-01,2024-11-03,ONCOLOGY,D110,Ahmed Khalil,Heart Disease,Outpatient,2005.38,privte,8.0,n,B28,East,56.0,2,17,male,2632.88
+P2014,2024-01-15,2024-01-16,ONCOLOGY,D060,Dr Rana Elbaz,Diabetes,Inpatient,878.02,Private,5.0,No,B23,North,142.0,11,68,male,1836.55
+P2015,2024-03-22,2024-03-30,Cardiology,D010,Ahmed Khalil,Cancer,OUTPATIENT,1941.04,privte,3.0,n,B32,East,119.0,13,86,male,2536.66
+P2016,2024-08-19,2024-09-01,Oncology,,Dr. Sarah Youssef,Diabetes,Inpatient,1469.98,privte,1.0,N,B28,Central,145.0,25,60,M,2056.9
+P2017,2024-01-18,2024-01-27,cardio,D053,Dr. Sarah Youssef,Cancer,Outpatient,1116.68,publick,2.0,y,B36,North,94.0,13,20,F,1329.31
+P2018,2024-05-27,2024-06-04,pediatric,D109,Dr. Sarah Yousef,Cancer,Outpatient,2100.03,self pay,10.0,n,B03,North,116.0,27,59,F,2668.16
+P2019,2024-09-07,2024-09-19,cardio,D095,Dr. Yara Hamed,Asthma,Inpatient,2131.93,Private,4.0,y,B40,West,119.0,22,48,M,2532.12
+P2020,2024-01-13,2024-01-20,pediatric,D029,Dr. Sarah Yousef,Diabetes,Emergency,1322.88,privte,5.0,Y,,Central,25.0,10,12,F,2346.11
+P2021,2024-12-07,2024-12-05,Emergency,D032,Dr. Omar Saeed,Heart Disease,Outpatient,1599.88,self pay,6.0,Yes,B13,North,83.0,24,44,F,2259.48
+P2022,2024-09-03,2024-09-01,cardio,D034,Dr. Omar Saeed,Flu,OUTPATIENT,1193.42,Public,,y,B33,West,64.0,4,30,male,1201.88
+P2023,2024-11-21,2024-12-02,Emergency,D108,Dr. Ahmed Khalil,Heart Disease,Outpatient,2239.84,Private,7.0,y,B47,Central,147.0,24,37,female,2243.14
+P2024,2024-01-14,2024-01-18,Oncology,D077,Dr. Omar Said,Heart Disease,Outpatient,2804.45,Self-Pay,,N,B18,West,79.0,22,21,male,4224.7
+P2025,2024-03-19,2024-04-01,pediatric,D039,Ahmed Khalil,Heart Disease,Inpatient,1927.82,publick,2.0,y,B36,Central,122.0,25,68,male,2910.49
+P2026,2024-02-18,2024-02-21,ONCOLOGY,D069,dr. omar said,Heart Disease,OUTPATIENT,2478.6,publick,7.0,No,B23,East,128.0,3,33,female,3078.08
+P2027,2024-03-04,2024-03-12,ONCOLOGY,D038,Dr. Sarah Yousef,Heart Disease,inpatient,1616.68,publick,9.0,Yes,B23,Central,130.0,22,21,male,2313.9
+P2028,2024-12-20,2024-12-28,pediatric,D046,Dr. Omar Saeed,Migraine,inpatient,2966.68,Public,4.0,n,B27,West,76.0,6,35,F,3515.54
+P2029,2024-08-12,2024-08-19,Pediatrics,D091,Dr Rana Elbaz,Fracture,Emergency,2106.75,Private,6.0,Y,B01,North,17.0,5,49,F,2508.56
+P2030,2024-05-17,2024-05-15,pediatric,D098,dr. omar said,Flu,Outpatient,1883.61,Private,8.0,N,B06,South,27.0,20,40,F,2360.21
+P2031,2024-09-02,2024-08-31,Pediatrics,D008,Dr Rana Elbaz,Asthma,Inpatient,2826.38,Private,5.0,y,B39,West,143.0,1,19,male,2933.39
+P2032,2024-06-28,2024-06-27,Cardiology,D100,Dr. Sarah Yousef,Asthma,Emergency,,privte,8.0,No,B21,Central,107.0,19,46,male,
+P2033,2024-01-09,2024-01-09,Oncology,D073,Dr. Sarah Youssef,Diabetes,Emergency,1120.4,privte,9.0,No,B33,South,71.0,7,68,male,1946.68
+P2034,2024-02-16,2024-02-25,Cardiology Dept.,D008,Dr. Ahmed Khalil,Diabetes,OUTPATIENT,,Private,3.0,y,B48,North,38.0,20,18,male,
+P2035,2024-01-13,2024-01-14,Pediatrics,D091,Ahmed Khalil,Asthma,Inpatient,1735.01,Private,4.0,No,B05,West,39.0,7,86,female,2318.78
+P2036,2024-11-15,2024-11-27,ONCOLOGY,D108,Dr. Sarah Yousef,Migraine,Inpatient,2861.73,publick,1.0,N,,South,168.0,22,29,male,3415.13
+P2037,2024-07-23,2024-07-25,Pediatrics,D032,Ahmed Khalil,Heart Disease,OUTPATIENT,3111.83,Public,6.0,N,B08,South,117.0,14,14,F,4197.35
+P2038,2024-06-24,2024-06-23,pediatric,D012,Dr. Omar Said,Flu,OUTPATIENT,1245.41,publick,8.0,No,B18,West,149.0,26,37,male,1467.77
+P2039,2024-01-20,2024-01-23,Cardiology Dept.,D031,Dr. Ahmed Khalil,Migraine,Outpatient,3366.36,Self-Pay,9.0,n,B30,West,146.0,13,80,F,4202.62
+P2040,2024-10-15,2024-10-14,Emergency,D063,Ahmed Khalil,Flu,Outpatient,1943.65,self pay,5.0,Yes,B16,East,29.0,27,48,F,2122.67
+P2041,2024-12-07,2024-12-09,Cardiology,D003,dr. omar said,Fracture,Emergency,1339.92,self pay,2.0,N,B30,West,70.0,11,22,F,1853.86
+P2042,2024/13/45,,ONCOLOGY,D029,Dr. Omar Saeed,Heart Disease,inpatient,1469.33,Public,,n,B13,Central,122.0,9,73,female,1556.78
+P2043,2024-02-08,2024-02-08,ORTHO,D036,Dr. Yara Hamed,Diabetes,Emergency,1180.38,Private,4.0,No,B20,South,158.0,29,44,female,1717.9
+P2044,2024-04-24,2024-04-30,cardio,D099,Dr. Omar Said,Heart Disease,inpatient,1675.08,Private,10.0,Yes,B41,South,100.0,6,16,M,1890.98
+P2045,2024-04-23,2024-04-25,Cardiology,D111,Dr. Rana Elbaz,Fracture,OUTPATIENT,1842.78,publick,,Y,B35,East,171.0,6,53,F,2617.95
+P2046,2024-05-12,2024-05-22,ORTHO,D005,Dr. Rana Elbaz,Heart Disease,inpatient,2560.06,publick,9.0,y,B25,Central,141.0,12,25,male,3443.58
+P2047,2024-02-07,2024-02-18,ONCOLOGY,D050,Dr Rana Elbaz,Cancer,inpatient,920.28,Private,1.0,Yes,B09,North,83.0,10,21,female,1597.64
+P2048,2024-12-16,2024-12-15,Cardiology,D065,Dr. Sarah Youssef,Asthma,Inpatient,3343.22,privte,8.0,N,B15,South,91.0,20,36,F,3140.0
+P2049,2024-05-08,2024-05-19,ORTHO,D098,dr. omar said,Flu,Outpatient,1920.07,Public,4.0,n,B18,South,45.0,2,80,F,2512.01
+P2050,2024-01-22,2024-01-20,Pediatrics,D036,Ahmed Khalil,Fracture,Emergency,,publick,4.0,Yes,B36,East,93.0,19,18,male,
+P2051,2024-07-12,2024-07-26,Emergency,D066,Ahmed Khalil,Fracture,inpatient,2400.6,Public,8.0,N,B03,Central,173.0,16,89,male,2627.1
+P2052,2024-04-04,2024-04-16,cardio,D065,Dr. Sarah Yousef,Asthma,inpatient,1010.03,privte,4.0,y,B13,East,167.0,10,44,M,1747.14
+P2053,2024-11-20,2024-11-23,Cardiology,D014,Dr. Omar Said,Hypertension,Outpatient,2416.41,privte,3.0,No,B47,South,61.0,6,69,M,3131.84
+P2054,2024-06-04,2024-06-15,Orthopedics,D036,dr. omar said,Diabetes,Outpatient,1731.56,publick,2.0,y,B41,South,52.0,1,28,male,2465.62
+P2055,2024-07-17,2024-07-30,ONCOLOGY,D074,Dr. Yara Hamed,Diabetes,inpatient,1592.88,Private,,y,B13,West,129.0,27,62,female,2026.35
+P2056,2024-12-16,2024-12-23,Cardiology Dept.,D026,Dr. Omar Saeed,Diabetes,Inpatient,681.69,privte,6.0,Y,B38,Central,71.0,27,7,F,1244.03
+P2057,2024-10-13,2024-10-11,Oncology,D102,Dr. Sarah Youssef,Diabetes,inpatient,1832.66,Private,7.0,N,B30,South,,13,39,M,2245.77
+P2058,2024-01-10,2024-01-19,cardio,D072,Dr. Ahmed Khalil,Flu,inpatient,1397.25,Private,7.0,N,B16,East,168.0,27,28,M,1872.42
+P2059,2024-04-23,2024-05-06,pediatric,D066,Dr. Ahmed Khalil,Heart Disease,Inpatient,-2692.22,publick,8.0,N,B10,North,170.0,8,17,female,-2491.43
+P2060,2024-03-02,2024-02-29,ONCOLOGY,D057,dr. omar said,Fracture,OUTPATIENT,3825.87,Private,6.0,n,B16,Central,93.0,26,55,F,4326.19
+P2061,2024-10-14,2024-10-12,ONCOLOGY,D092,Dr. Omar Saeed,Flu,inpatient,1999.45,Self-Pay,10.0,No,B41,North,14.0,12,50,male,2565.16
+P2062,2024-06-28,2024-07-03,Orthopedics,D009,Dr. Ahmed Khalil,Diabetes,inpatient,1513.81,publick,7.0,n,B44,South,12.0,23,8,male,2118.2
+P2063,2024-11-29,2024-12-11,pediatric,D104,dr. omar said,Heart Disease,OUTPATIENT,2248.07,Self-Pay,1.0,No,B49,West,67.0,23,62,M,2665.66
+P2064,2024-05-17,2024-05-25,Orthopedics,D050,Dr. Yara Hamed,Flu,Emergency,2322.71,Private,4.0,Y,B41,West,157.0,28,72,male,2725.1
+P2065,2024-09-20,2024-09-20,Emergency,D073,Dr. Sarah Yousef,Migraine,inpatient,2078.12,Private,,No,B11,South,57.0,2,64,F,2772.85
+P2066,2024-09-14,2024-09-27,Oncology,D009,Dr. Omar Saeed,Hypertension,Emergency,2736.41,Private,8.0,No,B02,North,26.0,16,58,M,3537.45
+P2067,2024-04-26,2024-04-29,ONCOLOGY,D060,Dr Rana Elbaz,Hypertension,OUTPATIENT,1134.61,Private,9.0,N,B07,Central,69.0,14,57,M,1584.94
+P2068,2024-12-17,2024-12-28,ONCOLOGY,D076,Dr. Omar Said,Flu,Outpatient,3227.17,publick,3.0,y,B09,Central,65.0,28,78,female,3643.62
+P2069,2024-02-23,2024-03-01,ORTHO,D002,Dr. Yara Hamed,Cancer,Inpatient,2122.16,Private,5.0,Y,B47,South,81.0,13,41,M,2522.48
+P2070,2024-06-20,2024-06-19,ORTHO,D114,dr. omar said,Diabetes,OUTPATIENT,1509.96,publick,2.0,y,B31,North,134.0,13,89,F,1776.38
+P2071,2024-06-19,2024-06-23,ORTHO,D051,Dr. Omar Saeed,Heart Disease,Emergency,2515.25,Self-Pay,8.0,Yes,B28,South,106.0,4,10,F,3279.14
+P2072,2024-07-25,2024-07-25,ONCOLOGY,D092,Dr. Sarah Yousef,Asthma,inpatient,1721.21,Public,6.0,n,B44,East,126.0,6,83,male,2169.62
+P2073,2024-05-29,2024-06-05,Cardiology,D083,Dr. Ahmed Khalil,Flu,OUTPATIENT,1248.25,publick,10.0,n,B25,Central,136.0,3,65,M,1656.86
+P2074,2024-02-07,2024-02-09,Pediatrics,D025,Dr. Sarah Yousef,Fracture,Outpatient,2457.74,Public,10.0,N,B20,East,127.0,16,66,M,2802.27
+P2075,2024-10-17,2024-10-31,Pediatrics,D110,Dr. Omar Said,Fracture,Emergency,2914.26,self pay,1.0,Y,B24,Central,127.0,16,80,M,3924.98
+P2076,2024-01-25,2024-02-02,ONCOLOGY,D088,Dr Rana Elbaz,Heart Disease,inpatient,1122.6,Self-Pay,9.0,Y,B11,East,63.0,16,27,female,1472.92
+P2077,2024-10-16,2024-10-29,Cardiology Dept.,D001,Ahmed Khalil,Migraine,inpatient,1356.37,Self-Pay,8.0,Yes,B22,North,25.0,19,43,F,1651.49
+P2078,2024-01-06,2024-01-11,Cardiology,D043,Dr. Sarah Yousef,Flu,Emergency,1711.13,Self-Pay,,y,B30,North,50.0,19,25,M,2321.57
+P2079,2024-07-23,2024-08-03,ONCOLOGY,D057,Dr. Ahmed Khalil,Flu,Inpatient,4028.38,self pay,1.0,y,B37,West,7.0,22,45,F,4130.13
+P2080,2024-09-15,2024-09-14,Cardiology Dept.,D079,Dr. Omar Saeed,Hypertension,inpatient,1599.06,publick,5.0,y,,Central,104.0,25,16,male,2406.94
+P2081,2024-08-19,,cardio,D062,Dr. Sarah Yousef,Migraine,Emergency,2940.36,privte,8.0,y,B17,North,109.0,16,84,female,3581.84
+P2082,2024-05-29,2024-06-01,ORTHO,D087,dr. omar said,Asthma,inpatient,2770.09,Public,8.0,n,B36,North,137.0,16,71,female,3019.53
+P2083,2024-03-19,2024-03-30,Orthopedics,D099,dr. omar said,Asthma,OUTPATIENT,1926.12,privte,2.0,Yes,B08,East,142.0,2,57,male,2221.66
+P2084,2024-02-20,2024-02-20,Pediatrics,D062,Dr. Sarah Yousef,Diabetes,Outpatient,3189.6,Private,10.0,N,B12,South,53.0,16,25,female,3684.53
+P2085,2024-08-16,2024-08-25,Cardiology Dept.,D078,Dr. Ahmed Khalil,Migraine,OUTPATIENT,1153.16,publick,4.0,y,B24,West,144.0,6,60,male,2096.71
+P2086,2024-05-22,2024-05-24,Orthopedics,D067,Dr. Sarah Youssef,Migraine,Inpatient,1162.7,Private,10.0,Yes,B27,South,43.0,17,87,F,1535.74
+P2087,2024-12-05,2024-12-15,Emergency,D049,dr. omar said,Heart Disease,inpatient,1674.02,self pay,1.0,n,B13,East,17.0,14,2,M,1847.17
+P2088,2024-04-12,2024-04-11,pediatric,D004,Dr. Omar Saeed,Diabetes,inpatient,852.34,privte,,Yes,B39,East,41.0,5,6,F,1491.79
+P2089,2024/13/45,2024-04-17,cardio,D081,Dr. Sarah Yousef,Diabetes,Inpatient,1852.17,Private,6.0,Y,B39,Central,58.0,28,65,F,2618.7
+P2090,2024-07-22,2024-08-02,pediatric,D030,Ahmed Khalil,Asthma,Inpatient,1929.12,self pay,8.0,n,B09,West,37.0,27,28,male,2781.08
+P2091,2024-04-08,2024-04-15,Orthopedics,,Dr Rana Elbaz,Asthma,inpatient,2000.7,publick,3.0,Yes,B31,South,62.0,6,28,female,2094.76
+P2092,2024-12-05,2024-12-05,ONCOLOGY,D045,Dr. Sarah Yousef,Hypertension,OUTPATIENT,,Self-Pay,7.0,No,,Central,69.0,5,25,female,
+P2093,2024-08-06,2024-08-13,cardio,D028,Dr. Rana Elbaz,Migraine,Outpatient,1975.11,Public,2.0,y,B16,East,69.0,21,77,female,2455.17
+P2094,2024-01-31,2024-01-31,Oncology,D028,Dr Rana Elbaz,Flu,inpatient,1656.68,privte,3.0,y,B18,East,114.0,26,54,F,1965.18
+P2095,2024-07-30,2024-08-04,Cardiology,D097,dr. omar said,Diabetes,OUTPATIENT,4340.93,Public,7.0,Y,B27,East,46.0,16,59,F,4478.95
+P2096,2024-05-13,2024-05-12,Emergency,D038,Dr. Omar Saeed,Flu,inpatient,556.52,self pay,5.0,Y,B23,North,76.0,17,61,M,1460.42
+P2097,2024-03-10,2024-03-24,Orthopedics,D042,Dr. Rana Elbaz,Cancer,Emergency,2347.92,publick,3.0,N,B23,Central,146.0,3,1,male,3323.99
+P2098,2024-10-11,2024-10-11,ONCOLOGY,D047,Dr. Sarah Yousef,Diabetes,OUTPATIENT,2236.1,privte,,Y,B10,West,70.0,20,94,M,2873.64
+P2099,2024-11-18,2024-11-16,ONCOLOGY,D039,Dr Rana Elbaz,Cancer,OUTPATIENT,3283.07,Public,6.0,No,B32,East,157.0,26,56,M,4083.21
+P2100,2024-05-15,2024-05-18,Oncology,D100,Dr. Rana Elbaz,Cancer,Emergency,2019.16,privte,9.0,Yes,B49,Central,137.0,2,80,F,2935.25
+P2101,2024-06-16,2024-06-17,Orthopedics,D011,Dr. Ahmed Khalil,Flu,inpatient,2279.95,Self-Pay,2.0,n,B36,West,146.0,18,14,female,3165.06
+P2102,2024-08-12,2024-08-15,pediatric,D032,Dr. Omar Saeed,Migraine,Emergency,2574.9,Private,9.0,Yes,B42,Central,,26,42,F,2989.78
+P2103,2024-05-10,2024-05-16,Cardiology Dept.,D101,Dr. Omar Saeed,Hypertension,OUTPATIENT,1610.87,publick,2.0,No,B38,West,160.0,25,21,female,2175.44
+P2104,2024-03-28,2024-04-04,pediatric,D042,dr. omar said,Diabetes,Emergency,1287.52,Public,10.0,n,B11,East,105.0,26,92,F,1689.73
+P2105,2024-08-19,2024-08-29,Orthopedics,D104,Dr. Yara Hamed,Cancer,OUTPATIENT,1381.89,Public,7.0,Y,B10,South,34.0,27,51,female,1740.41
+P2106,2024-10-11,2024-10-16,Orthopedics,D060,dr. omar said,Fracture,Outpatient,2430.37,Self-Pay,8.0,y,B31,Central,66.0,6,52,F,3465.95
+P2107,2024-03-25,2024-03-26,Cardiology Dept.,D095,dr. omar said,Flu,inpatient,3304.53,Private,3.0,n,B31,North,155.0,7,74,M,4509.82
+P2108,2024-07-12,2024-07-10,cardio,D011,Dr. Rana Elbaz,Hypertension,inpatient,1901.99,Public,10.0,No,B41,South,140.0,18,19,male,2106.07
+P2109,2024-03-16,2024-03-18,Cardiology,D044,Dr. Yara Hamed,Diabetes,Emergency,2559.26,Public,4.0,Yes,B42,South,91.0,11,73,M,2556.74
+P2110,2024-04-20,2024-04-28,Emergency,D111,Dr. Sarah Youssef,Heart Disease,OUTPATIENT,2245.36,Public,8.0,N,B36,East,25.0,28,58,M,2740.87
+P2111,2024-05-28,2024-06-11,pediatric,D064,Dr. Omar Said,Asthma,Emergency,2125.14,Public,5.0,y,B09,North,56.0,14,91,F,2580.0
+P2112,2024-12-09,2024-12-15,Oncology,D118,Dr. Yara Hamed,Heart Disease,inpatient,2532.45,Private,6.0,y,B47,South,178.0,26,40,female,3120.45
+P2113,2024-08-21,2024-08-28,Cardiology,D038,Dr. Sarah Yousef,Asthma,OUTPATIENT,2806.68,Private,,No,B23,South,100.0,5,85,F,2970.19
+P2114,2024-01-10,2024-01-13,Cardiology Dept.,D113,Dr. Omar Said,Migraine,Outpatient,992.25,self pay,4.0,Y,B20,West,30.0,6,73,F,1580.46
+P2115,2024-10-31,2024-11-01,Cardiology Dept.,D051,Ahmed Khalil,Diabetes,Emergency,3346.12,publick,7.0,N,B28,Central,9.0,27,86,M,3743.44
+P2116,2024-10-30,2024-11-06,Cardiology Dept.,D116,Dr. Rana Elbaz,Hypertension,Inpatient,1358.25,privte,1.0,N,B48,West,172.0,7,58,F,2262.1
+P2117,2024-01-10,2024-01-10,Emergency,D005,Dr Rana Elbaz,Heart Disease,inpatient,2077.1,Private,4.0,Y,B24,Central,60.0,14,94,male,2741.36
+P2118,2024-07-09,2024-07-14,pediatric,,Dr. Sarah Youssef,Migraine,Outpatient,2212.9,Private,7.0,No,B47,North,122.0,5,60,F,2864.02
+P2119,2024/13/45,2024-06-16,pediatric,D023,Dr. Sarah Youssef,Flu,Outpatient,1325.52,self pay,,N,B48,East,118.0,7,87,female,1475.36
+P2120,2024-08-20,2024-08-22,cardio,D115,Dr. Ahmed Khalil,Heart Disease,Emergency,2320.37,Private,4.0,Yes,B26,East,98.0,1,68,F,2918.95
+P2121,2024-09-27,2024-10-03,Oncology,D108,Dr. Omar Saeed,Diabetes,OUTPATIENT,1983.01,privte,5.0,N,B22,North,153.0,4,48,M,2507.34
+P2122,2024-12-06,2024-12-05,ORTHO,D045,Dr. Rana Elbaz,Fracture,inpatient,2475.61,Private,1.0,N,,East,68.0,29,74,female,2353.33
+P2123,2024-03-18,2024-03-16,ORTHO,D071,Dr. Omar Saeed,Cancer,Emergency,,Public,5.0,Y,B30,South,162.0,12,49,F,
+P2124,2024-07-17,2024-07-28,Orthopedics,D026,Dr. Ahmed Khalil,Heart Disease,Outpatient,1821.8,Public,5.0,y,B31,East,84.0,1,11,M,2126.22
+P2125,2024-02-04,2024-02-10,pediatric,D043,Dr. Ahmed Khalil,Diabetes,Inpatient,1919.98,self pay,,n,B27,North,157.0,6,15,male,2091.81
+P2126,2024-02-24,2024-03-02,Oncology,,Dr. Sarah Yousef,Migraine,Inpatient,1896.98,Private,7.0,y,B40,Central,25.0,11,47,M,2543.0
+P2127,2024-02-17,2024-02-22,ORTHO,D001,Dr. Ahmed Khalil,Diabetes,inpatient,1791.79,publick,3.0,N,B36,Central,29.0,9,15,female,2631.9
+P2128,2024-01-17,2024-01-20,Emergency,D079,dr. omar said,Asthma,OUTPATIENT,940.13,privte,5.0,y,B45,North,104.0,28,77,female,1098.45
+P2129,2024-12-28,2025-01-07,Oncology,D028,Dr. Sarah Yousef,Asthma,inpatient,2724.29,privte,8.0,No,B06,South,90.0,20,12,F,3013.84
+P2130,2024-08-30,2024-09-07,Pediatrics,D108,Dr. Rana Elbaz,Heart Disease,OUTPATIENT,1171.96,self pay,2.0,Yes,B11,East,,8,72,female,1427.36
+P2131,2024-09-17,2024-09-26,Orthopedics,D118,Dr. Ahmed Khalil,Hypertension,OUTPATIENT,2650.34,privte,10.0,y,B47,East,11.0,26,6,female,2639.26
+P2132,2024-07-15,2024-07-24,Cardiology,D072,Dr. Omar Said,Hypertension,Outpatient,2427.43,self pay,1.0,Y,B09,Central,14.0,24,25,F,3352.21
+P2133,2024-05-16,2024-05-30,Oncology,D045,Dr. Sarah Yousef,Fracture,OUTPATIENT,1427.09,privte,8.0,Yes,B31,South,76.0,20,11,F,2121.96
+P2134,2024-07-29,2024-07-27,ORTHO,D086,Dr. Omar Saeed,Fracture,Emergency,1725.83,Self-Pay,2.0,y,B13,North,104.0,23,88,male,2171.97
+P2135,2024-11-28,2024-12-08,Oncology,D035,Dr. Yara Hamed,Cancer,Emergency,3875.24,publick,7.0,y,B17,Central,48.0,19,30,F,4579.01
+P2136,2024-04-20,2024-04-29,Oncology,D042,Ahmed Khalil,Heart Disease,Inpatient,2065.43,self pay,6.0,N,B05,South,90.0,18,41,male,2111.89
+P2137,2024-06-15,2024-06-28,Oncology,D099,Dr. Omar Said,Flu,Outpatient,1644.19,Private,2.0,Yes,B32,West,139.0,10,15,male,2098.26
+P2138,2024-08-20,2024-08-23,cardio,D110,dr. omar said,Cancer,Inpatient,2333.86,self pay,9.0,Y,B07,West,26.0,25,46,female,2536.07
+P2139,2024-09-28,2024-10-11,Orthopedics,D027,Dr Rana Elbaz,Heart Disease,inpatient,1560.96,publick,7.0,y,B16,West,168.0,3,36,F,2401.85
+P2140,2024-02-04,2024-02-04,ONCOLOGY,D017,Dr. Ahmed Khalil,Fracture,Outpatient,1835.5,privte,8.0,Yes,B28,East,165.0,11,74,female,2803.01
+P2141,2024-11-25,2024-11-29,Cardiology Dept.,D052,Dr. Ahmed Khalil,Heart Disease,inpatient,1456.62,self pay,6.0,Y,B21,North,48.0,13,67,female,1984.71
+P2142,2024-01-11,2024-01-20,Orthopedics,D099,Dr Rana Elbaz,Cancer,OUTPATIENT,1533.04,publick,7.0,No,B36,West,124.0,22,65,F,2173.22
+P2143,2024-03-03,2024-03-04,ONCOLOGY,D016,Dr. Rana Elbaz,Migraine,Outpatient,3308.24,Public,10.0,Y,B16,East,123.0,17,55,F,3781.34
+P2144,2024-11-05,2024-11-17,Orthopedics,D051,Ahmed Khalil,Cancer,Emergency,984.84,Self-Pay,,No,B43,North,14.0,24,34,male,1339.63
+P2145,2024-11-25,2024-11-24,Orthopedics,D034,dr. omar said,Fracture,Emergency,3514.89,self pay,8.0,y,B34,East,132.0,8,71,M,4460.7
+P2146,2024-12-25,2024-12-23,ORTHO,D114,Dr. Omar Said,Migraine,Emergency,2713.53,Self-Pay,,n,B42,West,117.0,28,48,M,3334.64
+P2147,2024-05-15,2024-05-15,ONCOLOGY,D065,Dr. Omar Saeed,Cancer,inpatient,36.37,publick,8.0,Yes,B33,East,70.0,10,54,male,420.46
+P2148,2024-03-11,2024-03-20,Cardiology,D070,Dr. Sarah Youssef,Hypertension,Inpatient,2546.4,self pay,6.0,Y,B32,West,19.0,16,75,female,3022.08
+P2149,2024-07-01,2024-07-02,pediatric,D005,dr. omar said,Heart Disease,inpatient,347.44,publick,7.0,Yes,B13,West,97.0,10,15,M,1583.3
+P2150,2024-03-08,2024-03-20,Orthopedics,D104,Dr. Omar Saeed,Fracture,Inpatient,2830.68,Private,6.0,N,B16,East,51.0,13,51,female,3147.31
+P2151,2024-04-26,2024-05-02,ORTHO,D019,Dr. Sarah Yousef,Hypertension,inpatient,2595.35,Private,9.0,y,B04,West,21.0,11,67,female,3475.31
+P2152,2024-01-11,2024-01-17,ONCOLOGY,D026,Dr. Ahmed Khalil,Hypertension,Outpatient,1418.06,self pay,7.0,n,B46,South,130.0,14,70,male,1858.98
+P2153,2024-11-16,2024-11-22,Pediatrics,D041,Dr Rana Elbaz,Heart Disease,OUTPATIENT,1285.13,privte,10.0,Y,B17,West,104.0,11,65,F,1485.63
+P2154,2024-02-18,2024-03-03,Emergency,D093,Dr. Omar Said,Asthma,Inpatient,3002.31,Self-Pay,6.0,Yes,B09,East,160.0,9,49,M,3195.56
+P2155,2024-11-22,2024-12-06,ORTHO,D008,Dr. Omar Said,Heart Disease,OUTPATIENT,1604.05,self pay,6.0,n,B10,South,53.0,20,15,F,2144.64
+P2156,2024-11-24,2024-11-25,ONCOLOGY,D002,Ahmed Khalil,Fracture,Emergency,842.23,privte,4.0,Y,B44,South,111.0,16,69,M,1493.44
+P2157,2024-01-24,2024-01-31,Oncology,D089,Dr. Ahmed Khalil,Fracture,inpatient,2613.98,self pay,8.0,No,B33,North,20.0,17,31,M,3309.34
+P2158,2024-04-07,2024-04-14,ORTHO,D019,Dr. Ahmed Khalil,Flu,inpatient,2035.11,publick,5.0,y,B39,East,162.0,16,47,female,1944.76
+P2159,2024-03-05,2024-03-17,cardio,D029,Dr. Sarah Yousef,Cancer,Emergency,1109.39,privte,6.0,No,B03,South,132.0,16,69,F,1504.24
+,2024-11-17,2024-11-16,pediatric,D111,dr. omar said,Heart Disease,Inpatient,1131.97,Self-Pay,10.0,Y,B23,East,78.0,6,53,M,1778.62
+P2161,2024-04-21,2024-05-01,ONCOLOGY,D032,Dr. Rana Elbaz,Migraine,inpatient,3907.68,Private,2.0,Y,B32,West,22.0,26,75,F,4723.11
+P2162,2024-11-20,2024-12-01,pediatric,D026,Dr. Rana Elbaz,Cancer,Emergency,1932.3,Private,4.0,Yes,B24,South,39.0,3,38,female,2140.57
+P2163,2024-08-18,2024-08-17,Pediatrics,D022,Dr. Sarah Yousef,Cancer,inpatient,2372.85,publick,4.0,N,,Central,102.0,2,23,F,2435.06
+P2164,2024-05-04,2024-05-13,Orthopedics,D012,Dr. Omar Said,Flu,OUTPATIENT,888.73,Public,9.0,No,B17,North,100.0,2,35,F,1525.12
+P2165,2024-11-04,2024-11-08,cardio,D022,Dr. Sarah Youssef,Fracture,OUTPATIENT,2079.12,privte,1.0,No,B31,South,136.0,19,51,female,2810.97
+P2166,2024-11-02,2024-11-02,ONCOLOGY,D034,Dr. Rana Elbaz,Migraine,Emergency,2685.9,privte,8.0,y,B14,West,63.0,21,28,M,2534.17
+P2167,2024-04-06,2024-04-09,Cardiology Dept.,D006,Dr. Sarah Youssef,Cancer,Inpatient,1940.2,Private,10.0,Y,B39,West,39.0,12,31,F,2549.05
+P2168,2024-06-19,2024-06-26,cardio,D004,Dr. Ahmed Khalil,Fracture,OUTPATIENT,2095.89,Public,,Y,B36,West,82.0,27,86,M,2736.05
+P2169,2024-11-15,2024-11-29,Oncology,D012,Dr Rana Elbaz,Hypertension,Inpatient,3015.56,Self-Pay,3.0,Yes,B28,Central,101.0,11,77,F,3769.79
+P2170,2024-05-03,2024-05-15,ONCOLOGY,D109,dr. omar said,Hypertension,Emergency,-1649.48,Public,2.0,Y,B46,West,126.0,9,41,male,-1536.56
+P2171,2024-07-16,2024-07-21,Pediatrics,D044,Dr. Omar Said,Asthma,Inpatient,3216.7,Public,3.0,y,B44,North,,16,74,M,3458.98
+P2172,2024-10-09,2024-10-18,ORTHO,D037,Dr. Yara Hamed,Fracture,inpatient,2021.99,self pay,,y,B16,South,38.0,9,42,F,2636.31
+P2173,2024-07-10,2024-07-17,ORTHO,D017,Dr. Sarah Youssef,Asthma,Inpatient,2292.1,self pay,7.0,Yes,B23,Central,72.0,8,50,male,2852.34
+P2174,2024-04-12,2024-04-18,cardio,D099,dr. omar said,Heart Disease,Inpatient,659.24,Private,4.0,No,,East,,20,16,F,1243.18
+P2175,2024-03-17,2024-03-16,Emergency,D095,Dr Rana Elbaz,Cancer,inpatient,2212.23,self pay,9.0,n,B40,East,111.0,29,29,male,2955.67
+P2176,2024-01-14,2024-01-17,Oncology,D030,Dr. Sarah Youssef,Flu,Emergency,368.58,Public,2.0,y,B48,East,119.0,15,84,M,738.03
+P2177,2024-05-02,2024-05-08,ONCOLOGY,D049,Dr. Sarah Youssef,Asthma,Outpatient,1300.18,Public,1.0,N,,Central,106.0,6,30,female,1831.64
+P2178,2024-03-18,2024-03-30,ORTHO,D019,Dr. Yara Hamed,Diabetes,Emergency,2398.82,privte,8.0,Y,B30,North,113.0,25,88,M,3015.88
+P2179,2024/13/45,2024-12-21,ONCOLOGY,,Dr. Rana Elbaz,Asthma,inpatient,2899.28,Private,7.0,y,B19,Central,105.0,19,61,M,3244.27
+P2180,2024-09-16,2024-09-19,Cardiology,D113,Dr Rana Elbaz,Fracture,inpatient,694.61,privte,8.0,y,B07,Central,58.0,5,58,female,904.99
+P2181,2024-10-06,2024-10-19,Cardiology Dept.,D037,Dr. Ahmed Khalil,Migraine,Outpatient,1506.15,self pay,6.0,Y,B04,West,118.0,26,1,male,2507.77
+,2024-06-18,2024-06-28,Emergency,D055,Ahmed Khalil,Migraine,Emergency,2397.77,Public,2.0,y,,North,,17,38,female,2652.96
+P2183,2024-08-09,2024-08-21,cardio,D107,Dr. Rana Elbaz,Migraine,Emergency,2627.83,Private,2.0,Yes,B33,West,110.0,19,16,female,3537.86
+P2184,2024-10-28,2024-11-07,cardio,D094,Ahmed Khalil,Heart Disease,Emergency,2250.51,privte,5.0,y,,West,118.0,5,3,female,2251.55
+P2185,2024-04-19,2024-04-18,Cardiology,D063,Ahmed Khalil,Migraine,OUTPATIENT,2139.72,Self-Pay,6.0,No,B04,West,43.0,4,92,male,3164.02
+P2186,2024-01-28,2024-02-04,Cardiology Dept.,D042,Dr. Yara Hamed,Heart Disease,OUTPATIENT,2041.33,Self-Pay,10.0,Y,B46,South,107.0,16,27,M,1970.39
+P2187,2024-04-06,2024-04-18,Cardiology Dept.,D059,Dr Rana Elbaz,Diabetes,Emergency,2432.34,privte,8.0,y,B40,South,138.0,8,2,male,2557.31
+P2188,2024-07-15,2024-07-26,Cardiology Dept.,D092,Dr. Sarah Yousef,Fracture,Inpatient,710.31,self pay,3.0,y,B30,Central,163.0,11,35,male,1137.3
+P2189,2024-11-14,2024-11-21,Cardiology Dept.,D018,Dr. Sarah Youssef,Diabetes,OUTPATIENT,,Self-Pay,5.0,y,B03,North,48.0,29,10,M,
+P2190,2024-05-12,2024-05-20,Pediatrics,D101,Dr. Omar Saeed,Hypertension,Emergency,2233.78,self pay,,Y,B44,North,108.0,6,30,female,2609.58
+P2191,2024-01-08,2024-01-10,ONCOLOGY,D009,Dr. Ahmed Khalil,Fracture,Inpatient,,Self-Pay,7.0,n,B47,Central,67.0,10,46,M,
+P2192,2024-12-10,2024-12-14,cardio,D074,Dr. Rana Elbaz,Migraine,Inpatient,1486.52,publick,8.0,No,B30,Central,85.0,21,42,male,2295.77
+P2193,2024-02-03,2024-02-17,Orthopedics,D001,Dr. Sarah Yousef,Migraine,Outpatient,1933.81,Private,,Y,B16,East,53.0,29,22,male,2224.68
+P2194,2024-04-02,2024-04-15,cardio,D076,Dr. Ahmed Khalil,Migraine,Outpatient,931.96,Private,3.0,No,B14,Central,46.0,2,85,M,1560.09
+P2195,2024-03-18,2024-03-19,Emergency,D098,Dr. Sarah Youssef,Flu,Emergency,1527.91,publick,5.0,Y,B24,North,134.0,10,63,female,1739.45
+P2196,2024-11-13,2024-11-13,Oncology,D055,Dr. Rana Elbaz,Hypertension,Emergency,1875.72,Self-Pay,5.0,N,B32,North,12.0,14,92,female,2074.64
+P2197,2024-03-08,2024-03-09,Oncology,D071,Dr. Omar Saeed,Asthma,OUTPATIENT,1640.91,Public,1.0,N,B17,South,76.0,26,46,female,2080.04
+P2198,2024-07-22,2024-07-30,Emergency,D048,Dr Rana Elbaz,Migraine,Emergency,1956.2,publick,9.0,No,B16,Central,36.0,16,23,male,2671.7
+P2199,2024-01-05,2024-01-09,ONCOLOGY,D074,Dr. Rana Elbaz,Cancer,Outpatient,1919.04,Public,,N,B48,Central,172.0,9,84,male,2480.38
+P2200,2024-11-12,2024-11-25,Emergency,D066,Dr. Omar Saeed,Heart Disease,Inpatient,3135.21,publick,7.0,No,B29,North,23.0,21,54,female,3543.0
+P2201,2024-04-05,2024-04-17,cardio,D052,Dr. Ahmed Khalil,Migraine,inpatient,1478.93,Private,10.0,y,B08,South,54.0,23,60,F,1858.31
+P2202,2024-10-24,2024-10-25,Pediatrics,D007,Dr. Omar Said,Diabetes,Inpatient,2596.15,Self-Pay,6.0,Y,B15,South,27.0,12,12,F,3320.06
+P2203,2024-04-04,2024-04-09,pediatric,D049,Dr. Ahmed Khalil,Migraine,inpatient,1971.75,Self-Pay,2.0,Yes,B14,West,33.0,12,46,male,2496.95
+P2204,2024-08-01,2024-07-31,Oncology,D025,Dr. Sarah Yousef,Cancer,Outpatient,1368.6,Self-Pay,9.0,N,B15,Central,143.0,1,19,M,2537.85
+P2205,2024-08-01,2024-08-13,Oncology,D091,dr. omar said,Diabetes,OUTPATIENT,2108.96,self pay,6.0,Yes,B07,East,100.0,16,18,F,2362.24
+P2206,2024-06-13,2024-06-16,Emergency,D115,Dr. Omar Said,Flu,Outpatient,2132.07,Public,6.0,n,B48,Central,,24,47,M,2679.52
+P2207,2024-08-22,2024-08-28,Cardiology Dept.,,Dr Rana Elbaz,Flu,Emergency,3016.52,privte,8.0,No,B24,West,28.0,1,94,M,3524.6
+P2208,2024-02-15,2024-02-27,ORTHO,D013,Dr. Rana Elbaz,Diabetes,Emergency,2129.77,publick,5.0,No,B44,South,147.0,13,90,male,2283.38
+P2209,2024-10-10,2024-10-16,Cardiology,D061,Dr. Omar Saeed,Diabetes,Emergency,1295.51,Private,10.0,n,B12,West,,25,57,male,2131.87
+P2210,2024-01-18,2024-01-16,Cardiology Dept.,D102,Dr. Omar Saeed,Flu,Outpatient,1610.59,Private,5.0,N,B42,North,31.0,20,48,F,2522.34
+P2211,2024-03-18,2024-03-28,Orthopedics,D093,dr. omar said,Diabetes,OUTPATIENT,1382.76,Private,,n,B32,East,43.0,9,37,male,2151.37
+P2212,2024-12-09,2024-12-22,Pediatrics,D044,Dr. Rana Elbaz,Migraine,OUTPATIENT,1156.5,Private,1.0,No,,West,50.0,28,27,female,1488.43
+P2213,2024-10-26,2024-11-08,Cardiology,D108,Dr. Sarah Youssef,Hypertension,Outpatient,2653.52,Public,9.0,N,,North,93.0,10,35,male,3516.02
+P2214,2024-11-04,2024-11-04,cardio,,Dr Rana Elbaz,Diabetes,inpatient,2195.83,privte,,Y,B31,West,157.0,21,65,F,2701.2
+P2215,2024-09-27,2024-10-10,Orthopedics,D111,Dr. Sarah Youssef,Flu,Inpatient,1133.73,self pay,7.0,N,B39,West,74.0,17,40,F,1804.72
+P2216,2024-07-23,2024-08-02,Orthopedics,D117,Dr. Yara Hamed,Cancer,Outpatient,1985.89,Self-Pay,4.0,N,B08,East,158.0,3,47,F,2342.93
+P2217,2024-12-03,2024-12-01,Cardiology,D011,Ahmed Khalil,Hypertension,OUTPATIENT,3669.14,publick,3.0,No,B02,Central,19.0,28,60,female,4202.24
+P2218,2024-01-11,2024-01-18,Cardiology,D090,Dr. Ahmed Khalil,Cancer,inpatient,2886.26,Public,2.0,N,B14,South,96.0,29,23,M,3503.93
+P2219,2024-06-14,2024-06-19,ORTHO,D048,Dr. Rana Elbaz,Diabetes,inpatient,2779.34,Self-Pay,9.0,Yes,B05,Central,101.0,5,78,M,3154.11
+P2220,2024-03-01,2024-03-04,Oncology,D104,Dr. Rana Elbaz,Fracture,OUTPATIENT,2792.8,privte,6.0,y,,East,154.0,7,46,male,3528.05
+P2221,2024-05-25,2024-06-04,Oncology,D025,Dr. Rana Elbaz,Hypertension,inpatient,2688.2,Self-Pay,10.0,Yes,B01,East,51.0,17,35,male,3282.49
+P2222,2024-10-24,2024-11-02,Oncology,D067,Dr. Sarah Yousef,Fracture,OUTPATIENT,787.69,Public,8.0,N,B34,North,97.0,11,48,F,1642.13
+P2223,2024-10-19,2024-10-26,Pediatrics,D118,Dr. Omar Saeed,Migraine,Emergency,1966.23,privte,,N,B32,Central,50.0,17,88,female,3113.78
+P2224,2024-01-23,2024-02-03,Oncology,D087,Dr. Yara Hamed,Heart Disease,Emergency,1903.31,self pay,7.0,N,B33,North,64.0,19,36,male,2726.56
+P2225,2024-11-20,2024-12-04,Cardiology,D111,Dr. Omar Saeed,Cancer,inpatient,2413.69,self pay,5.0,Yes,B12,North,95.0,18,29,female,2774.04
+P2226,2024-07-31,2024-08-11,ONCOLOGY,D086,Dr Rana Elbaz,Flu,Outpatient,1965.47,privte,4.0,Yes,B29,Central,76.0,4,24,M,2505.19
+P2227,2024-12-11,2024-12-22,Cardiology,D035,Dr. Yara Hamed,Cancer,Outpatient,1567.46,Public,6.0,Y,B12,East,54.0,29,7,F,1831.19
+P2228,2024-04-01,2024-04-07,Orthopedics,D113,Dr. Omar Saeed,Hypertension,OUTPATIENT,1624.03,Self-Pay,2.0,No,B16,West,,28,70,M,2006.32
+P2229,2024-05-14,2024-05-22,Cardiology Dept.,D042,Dr. Rana Elbaz,Fracture,inpatient,1971.56,Public,9.0,Yes,B10,Central,63.0,19,45,F,2535.92
+P2230,2024-10-26,,ONCOLOGY,D023,Dr. Yara Hamed,Fracture,Inpatient,660.24,Private,4.0,Yes,,Central,157.0,20,76,male,1711.01
+P2231,2024-09-16,2024-09-21,Cardiology Dept.,D063,dr. omar said,Flu,Inpatient,657.2,Self-Pay,9.0,y,B10,East,79.0,8,26,male,1281.38
+P2232,2024-07-17,2024-07-16,ORTHO,D011,Dr. Omar Saeed,Heart Disease,inpatient,2424.02,self pay,10.0,No,B39,Central,157.0,19,87,female,3154.93
+P2233,2024-08-01,2024-08-15,Emergency,D117,Dr. Omar Saeed,Flu,OUTPATIENT,2782.09,self pay,2.0,Y,B23,East,113.0,26,7,F,3055.96
+P2234,2024-11-18,2024-11-19,Emergency,D079,dr. omar said,Flu,OUTPATIENT,2043.89,Private,4.0,Yes,B39,West,122.0,3,69,female,2492.07
+P2235,2024-08-23,2024-09-05,ONCOLOGY,,Dr. Rana Elbaz,Fracture,inpatient,1754.99,Public,6.0,y,B33,Central,54.0,19,16,male,1990.17
+P2236,2024-07-23,2024-07-23,Orthopedics,,Dr. Omar Saeed,Asthma,inpatient,-2304.27,privte,9.0,Y,B23,North,29.0,1,8,female,-2012.38
+P2237,2024-02-23,,Cardiology,D101,Dr. Sarah Yousef,Flu,inpatient,1530.54,Private,,y,B17,West,18.0,20,54,M,2727.16
+P2238,2024-11-01,2024-11-09,cardio,D036,Dr. Yara Hamed,Cancer,inpatient,1922.68,Self-Pay,6.0,No,B41,West,87.0,2,57,male,2571.36
+P2239,2024-01-05,2024-01-13,Oncology,D101,Dr Rana Elbaz,Fracture,Outpatient,2160.08,publick,,Y,B40,Central,136.0,11,68,female,3549.99
+P2240,2024-07-26,2024-08-07,Cardiology Dept.,D093,Dr. Omar Said,Cancer,Inpatient,1653.84,Self-Pay,9.0,Yes,B10,South,153.0,5,75,female,2297.99
+P2241,2024-03-10,2024-03-11,Pediatrics,D015,Dr. Ahmed Khalil,Cancer,Outpatient,2368.28,Public,10.0,Yes,B03,North,144.0,14,73,M,2638.91
+P2242,2024-07-19,2024-07-24,Emergency,D095,Dr. Omar Said,Asthma,Inpatient,2516.73,privte,7.0,Yes,B03,West,31.0,1,59,F,2318.78
+P2243,2024-05-28,2024-06-07,Orthopedics,D040,Dr. Omar Saeed,Diabetes,Outpatient,1764.68,Public,9.0,No,B47,North,60.0,4,79,male,2252.18
+P2244,2024-08-29,2024-09-08,Emergency,D062,Dr. Sarah Yousef,Fracture,Outpatient,2243.49,privte,7.0,Yes,B27,South,172.0,6,70,male,2519.16
+P2245,2024-09-29,2024-10-02,Cardiology Dept.,D033,Dr Rana Elbaz,Flu,Inpatient,2488.45,Self-Pay,1.0,N,B47,East,173.0,14,65,male,3129.55
+P2246,2024-09-25,2024-09-30,Oncology,D088,Dr. Rana Elbaz,Asthma,Inpatient,-27.1,Private,10.0,y,B02,North,108.0,19,30,F,241.47
+P2247,2024-05-11,2024-05-24,Oncology,D068,Ahmed Khalil,Flu,Outpatient,1736.21,self pay,,N,B20,West,163.0,13,68,M,2037.14
+P2248,2024-10-12,2024-10-12,Oncology,D059,Dr. Yara Hamed,Cancer,Outpatient,3368.53,Public,8.0,No,B18,East,40.0,12,54,male,4060.72
+P2249,2024-09-28,2024-10-10,Cardiology Dept.,D097,Dr. Omar Saeed,Hypertension,Outpatient,3436.15,Self-Pay,4.0,y,B40,South,133.0,11,29,male,4013.34
+P2250,2024-08-23,2024-09-02,pediatric,D050,Dr Rana Elbaz,Hypertension,OUTPATIENT,986.06,publick,,No,B18,North,32.0,8,77,F,1703.61
+P2251,2024-06-15,2024-06-18,ORTHO,D057,Dr. Ahmed Khalil,Heart Disease,inpatient,551.97,Private,2.0,n,B37,South,32.0,29,64,M,815.6
+,2024-10-24,2024-11-06,Cardiology,D093,Ahmed Khalil,Heart Disease,Outpatient,1819.67,Public,9.0,y,B07,East,8.0,13,54,female,2260.22
+P2253,2024-12-17,2024-12-16,Oncology,D022,Dr. Rana Elbaz,Cancer,Emergency,1913.7,Self-Pay,8.0,No,B12,North,59.0,9,69,female,2587.38
+P2254,2024-12-24,2024-12-28,Cardiology,D021,dr. omar said,Fracture,inpatient,1946.0,Self-Pay,5.0,n,B06,East,73.0,5,67,F,2880.05
+P2255,2024-11-08,2024-11-16,Pediatrics,D022,dr. omar said,Hypertension,Outpatient,2195.19,publick,7.0,Y,B17,West,175.0,5,85,male,2679.68
+P2256,2024-08-07,2024-08-12,ONCOLOGY,D066,dr. omar said,Hypertension,Outpatient,1301.79,Private,8.0,N,B26,West,128.0,5,86,female,2202.66
+P2257,2024-05-19,2024-05-20,Orthopedics,D090,Dr. Omar Saeed,Heart Disease,Inpatient,2176.64,self pay,5.0,y,B35,North,57.0,5,44,F,2617.56
+P2258,2024-05-08,2024-05-18,cardio,D038,Dr. Sarah Youssef,Cancer,Outpatient,1258.43,Self-Pay,3.0,Yes,B27,South,74.0,17,63,male,1705.74
+P2259,2024-12-26,2025-01-03,pediatric,D078,Dr. Ahmed Khalil,Heart Disease,Outpatient,1908.74,Self-Pay,3.0,Y,B43,North,161.0,12,22,F,2212.96
+P2260,2024-02-16,2024-02-16,Oncology,D001,Dr. Sarah Youssef,Hypertension,Emergency,3854.01,Self-Pay,3.0,n,,Central,177.0,5,31,male,4929.21
+P2261,2024-07-06,2024-07-20,ONCOLOGY,D047,Dr Rana Elbaz,Flu,Emergency,1672.11,privte,4.0,y,B41,East,146.0,3,90,male,2420.15
+P2262,2024-02-11,,Emergency,D100,Dr. Omar Saeed,Asthma,inpatient,2777.03,Self-Pay,8.0,N,,North,16.0,5,59,M,2995.27
+P2263,2024-05-03,2024-05-01,Cardiology,D081,Ahmed Khalil,Hypertension,Emergency,2031.89,Public,3.0,No,B24,South,32.0,20,32,M,2864.41
+P2264,2024-10-04,2024-10-04,cardio,D118,Dr. Yara Hamed,Heart Disease,Inpatient,1098.22,Public,5.0,Y,B32,West,134.0,24,12,M,1574.86
+,2024-11-03,2024-11-15,Orthopedics,D059,Dr. Yara Hamed,Diabetes,inpatient,2090.22,Private,,No,B08,South,149.0,7,89,female,2822.76
+P2266,2024-10-14,,ONCOLOGY,D119,Dr. Sarah Yousef,Asthma,OUTPATIENT,2686.88,self pay,8.0,y,B06,Central,167.0,21,28,male,2586.06
+P2267,2024-12-14,2024-12-14,Pediatrics,D004,Dr. Omar Said,Asthma,OUTPATIENT,2047.41,privte,8.0,y,B34,East,24.0,9,9,male,2687.02
+P2268,2024-07-18,2024-07-26,ONCOLOGY,D107,Ahmed Khalil,Heart Disease,OUTPATIENT,2972.39,Public,8.0,y,B21,Central,11.0,28,3,M,3970.19
+P2269,2024-04-19,2024-04-30,cardio,D074,dr. omar said,Cancer,OUTPATIENT,3527.9,Private,3.0,No,B40,North,156.0,14,28,M,4128.84
+P2270,2024-09-04,2024-09-09,Oncology,D013,Dr. Yara Hamed,Heart Disease,Outpatient,1421.36,publick,3.0,No,B17,Central,65.0,15,62,male,2437.69
+P2271,2024-09-23,2024-10-01,ORTHO,D084,Dr. Rana Elbaz,Cancer,Inpatient,980.03,Public,5.0,N,B44,Central,113.0,11,19,F,1064.0
+P2272,2024-12-26,2025-01-07,cardio,D059,Dr. Omar Said,Fracture,Outpatient,1565.57,Public,7.0,No,B14,West,,18,55,F,1979.15
+P2273,2024-08-13,2024-08-11,Orthopedics,D010,Dr Rana Elbaz,Heart Disease,inpatient,1143.14,publick,7.0,Y,B46,Central,117.0,22,67,M,1697.09
+P2274,2024-01-26,2024-01-24,Cardiology Dept.,D048,Dr. Ahmed Khalil,Diabetes,Emergency,2380.66,privte,2.0,Yes,B13,Central,99.0,4,43,F,2985.65
+P2275,2024-05-16,2024-05-30,Orthopedics,D037,Dr. Sarah Yousef,Diabetes,OUTPATIENT,1823.28,Public,7.0,Y,B17,North,51.0,23,52,M,2471.93
+P2276,2024-09-22,2024-09-23,Cardiology,D047,Dr. Yara Hamed,Heart Disease,Outpatient,1333.59,Private,3.0,No,B12,North,23.0,8,89,male,1675.58
+P2277,2024-03-21,,Oncology,D081,Dr. Omar Saeed,Cancer,inpatient,1860.68,privte,4.0,Y,B11,East,18.0,2,29,M,2106.43
+P2278,2024-10-02,2024-10-15,Pediatrics,D008,Ahmed Khalil,Fracture,Outpatient,3224.71,publick,,N,B30,Central,104.0,15,74,male,3424.79
+P2279,2024-03-24,2024-03-27,pediatric,,Dr. Omar Saeed,Fracture,Inpatient,3628.71,publick,8.0,No,B43,East,113.0,10,18,M,4382.3
+P2280,2024-10-03,2024-10-04,Cardiology,D015,Dr. Ahmed Khalil,Diabetes,inpatient,2675.52,publick,1.0,Y,B19,Central,86.0,28,4,female,3304.55
+P2281,2024-06-15,2024-06-25,pediatric,D081,dr. omar said,Asthma,Emergency,1356.94,Public,2.0,Yes,B19,North,71.0,14,53,female,1816.59
+P2282,2024-02-24,2024-02-23,ORTHO,D019,Dr. Ahmed Khalil,Hypertension,Inpatient,2484.09,Public,8.0,Yes,B47,Central,138.0,14,29,M,3080.69
+P2283,2024/13/45,2024-05-27,Oncology,D071,Dr. Omar Said,Hypertension,Inpatient,1628.0,publick,9.0,n,B45,North,69.0,4,44,M,2214.78
+P2284,2024-02-23,2024-02-27,Emergency,D061,Dr Rana Elbaz,Heart Disease,Inpatient,2132.23,privte,9.0,Y,B03,West,114.0,1,51,female,2892.06
+P2285,2024-11-16,2024-11-15,Cardiology,D072,Dr. Rana Elbaz,Cancer,inpatient,2351.26,self pay,10.0,Yes,B46,North,151.0,19,75,female,2720.28
+P2286,2024-03-05,2024-03-04,cardio,D118,Dr. Sarah Yousef,Heart Disease,Outpatient,1703.82,Self-Pay,1.0,N,B05,West,173.0,9,34,female,2270.5
+P2287,2024-11-05,2024-11-04,Pediatrics,D044,dr. omar said,Diabetes,Emergency,2595.83,Private,,N,B36,West,89.0,15,38,F,3349.92
+P2288,2024-12-24,2025-01-02,Orthopedics,D017,Dr Rana Elbaz,Hypertension,OUTPATIENT,2101.81,Public,4.0,Yes,B39,South,92.0,22,48,M,2262.68
+P2289,2024-01-16,2024-01-18,ORTHO,D105,Dr. Rana Elbaz,Hypertension,Inpatient,1281.78,self pay,,N,,West,31.0,27,42,F,1971.74
+P2290,2024-10-27,2024-11-07,Orthopedics,D084,Dr. Rana Elbaz,Diabetes,OUTPATIENT,1468.59,Self-Pay,2.0,y,B18,Central,39.0,18,2,male,1866.82
+P2291,2024-08-14,2024-08-23,pediatric,D012,Dr. Rana Elbaz,Asthma,inpatient,1146.43,Self-Pay,6.0,Y,B07,East,146.0,4,43,F,1742.27
+P2292,2024-12-27,2025-01-02,Orthopedics,D111,dr. omar said,Diabetes,Emergency,2739.46,self pay,2.0,N,B41,West,144.0,4,60,F,3516.11
+,2024-05-11,2024-05-22,pediatric,D046,dr. omar said,Migraine,inpatient,1896.17,privte,10.0,No,B13,West,5.0,27,81,male,2659.89
+P2294,2024-04-27,2024-05-07,Pediatrics,D019,Dr. Omar Saeed,Hypertension,inpatient,1252.94,self pay,,Yes,B34,West,12.0,7,60,M,2020.23
+P2295,2024-05-20,2024-05-30,Pediatrics,D102,Dr. Rana Elbaz,Hypertension,Outpatient,2941.08,Private,7.0,No,B47,North,109.0,1,70,M,3216.0
+P2296,2024-11-04,2024-11-05,Cardiology,D040,Dr. Sarah Youssef,Fracture,Emergency,2470.59,privte,2.0,No,B05,East,150.0,14,54,F,2636.39
+P2297,2024-02-11,2024-02-18,ORTHO,D083,Dr. Yara Hamed,Flu,Emergency,2540.36,self pay,10.0,Yes,B15,West,133.0,29,61,female,3481.96
+P2298,2024-10-27,2024-10-25,pediatric,D011,dr. omar said,Diabetes,inpatient,,publick,,No,B37,North,46.0,19,90,male,
+P2299,2024-08-31,2024-09-10,ORTHO,D103,Dr Rana Elbaz,Migraine,Outpatient,1332.42,publick,,Yes,B03,South,13.0,9,29,F,1793.64
+P2300,2024-10-25,2024-10-27,Cardiology,D089,dr. omar said,Cancer,OUTPATIENT,2005.63,Public,4.0,y,B49,North,138.0,28,38,F,2452.71
+P2301,2024-01-07,2024-01-13,ORTHO,D015,Dr. Omar Said,Diabetes,OUTPATIENT,2078.82,publick,6.0,n,B26,Central,83.0,18,10,male,2518.69
+P2302,2024-08-16,2024-08-28,Emergency,D084,Dr. Omar Saeed,Fracture,inpatient,2732.69,Self-Pay,9.0,No,B40,South,83.0,23,44,male,3111.83
+P2303,2024/13/45,2024-06-15,Cardiology Dept.,D119,Dr. Ahmed Khalil,Heart Disease,Inpatient,1000.21,publick,3.0,n,B37,Central,120.0,28,4,male,1762.29
+P2304,2024-09-20,2024-09-26,ORTHO,D044,Dr. Yara Hamed,Heart Disease,OUTPATIENT,1076.06,Public,2.0,y,B40,South,51.0,11,78,F,1775.54
+P2305,2024-03-22,2024-04-05,cardio,D004,Dr. Omar Saeed,Fracture,Inpatient,2089.15,Private,9.0,N,B05,West,75.0,2,24,male,2535.09
+P2306,2024-02-28,2024-03-07,Emergency,D089,Dr. Rana Elbaz,Migraine,OUTPATIENT,1474.03,self pay,,y,,Central,46.0,26,47,F,1824.82
+P2307,2024-05-28,2024-06-05,ONCOLOGY,D029,Dr. Rana Elbaz,Migraine,inpatient,3290.0,Private,6.0,y,B20,East,,12,55,male,3693.44
+P2308,2024-01-08,2024-01-21,Cardiology,D052,Dr. Omar Said,Hypertension,OUTPATIENT,1746.15,Self-Pay,5.0,No,B17,West,27.0,3,42,male,2130.24
+P2309,2024-08-10,2024-08-14,ONCOLOGY,D036,Dr. Sarah Yousef,Cancer,Outpatient,2176.7,privte,10.0,y,B39,West,74.0,16,66,female,2888.71
+P2310,2024-03-14,2024-03-19,pediatric,D115,Dr. Omar Said,Cancer,inpatient,1664.1,Private,8.0,Yes,B26,Central,80.0,29,69,F,1541.61
+P2311,2024-12-25,2024-12-28,Pediatrics,D044,Dr. Ahmed Khalil,Flu,inpatient,2122.84,privte,1.0,N,B16,East,29.0,12,20,female,2685.09
+P2312,2024-08-13,2024-08-22,cardio,D104,dr. omar said,Hypertension,Inpatient,642.32,self pay,4.0,Yes,B31,East,170.0,2,82,M,1454.82
+P2313,2024-03-27,2024-04-03,Pediatrics,D065,Dr Rana Elbaz,Migraine,Outpatient,2183.0,Public,2.0,Y,B07,North,,11,14,male,2295.11
+P2314,2024-07-29,2024-08-05,ORTHO,D102,Dr. Yara Hamed,Fracture,inpatient,2842.96,Self-Pay,5.0,N,B17,West,141.0,12,59,F,3059.15
+P2315,2024-09-30,2024-09-28,ORTHO,D050,dr. omar said,Cancer,OUTPATIENT,1995.5,Public,7.0,n,B48,West,66.0,27,15,F,2611.29
+P2316,2024-09-03,2024-09-11,cardio,D082,Dr. Omar Saeed,Flu,Outpatient,2240.9,privte,7.0,Yes,,North,140.0,4,10,male,2535.03
+P2317,2024-10-09,2024-10-20,Cardiology Dept.,D046,Dr. Yara Hamed,Cancer,Outpatient,2710.53,self pay,6.0,Y,B08,East,100.0,22,91,F,2932.53
+P2318,2024-01-27,2024-01-26,cardio,D094,Dr. Yara Hamed,Migraine,Inpatient,3041.12,self pay,9.0,Y,B35,Central,131.0,15,68,F,2739.76
+P2319,2024-02-25,2024-02-26,Oncology,D029,Dr. Yara Hamed,Migraine,Outpatient,2285.16,Self-Pay,1.0,Y,B26,South,39.0,27,28,M,2912.97
+P2320,2024-06-26,2024-06-28,cardio,D034,Dr Rana Elbaz,Heart Disease,inpatient,1726.78,publick,2.0,y,B04,South,78.0,12,76,F,2494.71
+P2321,2024-03-20,2024-04-02,pediatric,D044,Dr. Yara Hamed,Migraine,OUTPATIENT,1100.28,publick,7.0,y,B24,Central,107.0,26,91,male,1451.58
+P2322,2024-06-01,2024-06-05,pediatric,D047,Dr. Omar Said,Diabetes,Outpatient,2132.11,self pay,4.0,y,B13,South,92.0,23,33,M,3266.07
+P2323,2024-01-24,2024-01-30,Cardiology Dept.,D060,dr. omar said,Diabetes,Inpatient,3070.9,publick,8.0,n,B03,Central,75.0,11,92,female,3897.59
+P2324,2024-11-29,2024-12-11,ORTHO,D007,Dr. Rana Elbaz,Migraine,Emergency,2486.04,Private,5.0,No,B08,North,117.0,28,33,female,2839.6
+P2325,2024-03-31,2024-04-12,cardio,D055,Dr. Ahmed Khalil,Hypertension,Emergency,967.87,publick,9.0,n,B10,West,162.0,25,33,male,1666.76
+P2326,2024-10-11,2024-10-22,Pediatrics,D053,Dr. Omar Said,Migraine,Emergency,2632.51,Private,3.0,n,B49,West,59.0,27,57,F,3414.31
+P2327,2024-04-17,2024-04-28,ONCOLOGY,,Dr. Omar Saeed,Flu,Inpatient,-2246.5,Self-Pay,2.0,No,B17,South,36.0,13,58,M,-1769.66
+P2328,2024-04-02,2024-04-08,pediatric,D001,Ahmed Khalil,Flu,Emergency,1837.49,Self-Pay,10.0,No,B30,East,34.0,3,72,M,2216.42
+P2329,2024-02-03,2024-02-16,Cardiology,D013,Ahmed Khalil,Fracture,Inpatient,2422.39,publick,2.0,Y,B23,West,31.0,1,50,female,2960.05
+P2330,2024-12-13,2024-12-25,Cardiology,D032,dr. omar said,Fracture,OUTPATIENT,2384.92,publick,1.0,No,B45,West,121.0,14,37,M,2971.11
+P2331,2024-08-05,2024-08-05,ONCOLOGY,D078,Dr. Omar Said,Fracture,Outpatient,1336.86,Self-Pay,8.0,Yes,B46,North,45.0,4,18,male,2193.61
+P2332,2024-11-03,2024-11-01,Cardiology,D031,Dr. Yara Hamed,Flu,Outpatient,1169.09,Private,10.0,Y,B02,West,140.0,12,27,male,2020.38
+P2333,2024-12-23,2025-01-03,Emergency,D004,Dr. Rana Elbaz,Heart Disease,Emergency,1999.89,self pay,8.0,Y,B29,South,98.0,14,75,female,3037.43
+P2334,2024-12-22,2025-01-02,Cardiology,D060,Dr. Omar Saeed,Cancer,Emergency,2463.05,publick,4.0,n,B14,Central,24.0,16,90,F,2301.8
+P2335,2024-09-20,2024-09-26,cardio,D071,Dr. Sarah Yousef,Hypertension,inpatient,1585.74,Private,6.0,y,B05,West,165.0,26,80,female,2318.36
+P2336,2024-11-27,2024-12-02,Pediatrics,D065,Dr. Sarah Youssef,Migraine,Inpatient,1627.8,self pay,5.0,N,,West,172.0,10,37,female,1959.4
+P2337,2024-11-13,2024-11-22,ORTHO,D065,Dr. Sarah Youssef,Flu,Inpatient,2287.78,publick,1.0,y,B13,South,44.0,19,90,female,2804.41
+P2338,2024-11-12,2024-11-22,cardio,D058,Dr. Rana Elbaz,Migraine,OUTPATIENT,1318.65,Private,2.0,Y,B47,West,109.0,25,3,F,1758.47
+P2339,2024-08-24,2024-09-03,Emergency,D021,dr. omar said,Diabetes,Emergency,1384.68,Self-Pay,2.0,n,B37,South,159.0,26,78,male,1604.48
+P2340,2024-02-26,2024-02-26,ORTHO,D031,Dr. Sarah Yousef,Flu,OUTPATIENT,816.34,self pay,10.0,Y,B30,East,129.0,2,7,F,979.75
+P2341,2024-02-23,2024-03-07,Emergency,D047,Dr Rana Elbaz,Hypertension,Outpatient,3082.76,privte,,n,B27,East,167.0,12,32,female,4046.95
+P2342,2024-08-25,2024-09-07,Oncology,D109,Dr. Ahmed Khalil,Fracture,Emergency,-344.88,Public,4.0,n,B10,North,144.0,18,76,female,747.06
+P2343,2024-02-20,2024-02-24,ORTHO,D111,Dr. Omar Said,Migraine,Emergency,,privte,10.0,Y,B49,Central,106.0,2,39,M,
+P2344,2024-07-30,2024-08-12,ONCOLOGY,D050,Dr. Rana Elbaz,Flu,Outpatient,3163.61,privte,4.0,y,B20,West,136.0,20,46,male,4201.72
+P2345,2024-06-10,2024-06-17,Pediatrics,D020,Dr. Yara Hamed,Flu,OUTPATIENT,1922.6,privte,1.0,No,B15,South,28.0,14,76,M,2919.92
+P2346,2024-12-30,2024-12-29,pediatric,D087,dr. omar said,Migraine,OUTPATIENT,1947.66,Private,2.0,Yes,B45,East,67.0,8,56,M,2667.19
+P2347,2024-03-04,,ONCOLOGY,D088,Dr. Sarah Youssef,Cancer,Outpatient,1589.02,Public,8.0,Y,B05,South,72.0,2,58,F,2343.96
+P2348,2024-09-27,2024-10-06,Pediatrics,D090,Dr. Ahmed Khalil,Asthma,Inpatient,3310.62,publick,3.0,Y,B31,North,133.0,28,7,M,3265.85
+P2349,2024-04-11,2024-04-14,pediatric,D014,dr. omar said,Heart Disease,OUTPATIENT,2167.46,self pay,,No,B05,South,121.0,2,87,male,2259.92
+P2350,2024-09-01,2024-09-15,Emergency,D024,Dr. Omar Saeed,Hypertension,inpatient,901.52,privte,5.0,Yes,,South,143.0,10,61,female,1352.26
+P2351,2024-09-13,2024-09-18,Emergency,D078,Ahmed Khalil,Migraine,inpatient,489.18,Private,,n,B06,Central,91.0,18,37,male,971.92
+P2352,2024-11-26,2024-11-29,cardio,D016,Dr Rana Elbaz,Heart Disease,inpatient,3219.79,Public,4.0,N,B48,South,,6,82,M,3688.71
+P2353,2024-10-22,2024-10-22,cardio,D082,Dr. Rana Elbaz,Hypertension,Inpatient,1801.1,Private,5.0,Yes,B19,West,8.0,22,26,F,2255.77
+P2354,2024-02-15,2024-02-19,cardio,D100,Dr. Omar Said,Migraine,Inpatient,2426.11,Private,,n,,East,82.0,20,36,male,3276.2
+P2355,2024-07-09,2024-07-13,ORTHO,D014,Dr. Omar Saeed,Diabetes,Emergency,2287.11,Public,3.0,Y,B39,East,25.0,11,17,F,2515.59
+P2356,2024-06-20,2024-06-26,Oncology,D028,Dr. Sarah Youssef,Cancer,inpatient,615.94,Private,5.0,Y,B08,South,59.0,8,87,female,1880.98
+P2357,2024-03-17,2024-03-24,Emergency,D021,dr. omar said,Asthma,inpatient,1709.81,privte,,N,B02,East,139.0,21,21,male,2294.29
+P2358,2024-01-20,2024-02-01,pediatric,D078,Dr. Sarah Yousef,Fracture,Inpatient,2036.87,Public,4.0,Y,B31,East,58.0,2,2,M,2029.37
+P2359,2024-12-11,2024-12-23,pediatric,D008,dr. omar said,Hypertension,Outpatient,1956.12,Public,,y,B39,Central,36.0,12,33,F,2048.29
+P2360,2024-08-23,2024-09-01,ORTHO,D033,Dr. Yara Hamed,Cancer,Inpatient,2263.82,self pay,1.0,N,B43,South,135.0,9,4,F,2506.98
+P2361,2024-06-18,2024-06-17,ONCOLOGY,D114,Dr. Omar Saeed,Asthma,Emergency,2820.53,publick,1.0,n,B37,East,104.0,1,63,male,3148.13
+P2362,2024-04-15,2024-04-20,Orthopedics,D078,Dr. Ahmed Khalil,Asthma,Emergency,3435.85,Self-Pay,6.0,n,B11,North,56.0,5,14,F,4087.32
+P2363,2024-09-30,2024-10-05,ORTHO,D059,Dr Rana Elbaz,Asthma,Emergency,2148.42,Self-Pay,5.0,N,B46,North,124.0,14,83,F,2476.4
+P2364,2024/13/45,2024-11-09,Cardiology Dept.,D042,Ahmed Khalil,Heart Disease,Outpatient,2909.23,self pay,7.0,n,B11,West,159.0,10,28,male,2883.03
+P2365,2024-08-14,2024-08-18,Cardiology,D025,Dr Rana Elbaz,Fracture,OUTPATIENT,2184.86,Private,,Y,B11,East,140.0,17,15,M,2893.07
+P2366,2024-05-09,2024-05-22,ORTHO,D094,Dr. Sarah Yousef,Asthma,inpatient,-315.2,Self-Pay,5.0,No,B31,East,79.0,18,82,M,14.98
+P2367,2024-08-14,2024-08-14,pediatric,D043,Ahmed Khalil,Flu,inpatient,2244.23,privte,1.0,y,B09,East,137.0,4,23,male,2676.94
+P2368,2024-12-22,2024-12-29,pediatric,D113,Dr. Yara Hamed,Flu,inpatient,1849.99,self pay,4.0,y,B36,South,36.0,29,11,female,2397.9
+P2369,2024-08-23,2024-08-22,pediatric,D005,Dr Rana Elbaz,Flu,OUTPATIENT,3187.44,self pay,4.0,y,B49,South,30.0,3,82,male,4166.94
+P2370,2024-08-15,2024-08-23,pediatric,D048,Dr. Sarah Youssef,Flu,Emergency,665.15,Self-Pay,3.0,No,B04,West,85.0,25,52,M,1182.0
+P2371,2024-02-09,2024-02-19,Cardiology Dept.,D057,Dr Rana Elbaz,Asthma,Emergency,1228.0,self pay,6.0,No,B11,East,148.0,13,31,male,2262.73
+P2372,2024-08-04,2024-08-14,ONCOLOGY,D067,Dr. Yara Hamed,Migraine,inpatient,1580.53,self pay,1.0,Yes,B15,South,,21,91,M,1575.55
+P2373,2024-05-07,2024-05-21,ONCOLOGY,D029,Dr. Rana Elbaz,Migraine,Outpatient,2303.32,Self-Pay,1.0,y,B36,East,176.0,4,59,female,2589.24
+P2374,2024/13/45,2024-12-26,ORTHO,D110,dr. omar said,Migraine,Inpatient,1617.62,privte,,N,B38,East,152.0,20,86,male,2239.82
+P2375,2024-02-18,2024-02-17,cardio,D098,Dr. Omar Saeed,Asthma,Emergency,1710.09,privte,4.0,N,,South,26.0,14,67,F,2676.69
+P2376,2024-04-29,2024-05-05,ONCOLOGY,D054,Dr. Sarah Yousef,Fracture,Outpatient,2068.96,Self-Pay,4.0,y,B08,Central,103.0,10,41,female,2610.09
+P2377,2024-06-22,2024-06-27,Oncology,D116,dr. omar said,Asthma,Inpatient,2267.09,publick,2.0,Yes,B45,North,45.0,22,66,M,2872.48
+P2378,2024-01-05,2024-01-16,Pediatrics,D059,Dr. Omar Saeed,Asthma,Inpatient,1588.08,publick,10.0,No,B31,North,44.0,29,26,M,2110.34
+P2379,2024-06-27,2024-06-27,Oncology,D104,Ahmed Khalil,Migraine,Emergency,875.58,publick,,No,B01,East,25.0,28,61,M,1250.9
+P2380,2024-04-09,2024-04-17,Emergency,D025,Dr. Ahmed Khalil,Flu,OUTPATIENT,2164.19,Private,2.0,Y,B33,East,151.0,5,71,male,2976.69
+P2381,2024-02-25,2024-02-28,Pediatrics,D092,Dr. Omar Said,Flu,inpatient,1114.56,Private,6.0,Y,B35,West,148.0,15,58,female,1349.15
+P2382,2024-09-18,2024-09-16,Pediatrics,D057,Dr Rana Elbaz,Migraine,OUTPATIENT,860.31,publick,10.0,Y,B25,North,,18,7,F,1538.42
+P2383,2024-10-13,2024-10-21,ORTHO,D041,Dr. Omar Saeed,Fracture,Outpatient,2986.04,privte,6.0,No,B24,Central,98.0,22,5,male,3433.39
+P2384,2024-03-14,2024-03-26,Pediatrics,D068,Dr. Yara Hamed,Diabetes,Outpatient,1212.12,Self-Pay,7.0,y,B23,South,59.0,7,55,female,1582.99
+P2385,2024-01-11,2024-01-13,Cardiology,D035,Dr. Omar Said,Cancer,Outpatient,2369.68,Self-Pay,2.0,Y,B46,North,144.0,11,61,M,2499.99
+P2386,2024-12-10,2024-12-19,Oncology,D085,dr. omar said,Migraine,Inpatient,2468.86,privte,6.0,Yes,B02,North,86.0,13,66,F,3115.89
+P2387,2024-12-26,2025-01-03,Cardiology Dept.,D002,Dr. Omar Saeed,Flu,Outpatient,2202.55,publick,7.0,n,B05,South,33.0,7,20,F,2412.25
+P2388,2024-06-28,2024-07-08,Cardiology,D050,Dr. Yara Hamed,Fracture,inpatient,1757.39,self pay,3.0,Yes,B27,East,81.0,14,59,male,2297.2
+P2389,2024-04-12,2024-04-25,Cardiology,D116,Dr. Sarah Youssef,Cancer,Inpatient,1559.64,Private,,n,B07,North,124.0,10,44,F,2337.77
+P2390,2024-12-26,2024-12-29,Orthopedics,D096,Dr. Yara Hamed,Cancer,Inpatient,1434.32,publick,,n,B17,North,105.0,23,74,male,1868.86
+P2391,2024-04-19,2024-04-27,ORTHO,D117,Dr. Rana Elbaz,Fracture,Inpatient,2689.1,privte,7.0,y,B38,West,93.0,21,8,F,3093.53
+P2392,2024-08-12,2024-08-13,ORTHO,D095,Dr. Ahmed Khalil,Diabetes,OUTPATIENT,1723.07,Private,8.0,Yes,B02,West,170.0,27,29,M,2253.2
+P2393,2024-07-10,2024-07-21,Cardiology,D083,Dr. Omar Saeed,Hypertension,inpatient,2489.31,privte,6.0,Yes,B35,South,11.0,15,14,M,3094.61
+P2394,2024-02-14,2024-02-16,ORTHO,D084,Dr. Ahmed Khalil,Hypertension,OUTPATIENT,2969.22,Private,9.0,Y,B25,East,31.0,5,86,M,3317.31
+P2395,2024-10-16,2024-10-28,cardio,D103,Ahmed Khalil,Diabetes,Outpatient,757.15,Public,1.0,y,B18,East,98.0,29,92,female,1158.74
+P2396,2024-10-31,2024-10-31,Cardiology Dept.,D108,Dr. Omar Said,Hypertension,Inpatient,2088.38,publick,1.0,No,B13,West,99.0,27,32,F,2339.67
+P2397,2024-08-11,,pediatric,D003,Dr. Omar Said,Heart Disease,Emergency,883.22,Private,7.0,n,,North,163.0,7,33,female,1482.0
+P2398,2024-08-23,2024-08-29,Cardiology Dept.,D116,Ahmed Khalil,Cancer,inpatient,2435.1,publick,,No,B17,North,109.0,14,72,male,2343.55
+P2399,2024-07-24,2024-07-31,Cardiology Dept.,D058,Dr. Yara Hamed,Heart Disease,Emergency,2941.43,publick,2.0,n,B38,West,113.0,4,55,M,3378.31
+P2400,2024-08-26,2024-08-29,ORTHO,D006,Dr. Sarah Yousef,Migraine,Outpatient,917.65,Public,4.0,Y,B44,East,,27,52,M,1243.17
+P2401,2024-07-28,2024-08-04,Pediatrics,D088,Dr. Sarah Youssef,Migraine,Outpatient,395.66,Self-Pay,3.0,n,,South,144.0,16,32,male,756.73
+P2402,2024-06-15,2024-06-27,ORTHO,D016,Dr. Yara Hamed,Hypertension,Inpatient,2685.81,Private,10.0,N,B42,Central,97.0,3,23,F,2961.94
+P2403,2024-10-25,2024-11-05,Pediatrics,D082,Dr. Sarah Youssef,Heart Disease,inpatient,2537.17,Public,6.0,N,B42,West,79.0,12,27,F,2930.22
+P2404,2024-07-03,2024-07-06,Cardiology,D045,Dr. Sarah Youssef,Asthma,inpatient,1249.25,self pay,8.0,N,B36,Central,16.0,23,19,female,1355.77
+P2405,2024-07-23,2024-07-28,pediatric,D068,Dr. Yara Hamed,Heart Disease,inpatient,2962.88,Private,9.0,Yes,,Central,156.0,2,73,F,3275.59
+P2406,2024-12-13,2024-12-20,Cardiology,D101,Dr. Rana Elbaz,Hypertension,OUTPATIENT,2215.8,self pay,6.0,N,,South,116.0,26,62,female,2328.59
+P2407,2024-12-19,2024-12-21,Cardiology Dept.,D107,Ahmed Khalil,Cancer,Emergency,2793.14,publick,5.0,y,B05,North,32.0,23,34,female,3473.23
+P2408,2024-01-14,2024-01-26,ONCOLOGY,D093,Dr. Omar Saeed,Cancer,Outpatient,1636.04,privte,10.0,N,B09,West,116.0,22,71,M,2206.94
+P2409,2024-11-27,2024-12-06,Pediatrics,D016,Dr. Sarah Yousef,Cancer,OUTPATIENT,,Self-Pay,,y,B23,Central,77.0,26,54,F,
+P2410,2024-11-12,2024-11-21,ONCOLOGY,D115,Dr. Omar Said,Heart Disease,OUTPATIENT,1424.01,Public,,No,B11,North,84.0,14,47,F,1756.5
+P2411,2024-01-05,2024-01-09,Emergency,D034,Dr. Yara Hamed,Fracture,OUTPATIENT,1848.82,publick,,Yes,B11,Central,54.0,1,79,male,2397.02
+P2412,2024-10-28,2024-11-06,Oncology,D051,Dr. Ahmed Khalil,Hypertension,inpatient,3152.41,publick,4.0,Yes,,East,5.0,15,8,male,3919.76
+P2413,2024-02-05,2024-02-16,Pediatrics,D058,Ahmed Khalil,Flu,inpatient,3370.94,privte,3.0,Y,B10,West,16.0,19,19,M,3571.43
+P2414,2024-12-22,2024-12-31,Cardiology Dept.,D061,Dr. Omar Said,Hypertension,inpatient,3431.83,Private,5.0,N,B36,West,101.0,2,22,male,4154.65
+P2415,2024-07-24,2024-07-30,ONCOLOGY,D097,Dr Rana Elbaz,Diabetes,Emergency,2308.96,Private,8.0,Y,B09,North,122.0,7,71,M,2799.25
+P2416,2024-11-02,2024-11-01,ORTHO,D081,Dr. Yara Hamed,Migraine,Inpatient,1515.77,publick,6.0,Y,B26,Central,93.0,9,66,female,2163.41
+P2417,2024-03-31,2024-04-08,Orthopedics,D065,Dr. Omar Said,Flu,Emergency,1661.86,publick,5.0,Yes,B36,Central,41.0,5,58,F,2050.89
+P2418,2024-03-09,2024-03-16,Pediatrics,D019,Dr. Sarah Yousef,Fracture,OUTPATIENT,3278.14,Public,1.0,N,B35,East,27.0,18,27,male,4035.34
+P2419,2024-11-15,2024-11-25,Emergency,D019,Dr. Sarah Yousef,Hypertension,Outpatient,2283.94,Private,10.0,Yes,B39,South,159.0,15,54,M,2759.37
+P2420,2024-11-06,2024-11-17,pediatric,D105,Dr. Rana Elbaz,Flu,Emergency,3216.48,Public,3.0,No,B26,Central,41.0,6,40,F,4095.01
+P2421,2024-12-11,2024-12-11,ORTHO,D103,dr. omar said,Flu,Inpatient,2353.75,Private,6.0,Y,B01,Central,62.0,26,33,male,2861.69
+P2422,2024-06-22,2024-07-06,Pediatrics,D109,Dr. Omar Said,Migraine,Inpatient,870.92,Public,7.0,N,B04,East,16.0,4,72,M,1189.91
+P2423,2024-04-21,2024-04-24,ONCOLOGY,D112,Dr. Sarah Yousef,Fracture,Outpatient,2636.96,publick,2.0,n,B31,North,79.0,3,35,F,3174.64
+P2424,2024-12-30,,Oncology,D045,Ahmed Khalil,Cancer,Emergency,1663.8,Self-Pay,2.0,No,B42,North,139.0,7,5,male,1684.81
+P2425,2024-01-29,2024-01-29,ONCOLOGY,D084,Dr. Omar Said,Diabetes,inpatient,1127.5,publick,7.0,Yes,B06,West,123.0,9,28,M,2272.38
+P2426,2024-10-04,2024-10-14,Cardiology Dept.,D023,Dr. Ahmed Khalil,Hypertension,inpatient,,Self-Pay,7.0,Y,B49,West,19.0,13,32,M,
+P2427,2024-10-21,2024-11-04,ORTHO,D092,Dr. Omar Saeed,Heart Disease,OUTPATIENT,1059.73,self pay,4.0,Yes,B10,West,172.0,24,47,male,1154.75
+P2428,2024-03-31,2024-03-31,ONCOLOGY,D007,Dr Rana Elbaz,Hypertension,Inpatient,1058.07,Public,,y,B41,South,16.0,4,72,F,1631.63
+P2429,2024-07-05,2024-07-12,Orthopedics,D112,Dr. Omar Saeed,Heart Disease,Emergency,1330.7,self pay,2.0,n,B16,South,109.0,25,82,female,2296.67
+P2430,2024-09-26,2024-09-26,cardio,D036,Dr. Ahmed Khalil,Flu,inpatient,2025.09,self pay,8.0,n,B48,Central,166.0,1,43,F,2236.71
+P2431,2024-11-14,2024-11-17,Cardiology,D074,Dr. Sarah Yousef,Migraine,OUTPATIENT,1735.35,Self-Pay,1.0,Y,,East,12.0,4,1,male,2361.16
+P2432,2024-08-27,2024-09-08,Cardiology,D030,Dr Rana Elbaz,Heart Disease,inpatient,1361.18,Public,,Yes,B34,South,77.0,9,50,male,1891.23
+P2433,2024-11-05,2024-11-14,Cardiology Dept.,D077,dr. omar said,Diabetes,OUTPATIENT,1657.52,publick,4.0,Y,B42,North,113.0,20,56,M,2210.31
+P2434,2024-06-23,2024-06-27,Oncology,D009,Dr. Rana Elbaz,Fracture,OUTPATIENT,794.68,Self-Pay,10.0,Yes,B15,Central,118.0,5,28,M,1703.25
+P2435,2024-12-04,2024-12-05,Cardiology Dept.,D065,Dr. Ahmed Khalil,Cancer,Inpatient,2895.72,Self-Pay,1.0,No,B32,West,136.0,21,4,male,3502.13
+P2436,2024-11-23,2024-11-29,ORTHO,D102,Dr. Rana Elbaz,Fracture,Inpatient,1873.58,Public,5.0,y,B45,South,132.0,16,7,M,2078.37
+P2437,2024-07-16,2024-07-29,Pediatrics,D060,Dr. Sarah Youssef,Diabetes,Inpatient,2417.02,Self-Pay,9.0,n,,Central,66.0,17,80,male,2666.45
+P2438,2024-11-29,2024-12-04,pediatric,D071,Dr. Omar Said,Heart Disease,inpatient,3538.39,Private,5.0,y,B32,East,105.0,22,40,M,4082.42
+P2439,2024-09-10,2024-09-12,pediatric,D119,Dr. Rana Elbaz,Migraine,inpatient,2263.97,Public,6.0,n,B03,Central,178.0,6,87,M,2666.23
+P2440,2024-07-23,2024-08-03,Cardiology Dept.,D114,Dr. Omar Saeed,Hypertension,Inpatient,2251.05,privte,,No,B01,South,9.0,1,33,male,3129.1
+P2441,2024-06-07,2024-06-16,Cardiology Dept.,D076,dr. omar said,Heart Disease,Outpatient,1971.37,self pay,1.0,y,B19,West,179.0,9,4,M,2710.62
+P2442,2024-02-26,2024-03-07,ORTHO,D041,dr. omar said,Fracture,Inpatient,2011.18,Self-Pay,4.0,y,B29,North,96.0,14,38,M,2654.23
+P2443,2024-12-23,2024-12-28,Cardiology Dept.,D032,dr. omar said,Heart Disease,Outpatient,3349.24,publick,3.0,Y,B04,North,37.0,7,94,female,4536.58
+P2444,2024-08-30,2024-09-06,Emergency,D016,dr. omar said,Heart Disease,inpatient,3937.27,Self-Pay,9.0,Y,B17,Central,105.0,28,70,female,4296.21
+P2445,2024-02-17,2024-02-17,ORTHO,D004,dr. omar said,Cancer,Emergency,1222.95,Private,8.0,n,B35,East,125.0,4,15,male,1636.3
+,2024-11-06,2024-11-05,Oncology,D037,Dr. Omar Saeed,Fracture,OUTPATIENT,1363.19,publick,3.0,n,B39,East,99.0,23,89,female,2127.65
+P2447,2024-09-03,2024-09-09,cardio,D013,Dr. Omar Saeed,Flu,Emergency,2260.23,Public,7.0,Y,B42,Central,64.0,25,86,M,2245.5
+P2448,2024-03-08,2024-03-21,Emergency,D077,Dr. Rana Elbaz,Heart Disease,Outpatient,3511.27,Public,4.0,y,B27,East,89.0,10,24,male,4131.17
+P2449,2024-04-23,2024-04-29,pediatric,D011,Dr. Ahmed Khalil,Flu,OUTPATIENT,1295.6,publick,10.0,No,B27,South,21.0,12,67,female,1765.63
+P2450,2024-03-04,2024-03-03,Cardiology,D090,Ahmed Khalil,Migraine,Emergency,2868.03,privte,8.0,n,B15,Central,76.0,14,73,F,4022.64
+P2451,2024-07-12,2024-07-14,Orthopedics,D007,Dr. Rana Elbaz,Cancer,Outpatient,1417.84,publick,7.0,y,B28,South,88.0,10,27,female,1727.65
+P2452,2024-10-19,2024-10-29,Oncology,D088,Dr. Sarah Youssef,Hypertension,inpatient,2702.73,self pay,4.0,Y,B18,South,47.0,15,67,male,3797.71
+P2453,2024-05-29,2024-06-12,Cardiology,D100,dr. omar said,Flu,Inpatient,1359.69,Self-Pay,6.0,N,B34,North,172.0,24,81,F,2138.7
+P2454,2024-04-09,2024-04-15,cardio,D066,Dr. Sarah Youssef,Diabetes,Emergency,1161.14,privte,1.0,Yes,B41,Central,131.0,8,34,male,2049.89
+P2455,2024-06-24,2024-06-26,pediatric,D027,Dr. Omar Said,Hypertension,inpatient,549.12,Self-Pay,5.0,N,B34,West,82.0,16,11,male,1074.76
+P2456,2024-06-27,2024-07-02,Cardiology,D079,Dr Rana Elbaz,Fracture,inpatient,1848.75,Self-Pay,,N,B43,West,76.0,7,76,male,2039.86
+P2457,2024-07-21,2024-07-31,Emergency,D093,Dr Rana Elbaz,Heart Disease,Emergency,881.53,self pay,10.0,Y,B18,East,113.0,14,27,M,1824.1
+P2458,2024-06-12,2024-06-18,ONCOLOGY,D041,Dr. Omar Said,Diabetes,Outpatient,1609.18,self pay,,Y,B14,East,22.0,5,9,male,2424.52
+P2459,2024-07-07,2024-07-20,Cardiology,D073,Dr. Yara Hamed,Hypertension,Outpatient,1336.67,Self-Pay,9.0,y,,South,118.0,7,81,female,2485.97
+P2460,2024-01-13,2024-01-23,Oncology,D077,dr. omar said,Heart Disease,Outpatient,268.05,self pay,3.0,n,B46,Central,72.0,28,11,female,800.69
+P2461,2024-05-18,2024-05-17,Cardiology Dept.,D022,Dr Rana Elbaz,Flu,Emergency,1145.25,Self-Pay,8.0,N,B21,Central,143.0,21,92,female,1720.73
+,2024-09-02,2024-08-31,ORTHO,D021,Dr. Sarah Yousef,Hypertension,OUTPATIENT,1609.7,self pay,,N,B41,North,,24,12,M,2357.8
+P2463,2024-08-05,2024-08-18,ONCOLOGY,D032,Dr. Sarah Yousef,Hypertension,Inpatient,1485.13,self pay,3.0,y,B21,South,117.0,18,14,M,1841.87
+P2464,2024-01-30,2024-02-12,Pediatrics,D010,Dr Rana Elbaz,Asthma,Emergency,1219.93,Self-Pay,9.0,Y,B40,West,15.0,10,72,M,1755.73
+P2465,2024-07-10,2024-07-21,Cardiology Dept.,D085,Dr. Yara Hamed,Cancer,Emergency,1735.57,Public,9.0,n,B41,Central,136.0,7,77,M,2287.72
+P2466,2024-12-17,2024-12-22,Cardiology Dept.,D051,dr. omar said,Fracture,OUTPATIENT,1953.75,privte,3.0,Y,B39,North,10.0,4,30,male,2462.73
+P2467,2024-04-04,2024-04-02,Emergency,D087,Dr. Omar Said,Migraine,inpatient,1761.18,self pay,10.0,y,B48,East,160.0,5,61,F,2551.81
+P2468,2024-09-19,2024-09-23,cardio,D042,Dr. Omar Saeed,Migraine,OUTPATIENT,2132.93,publick,7.0,n,B41,Central,166.0,9,3,M,2025.54
+P2469,2024-01-07,2024-01-16,ONCOLOGY,D038,Dr. Sarah Yousef,Hypertension,Inpatient,2161.27,publick,1.0,N,B22,West,137.0,3,29,female,3296.69
+P2470,2024-04-15,2024-04-25,Pediatrics,D067,Dr. Omar Said,Flu,Inpatient,,publick,6.0,No,B41,North,142.0,23,71,F,
+P2471,2024-03-26,2024-03-31,ONCOLOGY,D006,dr. omar said,Fracture,Emergency,2217.35,publick,,Y,B38,South,113.0,1,41,male,2751.42
+P2472,2024-07-24,2024-07-25,Pediatrics,D013,Dr. Yara Hamed,Diabetes,OUTPATIENT,2544.81,Self-Pay,3.0,y,B15,North,135.0,14,31,M,2800.15
+P2473,2024-12-14,2024-12-15,ORTHO,D089,dr. omar said,Diabetes,Inpatient,1963.39,Private,4.0,Yes,B05,East,47.0,1,69,F,2776.77
+P2474,2024-09-09,2024-09-20,cardio,D053,Ahmed Khalil,Diabetes,OUTPATIENT,1493.47,self pay,3.0,y,B03,North,70.0,17,67,male,1608.39
+P2475,2024-12-02,2024-12-12,cardio,,Dr. Rana Elbaz,Flu,Inpatient,2515.24,Public,10.0,y,B32,East,89.0,13,83,male,2912.48
+P2476,2024-06-29,2024-07-10,Orthopedics,D056,dr. omar said,Hypertension,Emergency,2072.87,Private,,Y,B48,West,115.0,12,18,M,2403.62
+P2477,2024-08-12,2024-08-12,Emergency,,Dr. Sarah Yousef,Hypertension,Inpatient,2704.81,Self-Pay,,Yes,B33,North,125.0,4,9,male,3530.59
+P2478,2024-12-09,2024-12-08,pediatric,D076,Dr. Rana Elbaz,Diabetes,Inpatient,1071.73,privte,10.0,No,B21,North,173.0,21,32,F,2001.26
+P2479,2024-01-29,2024-02-12,Pediatrics,D085,Dr. Omar Saeed,Migraine,OUTPATIENT,2338.05,publick,7.0,Y,B28,East,119.0,5,21,male,2670.08
+P2480,2024-09-06,2024-09-04,pediatric,D041,Dr. Yara Hamed,Flu,inpatient,1558.78,Public,10.0,n,B22,West,39.0,8,58,M,2074.66
+P2481,2024-04-05,2024-04-09,Pediatrics,D111,Dr. Rana Elbaz,Hypertension,Emergency,2521.11,Public,7.0,n,B42,West,179.0,20,93,female,3585.97
+P2482,2024-11-15,2024-11-21,Oncology,D082,dr. omar said,Fracture,Emergency,2689.48,Self-Pay,2.0,No,B19,West,131.0,7,36,F,2835.87
+P2483,2024-04-13,,Cardiology Dept.,D005,Ahmed Khalil,Heart Disease,Emergency,3460.27,publick,,n,B06,South,102.0,12,12,M,3435.63
+P2484,2024-10-06,2024-10-15,Pediatrics,D119,Dr Rana Elbaz,Cancer,Inpatient,2115.11,publick,8.0,Yes,B39,East,148.0,26,26,M,2439.86
+P2485,2024-08-06,2024-08-07,Pediatrics,D028,Dr. Yara Hamed,Fracture,Inpatient,1969.31,Self-Pay,4.0,Y,,North,25.0,4,47,male,2844.93
+P2486,2024-04-21,,Cardiology Dept.,D074,Dr Rana Elbaz,Migraine,inpatient,1039.11,privte,8.0,Yes,B29,South,50.0,6,69,F,1561.74
+P2487,2024-09-05,2024-09-16,Pediatrics,D037,dr. omar said,Cancer,Outpatient,2243.0,Private,7.0,No,B37,East,60.0,19,78,M,2770.32
+P2488,2024-06-08,2024-06-09,Cardiology,,Dr. Sarah Yousef,Heart Disease,Emergency,995.81,Self-Pay,7.0,Yes,B04,South,136.0,27,58,male,2124.76
+P2489,2024-05-15,2024-05-23,Pediatrics,D033,Dr. Rana Elbaz,Migraine,OUTPATIENT,2131.16,Self-Pay,5.0,Y,B13,South,118.0,4,23,female,2754.3
+P2490,2024-05-28,2024-06-02,Oncology,D105,Dr. Omar Said,Asthma,Outpatient,1580.47,publick,6.0,Y,B41,Central,158.0,6,20,female,2317.11
+P2491,2024-12-08,2024-12-17,Cardiology,D011,Dr Rana Elbaz,Heart Disease,inpatient,1295.2,publick,9.0,No,B04,East,118.0,25,36,female,1235.91
+P2492,2024-05-28,2024-06-06,Orthopedics,D108,Dr. Omar Saeed,Diabetes,OUTPATIENT,1727.2,self pay,9.0,N,B29,North,173.0,9,20,F,1655.33
+P2493,2024-08-28,2024-08-28,cardio,D078,Dr. Sarah Youssef,Fracture,Inpatient,1740.95,Self-Pay,7.0,Y,B35,West,109.0,4,33,male,2768.75
+P2494,2024-04-05,2024-04-03,cardio,D015,Dr Rana Elbaz,Heart Disease,OUTPATIENT,500.76,Public,8.0,Yes,B20,South,13.0,9,36,male,1659.66
+P2495,2024-08-25,2024-08-24,Cardiology Dept.,D046,dr. omar said,Asthma,Outpatient,1256.99,Public,1.0,Y,B17,East,119.0,21,53,male,1715.54
+P2496,2024-07-30,2024-08-07,Cardiology,D001,Dr. Sarah Youssef,Asthma,inpatient,2462.87,privte,7.0,n,B12,East,5.0,22,21,F,2247.78
+P2497,2024-12-02,2024-12-12,Pediatrics,D075,Dr. Omar Saeed,Cancer,Inpatient,2284.96,privte,3.0,Y,B20,North,,1,94,male,2789.48
+P2498,2024-08-05,2024-08-06,ORTHO,D066,dr. omar said,Hypertension,OUTPATIENT,1683.91,Self-Pay,2.0,Yes,B21,Central,34.0,1,19,male,2393.77
+P2499,2024/13/45,2024-11-17,cardio,D044,dr. omar said,Diabetes,Outpatient,1035.8,privte,2.0,y,B27,South,166.0,10,61,M,803.23
